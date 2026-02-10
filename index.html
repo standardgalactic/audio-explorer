@@ -76,7 +76,7 @@
     max-width: 260px;
     line-height: 1.4;
     display: none;
-    z-index: 10;
+    z-index: 1000;
     pointer-events: none;
   }
 
@@ -103,7 +103,6 @@
     background: rgba(102, 255, 153, 0.2);
     margin: 6px 0;
     cursor: pointer;
-    display: none;
   }
 
   #progress-bar {
@@ -113,7 +112,6 @@
   }
 
   #playback-controls {
-    display: none;
     margin-top: 6px;
     font-size: 11px;
   }
@@ -128,37 +126,6 @@
     font-family: monospace;
     font-size: 11px;
   }
-
-  #settings-toggle {
-    position: fixed;
-    bottom: 12px;
-    right: 12px;
-    background: rgba(0, 20, 10, 0.9);
-    border: 1px solid #66ff99;
-    color: #66ff99;
-    padding: 6px 12px;
-    font-size: 11px;
-    cursor: pointer;
-  }
-
-  #settings-panel {
-    position: fixed;
-    bottom: 70px;
-    right: 12px;
-    background: rgba(0, 20, 10, 0.95);
-    border: 1px solid #66ff99;
-    padding: 12px;
-    font-size: 11px;
-    max-width: 280px;
-    display: none;
-  }
-
-  #settings-panel label {
-    display: block;
-    margin: 6px 0;
-  }
-
-  /* Errata */
 
   #errata-toggle {
     position: fixed;
@@ -184,29 +151,6 @@
     line-height: 1.5;
     display: none;
   }
-
-  #errata-panel strong {
-    color: #99ffcc;
-  }
-
-  .error-message {
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.7);
-    display: none;
-    align-items: center;
-    justify-content: center;
-    z-index: 100;
-  }
-
-  .error-box {
-    background: rgba(20, 0, 0, 0.95);
-    border: 1px solid #ff6666;
-    color: #ff6666;
-    padding: 16px 20px;
-    font-size: 12px;
-    max-width: 400px;
-  }
 </style>
 </head>
 
@@ -221,18 +165,10 @@
     <div id="progress-bar"></div>
   </div>
   <div id="playback-controls">
-    <button id="play-pause">Pause</button>
+    <button id="play-pause">Play / Pause</button>
     <button id="speed-toggle">1.0x</button>
     <span id="time-display">0:00 / 0:00</span>
   </div>
-</div>
-
-<button id="settings-toggle">⚙ Settings</button>
-
-<div id="settings-panel">
-  <label><input type="checkbox" id="show-controls" /> Show playback controls</label>
-  <label><input type="checkbox" id="auto-play-next" /> Auto-play next track</label>
-  <label><input type="checkbox" id="orbital-drift" /> Orbital drift (experimental)</label>
 </div>
 
 <button id="errata-toggle">Errata / Notes</button>
@@ -243,49 +179,16 @@
   The letter <em>X</em> in Nahuatl represents the “sh” sound.
 </div>
 
-<div class="error-message" id="error-message">
-  <div class="error-box">
-    <div id="error-text"></div>
-    <div style="margin-top:10px;text-align:right;">
-      <button onclick="errorMessage.style.display='none'">Dismiss</button>
-    </div>
-  </div>
-</div>
-
 <audio id="audio" preload="metadata"></audio>
 
 <script>
-const tracks = [
-  { file:"La_ingenieria_de_la_violencia_mexica.mp3", title:"La ingeniería de la violencia mexica", lang:"ES",
-    abstract:"Violencia como tecnología institucional y sistema de regulación política." },
-  { file:"The_Aztec_Architecture_of_Sustainable_Violence.mp3", title:"The Aztec Architecture of Sustainable Violence", lang:"EN",
-    abstract:"Violence treated as a bounded architectural system." },
-  { file:"Why_Chess_Is_Easier_Than_Laundry.mp3", title:"Why Chess Is Easier Than Laundry", lang:"EN",
-    abstract:"Why formal systems feel easier than open-ended maintenance." },
-  { file:"التكنولوجيا_لا_تلغي_الصعوبة_بل_تعيد_توزيعها.mp3", title:"Technology Redistributes Difficulty", lang:"AR",
-    abstract:"التكنولوجيا تعيد توزيع الصعوبة بدل إلغائها." },
-  { file:"Nuestra_vara_de_la_dificultad_está_chueca.mp3", title:"Nuestra vara de la dificultad está chueca", lang:"ES",
-    abstract:"Crítica a métricas modernas de dificultad." },
-  { file:"Abstraction_ls_Just_Energy_Minimization.mp3", title:"Abstraction Is Just Energy Minimization", lang:"EN",
-    abstract:"Abstraction as thermodynamic compression." },
-  { file:"The_Myth_of_Dual_Cognition.mp3", title:"The Myth of Dual Cognition", lang:"EN",
-    abstract:"Cognition as resolution, not dual systems." },
-  { file:"La_ilusion_del_pensamiento_dual.mp3", title:"La ilusión del pensamiento dual", lang:"ES",
-    abstract:"Lo automático y lo deliberado como un solo proceso." }
-];
-
 const galaxy = document.getElementById("galaxy");
 const audio = document.getElementById("audio");
 const player = document.getElementById("player");
 const progressBar = document.getElementById("progress-bar");
-const progressContainer = document.getElementById("progress-container");
-const playbackControls = document.getElementById("playback-controls");
 const playPauseBtn = document.getElementById("play-pause");
 const speedToggle = document.getElementById("speed-toggle");
 const timeDisplay = document.getElementById("time-display");
-const errorMessage = document.getElementById("error-message");
-const errorText = document.getElementById("error-text");
-
 const errataToggle = document.getElementById("errata-toggle");
 const errataPanel = document.getElementById("errata-panel");
 
@@ -293,85 +196,45 @@ errataToggle.onclick = () => {
   errataPanel.style.display = errataPanel.style.display === "block" ? "none" : "block";
 };
 
-let currentStar = null;
-let currentIndex = -1;
-const stars = [];
-
 const centerX = innerWidth / 2;
 const centerY = innerHeight / 2;
 
-function clearStarStates() {
+let tracks = [];
+let stars = [];
+let currentStar = null;
+let currentIndex = -1;
+
+function titleFromFilename(file) {
+  return file.replace(/\.mp3$/i, "").replace(/_/g, " ");
+}
+
+function inferLang(file) {
+  if (/[ء-ي]/.test(file)) return "AR";
+  if (/[áéíóúñÁÉÍÓÚÑ]/.test(file)) return "ES";
+  return "EN";
+}
+
+function clearStars() {
   stars.forEach(s => s.classList.remove("playing","error"));
 }
 
-function showError(msg) {
-  errorText.textContent = msg;
-  errorMessage.style.display = "flex";
-}
-
-tracks.forEach((track, i) => {
-  const star = document.createElement("div");
-  star.className = "star";
-  stars.push(star);
-
-  const angle = Math.random() * Math.PI * 2;
-  const radius = 140 + Math.random() * 260;
-
-  const x = centerX + Math.cos(angle) * radius;
-  const y = centerY + Math.sin(angle) * radius;
-
-  star.style.left = x + "px";
-  star.style.top = y + "px";
-  star.dataset.x = x;
-  star.dataset.y = y;
-  star.dataset.angle = angle;
-  star.dataset.radius = radius;
-
-  const tooltip = document.createElement("div");
-  tooltip.className = "tooltip";
-  tooltip.innerHTML = `<strong>${track.title}</strong> [${track.lang}]<br>${track.abstract}`;
-  document.body.appendChild(tooltip);
-
-  star.onmouseenter = e => {
-    tooltip.style.display = "block";
-    tooltip.style.left = e.clientX + 12 + "px";
-    tooltip.style.top = e.clientY + 12 + "px";
-  };
-
-  star.onmousemove = e => {
-    tooltip.style.left = e.clientX + 12 + "px";
-    tooltip.style.top = e.clientY + 12 + "px";
-  };
-
-  star.onmouseleave = () => tooltip.style.display = "none";
-
-  star.onclick = () => playTrack(i, star);
-
-  galaxy.appendChild(star);
-});
-
 function playTrack(i, star) {
-  clearStarStates();
+  clearStars();
 
   const x = parseFloat(star.dataset.x);
   const y = parseFloat(star.dataset.y);
-
   galaxy.style.transform = `translate(${centerX - x}px, ${centerY - y}px)`;
 
   audio.src = tracks[i].file;
-  audio.play().catch(e => showError(e.message));
+  audio.play();
 
   star.classList.add("playing");
   currentStar = star;
   currentIndex = i;
 
-  player.textContent = `${tracks[i].title} (${tracks[i].lang})`;
+  player.textContent =
+    `${titleFromFilename(tracks[i].file)} (${inferLang(tracks[i].file)})`;
 }
-
-audio.onerror = () => {
-  if (currentStar) currentStar.classList.add("error");
-  showError("Failed to load audio file.");
-};
 
 audio.ontimeupdate = () => {
   if (!audio.duration) return;
@@ -390,6 +253,53 @@ speedToggle.onclick = () => {
   audio.playbackRate = speeds[speedIndex];
   speedToggle.textContent = speeds[speedIndex] + "x";
 };
+
+fetch("abstracts.json")
+  .then(r => r.json())
+  .then(data => {
+    tracks = data;
+    buildGalaxy();
+  });
+
+function buildGalaxy() {
+  tracks.forEach((track, i) => {
+    const star = document.createElement("div");
+    star.className = "star";
+    stars.push(star);
+
+    const angle = Math.random() * Math.PI * 2;
+    const radius = 140 + Math.random() * 260;
+
+    const x = centerX + Math.cos(angle) * radius;
+    const y = centerY + Math.sin(angle) * radius;
+
+    star.style.left = x + "px";
+    star.style.top = y + "px";
+    star.dataset.x = x;
+    star.dataset.y = y;
+
+    const tooltip = document.createElement("div");
+    tooltip.className = "tooltip";
+    tooltip.innerHTML =
+      `<strong>${titleFromFilename(track.file)}</strong> [${inferLang(track.file)}]<br>${track.abstract}`;
+    document.body.appendChild(tooltip);
+
+    star.onmouseenter = e => {
+      tooltip.style.display = "block";
+      tooltip.style.left = e.clientX + 12 + "px";
+      tooltip.style.top = e.clientY + 12 + "px";
+    };
+    star.onmousemove = e => {
+      tooltip.style.left = e.clientX + 12 + "px";
+      tooltip.style.top = e.clientY + 12 + "px";
+    };
+    star.onmouseleave = () => tooltip.style.display = "none";
+
+    star.onclick = () => playTrack(i, star);
+
+    galaxy.appendChild(star);
+  });
+}
 </script>
 
 </body>

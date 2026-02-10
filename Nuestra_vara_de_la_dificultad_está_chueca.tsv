@@ -1,0 +1,163 @@
+start	end	text
+0	6540	Oye, ¿no te pasa que miras hacia el futuro y te equivocas por completo en qué va a ser fácil o difícil?
+7440	10240	Totalmente. Es casi una constante.
+10240	23720	Es que hace no tanto. Pensábamos que tareas como, no sé, ganar en ajedrez o en go o crear arte complejo eran como la cima de la genialidad humana. Imposibles para una máquina.
+24180	26240	El pináculo de la inteligencia.
+26240	34560	Y de repente, ¡pum! Ahora son casi triviales para una IA. Pero al mismo tiempo, cosas que un niño de 5 años hace sin pensar.
+34780	36320	¿Como doblar una toalla?
+36600	48240	Exacto. Doblar una toalla, entender el sarcasmo o simplemente caminar por un cuarto lleno de gente sin chocar. Eso resulta ser un dolor de cabeza monumental para la robótica.
+48240	56860	Es una paradoja increíble. Y nos dice mucho más sobre nosotros y cómo entendemos el mundo que sobre la tecnología en sí.
+57220	63240	Sí. Nos muestra que nuestra vara para medir la dificultad está como mínimo un poco chueca.
+63640	65400	Bastante chueca, diría yo.
+65760	75100	Trata el material que traemos hoy. Vamos a sumergirnos en un artículo académico reciente que es neta una joya. Se llama Cognición sin sustantivos.
+75100	86000	Un gran título. Buenísimo. Y la idea central es un gancho al hígado. Nos dice que nuestra concepción de la dificultad está fundamentalmente equivocada.
+86520	93820	No es una propiedad fija de una tarea. No es algo que puedas pesar o medir como si fuera una roca.
+93820	102240	Exacto. El artículo propone que la dificultad no es un sustantivo, algo estático, sino más bien un verbo.
+102240	112920	Es una relación dinámica. Un baile constante entre quien resuelve el problema y el problema mismo. Y todo dentro de un contexto específico.
+113440	122340	Me encanta esa idea. La dificultad como un baile. Y para entender los pasos, el artículo usa el ejemplo perfecto. El ajedrez.
+122340	128960	El ejemplo clásico. Durante décadas fue el Everest de la inteligencia artificial. El estándar de oro.
+129600	136800	Cuando Deep Blue venció a Kasparov, se sintió como la conquista de un problema difícil. Pero lo curioso es lo que pasó después.
+137400	144200	Que el ajedrez como desafío para la IA perdió casi toda su relevancia. Dejó de ser la frontera.
+144460	144720	Claro.
+144720	157600	Y la pregunta que plantea el artículo no es, ¿cómo se volvió más fácil el ajedrez? Porque las reglas no cambiaron. La pregunta es, ¿por qué dejó de importarnos como medida de inteligencia?
+157740	159600	Claro. ¿Qué fue lo que cambió entonces?
+159600	171920	Pues lo que cambió fue todo el andamiaje alrededor del juego. El hardware se volvió exponencialmente más rápido. Los algoritmos de búsqueda se refinaron hasta el absurdo. Y...
+171920	175880	Y las bases de datos gigantescas con todas las partidas de la historia.
+175880	189280	Justo. La dificultad del ajedrez no fue conquistada en un duelo de ingenio. Más bien se disolvió en el momento en que el problema se alineó perfecto con las fortalezas del cómputo bruto.
+189820	192640	Y esto nos lleva a la tesis central del artículo, ¿no?
+193080	202060	Nos lleva directo. La dificultad no existe en el vacío. Emerge de la interacción de cuatro elementos. Primero, la tarea en sí.
+202060	212280	Las reglas del juego. Segundo, el sistema que la intenta resolver, ya sea un cerebro humano o un chip. Tercero, y esto es crucial, el prompt.
+212620	226500	La forma en que se presenta la tarea. Exacto. Y cuarto, el entorno, con todas sus restricciones y recursos. Si modificas uno solo de esos cuatro, toda la ecuación de la dificultad se recalcula por completo.
+226500	237320	Ok, a ver, vamos a desempacar eso porque suena, suena denso. La tarea y el sistema, el qué y el quién, eso está claro. Pero me intriga mucho la idea del prompt.
+237620	238060	Ajá.
+238200	240980	O sea, yo oigo prompt y pienso inmediatamente en…
+240980	243620	En la cajita de texto de ChatGPD.
+244020	247260	Justo. Pero aquí se refiere en algo mucho más grande, ¿verdad?
+247260	261500	Uf, muchísimo más allá. Un prompt en este contexto es cualquier cosa que estructura un problema, que divide el mundo entre lo que das por sentado y lo que necesita resolverse.
+261680	267700	A ver, un ejemplo. El artículo usa un no perfecto. Un plano de arquitectura.
+267700	279640	Claro. El plano es el prompt para el equipo de construcción. Resuelve de antemano todas las preguntas increíblemente complejas de geometría, de cargas estructurales…
+279640	289600	Distribución de espacios, todo. Libera a los constructores para que se enfoquen únicamente en la ejecución. O sea, en poner un ladrillo sobre otro, básicamente.
+289600	293980	Entendido. O como dicen también, una partitura musical.
+294140	309880	Exacto. La partitura es un prompt que ya resolvió las notas, el ritmo, la armonía. El músico no tiene que reinventar la sinfonía cada vez. Puede concentrarse en la interpretación, la emoción.
+310040	310700	El matiz.
+310700	319960	El matiz. El prompt es una forma de empaquetar conocimiento previo para hacer manejable un problema presente.
+320260	327680	Entiendo. Y eso se conecta directo con otra idea muy potente del artículo, que es cómo redefine la abstracción.
+327820	329700	Aquí es donde se pone fascinante.
+330500	337100	Normalmente uno piensa en abstraer como quitar detalles, simplificar. Pero ellos proponen algo distinto.
+337100	344400	Sí. Ellos redefinen la abstracción no como simplificación, sino como una forma de…
+344400	345100	Compilación.
+345260	346100	Como en la programación.
+346780	348720	Compilación. ¿Cómo compilar un código?
+348860	362200	Justo. ¿Qué es compilar? Es tomar un lenguaje complejo, lleno de dependencias y librerías, y empaquetarlo todo en un archivo ejecutable. Una interfaz simple y opaca.
+362200	366680	O sea, escondes toda la complejidad detrás de un solo botón que es fácil de usar.
+367300	377960	Precisamente. Usan una analogía genial. Cuando un conductor pisa el acelerador, no necesita calcular la termodinámica de la combustión interna.
+378180	380600	Ni la fricción de los pistores, ni nada de eso.
+380920	393560	Nada. Toda esa ingeniería infernal está compilada en la simple acción de pisar un pedal. Ese es el poder de una buena abstracción. Volvió trivial una tarea increíblemente compleja.
+393560	406340	Ok. Espera. Porque aquí es donde mi cabeza empieza a dar vueltas. Si la abstracción es compilación, y la hacemos todo el tiempo, ¿cuál es el truco? Porque en la vida real las cosas no son tan fáciles.
+406340	419700	Ahí está el punto clare. El artículo señala una diferencia crítica. En el software, la compilación se hace para un entorno fijo, predecible. El procesador no cambia de humor.
+419700	435440	Exacto. Pero en la vida, nuestras compilaciones mentales, nuestros hábitos, nuestra experiencia, son contraobjetivos en movimiento. El mundo real es un caos que cambia constantemente.
+435440	440800	Y eso explicaría por qué la experiencia es a la vez tan poderosa y…
+440800	441700	Tan frágil.
+441980	452440	Exacto. Tan frágil. Un experto, no sé, un taxista de la vieja escuela en la Ciudad de México, tiene compilado en su cerebro una cantidad de información absurda.
+453040	459440	El nombre de cada calle, los atajos, los patrones de tráfico… es increíblemente eficiente.
+460340	461780	Hasta que el entorno cambia.
+461780	471960	Hasta que ponen una nueva línea de metrobús o cierran una avenida o simplemente aparece una app como Waze que externaliza todo ese conocimiento.
+472220	476520	Y de repente, esa compilación mental tan profunda ya no sirve.
+476700	483680	Peor. Puede ser un obstáculo. El experto se queda perdido insistiendo en las rutas de siempre.
+483920	491060	Mientras que un novato, sin esas abstracciones tan arraigadas, simplemente abre la app y se adapta al instante.
+491060	501180	Tiene menos que desaprender. Y este fenómeno nos lleva a lo que el texto llama asimetrías persistentes entre humanos y máquinas.
+501580	502340	Ok. ¿Qué es eso?
+502800	510680	La idea es que siempre habrá tareas que son triviales para nosotros y herculeas para las máquinas. Y viceversa.
+511060	514860	Y no es una brecha temporal que el progreso vaya a cerrar.
+514860	516760	Sino que es algo estructural.
+517060	526020	Es una diferencia estructural en nuestras compilaciones históricas, en lo que la evolución y la tecnología han optimizado por separado.
+526260	531800	Hablando de esa asimetría, la comparación que hacen entre el ajedrez y el Tetris me pareció brillante.
+532240	533360	Es buenísima.
+533360	553020	Desde una perspectiva puramente combinatoria, lo es. El ajedrez es un universo simbólico, discreto, con reglas fijas. Es un problema perfecto para el cómputo bruto.
+553560	554620	Lo que ya vimos.
+554620	561900	Exacto. Una vez que las máquinas tuvieron la potencia, lo dominaron. El Tetris, en cambio.
+562400	567620	Es otro animal. Parece un juego de niños, pero para una máquina es una pesadilla.
+568000	580440	Es una pesadilla porque no se trata de cálculo simbólico. Depende de la percepción en tiempo real, de la coordinación motora fina, para rotar y colocar las piezas justo a tiempo.
+580820	583380	Y todo bajo una presión que no para de aumentar.
+583380	587480	Son tareas que para los humanos son casi instintivas.
+587660	591820	Pero, ¿por qué son instintivas? ¿No es que nazcamos sabiendo jugar Tetris?
+592180	600380	No, claro que no. Pero nacemos con el resultado de millones de años de compilación evolutiva sensorio-motora.
+600720	601380	Ah, caro.
+601480	608580	Nuestros cerebros y cuerpos están súper optimizados para interactuar con un mundo físico en tres dimensiones.
+608580	618960	Para predecir trayectorias, para manipular objetos. Esa habilidad es una forma de inteligencia increíblemente profunda que damos por sentada.
+619400	623520	Y para una máquina, replicar eso desde cero es gustosísimo.
+623520	626200	Exacto. No le viene de fábrica.
+626580	634980	Ok. Entonces, el panorama que se dibuja es que el progreso tecnológico no elimina la dificultad, sino que la mueve del lugar.
+635180	636040	La desplaza.
+636040	645480	La complejidad es como la materia. No se crea ni se destruye. Solo se transforma. Ese es el término exacto que usan. Desplazamiento computacional.
+646520	655680	Cada vez que creamos una interfaz simple y elegante, estamos escondiendo una montaña de complejidad en otro lugar. Como pedir comida con una app.
+655680	667200	Ese ejemplo es perfecto. La facilidad de tu app oculta la brutal complejidad de los centros de datos, la precaria economía de los repartidores, la logística global.
+667560	670180	El consumo de energía que soporta todo.
+670660	675900	Toda la red. La complejidad no desapareció. Solo se movió a donde no la vemos.
+675900	686160	Y esa simplicidad digital crea nuevas cargas en el mundo análogo, ¿no? El artículo menciona la fatiga visual, los problemas de postura.
+686600	693040	Y la carga cognitiva de tener que gestionar un bombardeo constante de notificaciones.
+693380	703160	Claro. Eliminamos la dificultad de ir a la biblioteca a buscar un dato, pero la reemplazamos con la dificultad de filtrar una avalancha de información.
+703160	715300	Es un intercambio. Un trueque de dificultades. Y lo más peligroso es que este desplazamiento alimenta un ciclo que tiende a aumentar la complejidad general del sistema.
+715680	725060	Parece que cada vez que intentamos simplificar algo, terminamos complicando todo el panorama. ¿Hay alguna ley o algo que explique este efecto?
+725560	731940	Sí. Y el artículo la conecta con la ley de Goodhart, que es una de mis ideas favoritas.
+731940	733040	A ver, ¿cómo va?
+733220	738440	Cuando una medida se convierte en un objetivo, deja de ser una buena medida.
+738900	744380	Uf, eso suena a algo que vemos todos los días. Por ejemplo, en la educación.
+745480	752300	Totalmente. El aprendizaje es un proceso fluido, complejo, casi imposible de medir directamente.
+753080	757120	Entonces, para gestionarlo, creamos una medida, un proxy.
+757120	758600	Las calificaciones.
+759260	772820	Exacto. Al principio, la calificación es un indicador útil. Pero inevitablemente, el sistema empieza a optimizar para la medida, no para el proceso real. La calificación se convierte en el objetivo.
+773360	780320	Y ahí es cuando los maestros empiezan a enseñar para el examen y los alumnos a estudiar solo para pasar, no para aprender.
+780320	786260	La medida que debía servir al proceso termina por distorsionarlo y corromperlo.
+786480	788660	Y la respuesta del sistema es...
+788660	798320	Predecible. Como las calificaciones ya no son fiables, creamos más reglas, más supervisión, más métricas, más auditorías.
+798520	801100	Más complejidad burocrática al sistema.
+801100	811760	Es una carrera armamentista de complejidad, donde cada solución a corto plazo siembra las semillas de los problemas del futuro.
+812180	822280	Entonces, tenemos este desplazamiento de la dificultad, la fragilidad de la experiencia, la ley de Guthard. Todos parecen síntomas del mismo principio, ¿no?
+822280	831820	Sí. Y el artículo llega a proponer cuál es ese principio unificador. Es la conclusión que ata todos los cabos.
+832180	833080	Ok. ¿Cuál es?
+833480	847940	Propone que los sistemas adaptativos, ya sea la evolución biológica, el aprendizaje en nuestro cerebro o el desarrollo tecnológico, no estal optimizados para encontrar la solución de menor costo total a largo plazo.
+848220	850060	Eso sería como poder ver el futuro.
+850060	856560	Imposible. En cambio, siguen ciegamente la ruta de menor resistencia inmediata.
+856900	861700	Siempre toman el atajo más fácil que tienen a la mano en este momento.
+861960	874560	Siempre. Usan un concepto de la teoría del ensamblaje llamado índice de ensamblaje. Es una forma de medir la complejidad de un objeto por los pasos mínimos para construirlo.
+875160	875480	Ok.
+875480	888240	Lo que argumentan es que los sistemas adaptativos siempre prefieren reutilizar un componente complejo ya existente, un atajo, en lugar de construir la solución óptima desde cero.
+888680	893640	¿Aunque esa decisión genere enredos y complejidad a nivel global en el futuro?
+893640	900320	Justo. Cada atajo se convierte en una restricción y en la fuente de los problemas del mañana.
+900320	906580	En resumen, este análisis nos obliga a cuestionar algunas de nuestras ideas más arraigadas.
+907240	915200	Si la dificultad no es una propiedad fija, sino una relación en constante movimiento, entonces, ¿qué demonios es la inteligencia?
+915460	920560	Ya no puede ser simplemente la capacidad de resolver problemas difíciles.
+920640	920960	Claro.
+920960	925820	La capacidad de gestionar estas fronteras cambiantes entre lo fácil y lo difícil.
+926200	929340	Es saber cuándo tus atajos mentales ya no funcionan.
+929460	937800	Es la metacognición. Es saber cuándo tus abstracciones, tus compilaciones han dejado de funcionar porque el mundo cambió,
+938200	942140	y tener la flexibilidad para desecharlas y reconstruirlas.
+942540	946280	Y de ahí se reviva una definición brutal de lo contrario.
+946280	958120	La estupidez en este sentido no es una falta de capacidad, sino un compromiso excesivo con abstracciones obsoletas que ya no se ajustan al entorno.
+958660	962640	¿Es quedarse atascado en un mapa viejo cuando el territorio ya cambió?
+963020	970860	Exactamente. Por lo tanto, el progreso no es la eliminación de la dificultad, sino su constante redistribución.
+971000	975260	La verdadera pregunta es ¿a dónde estamos moviendo esa complejidad?
+975260	978900	¿Y sobre los hombros de quién termina cayendo esa carga?
+979160	982000	Eso le da una dimensión ética inesperada.
+982600	989880	Si la dificultad de una tarea depende del andamiaje que uno tiene, herramientas, educación, contexto,
+990480	994580	entonces la justicia no puede ser simplemente darle a todos la misma tarea.
+994580	1003540	No. La verdadera justicia tendría que considerar el acceso desigual a ese andamiaje que permite que una tarea sea siquiera abordable.
+1004280	1006140	Es una implicación muy profunda.
+1006360	1011760	Para terminar, y para dejar algo en que pensar, el artículo cierra con una última idea provocadora.
+1012340	1014020	Un corolario que me dejó helado.
+1014260	1014760	A ver.
+1014760	1019900	Sostiene que, por una razón estructural, decir siempre será más fácil que hacer.
+1020100	1028100	Siempre. La razón es que una descripción, un plan, una promesa, una etiqueta, son formas de comprensión de información.
+1028320	1028960	Son baratas.
+1029700	1031180	Computacionalmente baratísimas.
+1031620	1038820	En comparación, fune a costo de construir y mantener el circuito causal que hace que esa cosa funcione en el mundo real.
+1038820	1043640	Un plan puede ignorar las fricciones, las dependencias ocultas.
+1043740	1047020	Todo lo que la ejecución inevitablemente va a encontrar.
+1047380	1051280	Y eso nos deja con una pregunta final casi existencial.
+1051620	1052420	Así es.
+1052820	1062000	Si esto es cierto, si nuestros planes, nuestras leyes, nuestro lenguaje son siempre una versión radicalmente simplificada de la realidad,
+1062000	1069880	¿qué nos dice eso sobre nuestra capacidad para controlar de verdad los sistemas cada vez más complejos que diseñamos?
+1069980	1074000	¿Estamos quizá destinados a que nuestras ambiciones simbólicas?
+1074120	1075580	¿Lo que decimos que haremos?
+1075840	1081240	Siempre superen por mucho nuestra capacidad de ejecución en el complicado y enredado mundo real.

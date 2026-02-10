@@ -1,0 +1,932 @@
+Collective Intelligence Under Constraint:
+Search Eﬃciency, Horizon Collapse, and
+Anti-Cognitive Platform Design
+Flyxion
+January 26, 2026
+Abstract
+Contemporary social media platforms are often criticized for amplifying misinfor-
+mation, scams, outrage, and incoherent public discourse. These failures are typically
+framed as problems of moderation, user morality, or cultural polarization. This essay
+advances a diﬀerent diagnosis. Drawing on recent work in basal cognition and scale-free
+intelligence, particularly the search-eﬃciency framework developed by Chis-Ciure and
+Levin, it argues that major social media platforms systematically degrade collective
+intelligence by enforcing low-horizon, externally evaluated search policies over human
+attention and expression.
+Rather than merely failing to prevent scams and manipulative behaviors, platforms
+such as Facebook structurally converge with them. They embed the same incentive gra-
+dients, penny-scale rewards, opaque eligibility criteria, and engagement-driven evalua-
+tion functions that characterize aﬃliate fraud and gambling promotion networks, while
+possessing extensive empirical knowledge of these harms. The result is an anti-cognitive
+substrate that converts human agency into randomized propagation, normalizes algo-
+rithmic surveillance under the guise of feedback, and progressively devalues embodied
+human participation in favor of automated content production. This is not a failure
+of individual users but a predictable outcome of platform architectures optimized for
+throughput rather than search eﬃciency.
+1
+
+1. Introduction
+Public discourse surrounding social media has increasingly taken on the tone of moral panic.
+Users are described as incoherent, compulsive, polarized, or incapable of sustained attention.
+Platforms are alternately blamed for insuﬃcient moderation or defended as neutral conduits
+of free expression. This framing obscures a more fundamental issue. The problem is not
+primarily cultural, psychological, or ideological. It is architectural.
+Recent work in neuroscience and theoretical biology has reframed intelligence as a scale-
+free property of systems that eﬃciently navigate constrained problem spaces under energetic
+and informational limits. In this view, cognition is not deﬁned by representation, conscious-
+ness, or neural substrate, but by the degree to which an agents policy outperforms random
+search relative to a given evaluation function and horizon (?). Intelligence, operationalized as
+search eﬃciency, can therefore be increased or degraded by the structure of the environment
+in which agents act.
+This essay argues that contemporary social media platforms systematically degrade in-
+telligence at the level of collective attention by enforcing conditions that collapse search
+horizons, externalize evaluation, and maximize state-space entropy. These platforms do not
+merely host scams, gambling promotions, outrage cycles, and low-quality content. They
+instantiate the same search policies internally. Monetization systems that reward users with
+pennies for engagement, opaque creator eligibility criteria, algorithmic ampliﬁcation of emo-
+tionally charged material, and compulsory exposure to trending content all function to bias
+agents toward short-term, externally validated actions regardless of long-term outcomes.
+Crucially, this degradation cannot be attributed to ignorance. Platforms such as Face-
+book possess extensive empirical knowledge of scam dynamics, aﬃliate fraud networks, and
+engagement manipulation, derived from observing these phenomena at global scale. Their
+selective interventionvigorous when revenue, public relations, or legal exposure are at stake,
+and permissive when harm is diﬀuse or delayeddemonstrates that the persistence of these
+dynamics is not accidental. It is structurally aligned with proﬁt optimization.
+The consequences extend beyond misinformation or wasted attention. Review systems
+normalize statistical surveillance and neighbor-reporting under the rubric of feedback, pro-
+ducing forms of banal algorithmic governance that penalize embodied human variance. Out-
+rage becomes a compulsory mode of participation, even when it ampliﬁes the very harms it
+condemns. Artiﬁcial intelligence tools further accelerate content production while rendering
+human authorship increasingly redundant, intensifying signal dilution rather than improving
+collective cognition.
+By applying a formal, substrate-neutral account of intelligence to social media architec-
+ture, this essay reframes platform critique as a problem of imposed low-eﬃciency search.
+What appears as free expression is often a constrained random walk shaped by monetized
+gradients. What appears as public discourse is increasingly a dissipative process that con-
+2
+
+verts human attention into waste heat.
+The sections that follow formalize this argument by mapping social media platforms
+onto problem-space models of cognition, analyzing their convergent similarity to known
+scam architectures, and examining the ethical and epistemic consequences of enforced low-
+horizon participation. The goal is not to moralize, but to diagnose the conditions under
+which intelligence becomes structurally impossible.
+2. Intelligence as Search Eﬃciency and the Structure of Problem Spaces
+Recent advances in theoretical biology and neuroscience have challenged neuron-centric ac-
+counts of cognition by proposing a scale-free, substrate-neutral deﬁnition of intelligence.
+Chis-Ciure and Levin formalize intelligence not as representation or deliberation, but as
+the degree to which an agents policy eﬃciently navigates a constrained problem space rela-
+tive to a baseline of blind or random search (?). This framework provides a rigorous basis
+for comparing diverse systemsfrom molecular networks to neural collectiveswithout invoking
+metaphor or anthropomorphism.
+In this formulation, any cognitive task can be described by a quintuple P = ⟨S, O, C, E, H⟩,
+where S denotes the space of possible states, O the operators available to transition between
+states, C the constraints that forbid certain states or transitions, E the evaluation function
+used to rank states, and H the horizon over which future consequences are anticipated. In-
+telligence is then deﬁned in terms of search eﬃciency K, measured as the logarithmic ratio
+between the energetic cost of a blind random walk through the problem space and the cost
+incurred by the agents actual policy.
+This deﬁnition has several important consequences. First, intelligence becomes a matter
+of degree rather than kind, admitting continuous comparison across scales and embodiments.
+Second, intelligence can be degraded by environmental structure even when agents are locally
+competent or well-intentioned. Third, systems can impose low-eﬃciency search policies on
+agents without altering their internal capacities, simply by reshaping available operators,
+evaluation criteria, and horizons.
+Social media platforms can be analyzed within this same formalism. The problem space
+presented to users is characterized by an eﬀectively unbounded state space S, consisting of
+an ever-expanding feed of posts, comments, reactions, videos, and advertisements. The set
+of operators O is narrow but repetitive, dominated by low-cost actions such as liking, shar-
+ing, reacting, commenting, and producing short-form content. Constraints C are minimal
+and inconsistently enforced, allowing most transitions except those that threaten platform
+revenue or legal exposure.
+Most critically, the evaluation function E is externally imposed and proxy-based. En-
+gagement metrics such as views, reactions, follower counts, and algorithmic reach serve as
+surrogates for value, regardless of epistemic quality, social beneﬁt, or long-term harm. Users
+3
+
+do not meaningfully control this evaluation function, nor can they opt out of its inﬂuence, as
+visibility and reach are algorithmically conditioned on compliance with engagement norms.
+The horizon H enforced by the platform is sharply collapsed. Feedback arrives within
+seconds or minutes, while the costs of misinformation, harassment, addiction, or normalized
+surveillance are delayed, externalized, or rendered statistically invisible. Under such con-
+ditions, even agents with long-term goals are incentivized to act myopically. The resulting
+behavior is not irrational, but locally optimal within a distorted problem space.
+From the perspective of search eﬃciency, this architecture enforces low or negative ef-
+fective K at the level of collective attention. Users are driven into high-entropy exploration
+of an enormous state space using impoverished operators and misaligned evaluation criteria,
+producing large volumes of activity with little cumulative progress toward coherent out-
+comes. Importantly, this degradation arises not from a lack of intelligence on the part of
+users, but from the systematic suppression of horizon, constraint, and evaluative autonomy.
+This analysis reframes common complaints about incoherence, contradiction, and com-
+pulsive engagement. Such phenomena are not pathologies of individual psychology, but pre-
+dictable outputs of an environment that converts expressive action into a dissipative process.
+In the language of basal cognition, the platform functions as an anti-cognitive substrate: a
+system that maximizes throughput while minimizing search eﬃciency.
+The implications of this framing become clearer when social media architectures are
+compared directly to known low-eﬃciency search systems, such as aﬃliate scams and gam-
+bling promotion networks. As the next section argues, the resemblance is not incidental but
+structurally convergent.
+3. Convergent Architectures: Monetization, Scams, and Low-Eﬃciency Search
+Aﬃliate scams, gambling promotion schemes, and engagement fraud networks are often
+treated as aberrations that social media platforms must police. This framing presumes a clear
+distinction between legitimate platform incentives and illegitimate manipulative practices.
+However, when analyzed through the lens of search eﬃciency and problem-space structure,
+this distinction becomes diﬃcult to sustain. The architectures that underlie many scam
+systems and the monetization mechanisms embedded within major social media platforms
+are not merely similar in eﬀect; they are formally convergent.
+Scam architectures characteristically operate by presenting agents with large, poorly con-
+strained state spaces, oﬀering narrow sets of low-cost operators, and supplying externally
+imposed evaluation functions that reward immediate engagement while obscuring long-term
+costs. Small monetary incentives, often measured in cents rather than dollars, are used to
+bias behavior toward propagation rather than evaluation. Eligibility criteria are opaque and
+frequently unattainable, ensuring that most participants continue to expend eﬀort despite
+negligible returns. Crucially, these systems rely on horizon collapse: the immediate prospect
+4
+
+of reward is made salient, while downstream harms are deferred, diﬀused, or rendered invis-
+ible.
+Contemporary social media monetization systems reproduce these same structural fea-
+tures. Creator programs promise ﬁnancial compensation contingent on engagement metrics
+that users do not control and cannot reliably predict. Payouts are typically trivial, yet suf-
+ﬁcient to bias behavior toward increased posting frequency, sensationalism, and imitation
+of viral formats. The number of conditions required to qualify for monetizationminimum
+follower counts, watch-time thresholds, compliance with shifting content policiesintroduces
+a perpetual near-miss dynamic analogous to gambling reward schedules, long known to pro-
+mote compulsive participation (Sch¨ull, 2012).
+From the standpoint of search eﬃciency, these monetization schemes incentivize agents to
+perform high-energy random walks through content space, repeatedly sampling low-quality
+operators in pursuit of rare evaluation spikes.
+The evaluation function remains external
+and opaque, while the horizon is restricted to short-term engagement feedback. The result-
+ing behavior maximizes throughput but minimizes cumulative progress toward meaningful
+communicative or epistemic goals.
+Importantly, these dynamics persist despite the platforms extensive empirical knowledge
+of scam behavior. Major platforms observe billions of interactions daily, enabling them to
+detect patterns of aﬃliate fraud, coordinated gambling promotion, and engagement manip-
+ulation with high statistical conﬁdence. The selective tolerance of these dynamics therefore
+cannot plausibly be attributed to ignorance or technical incapacity. Instead, it reﬂects incen-
+tive alignment. Practices that generate engagement and advertising revenue are permitted
+to persist so long as their harms remain externalized, diﬀuse, or politically inconsequential
+(Zuboﬀ, 2019; Doctorow, 2023).
+This convergence undermines the moral distinction often drawn between bad actors and
+neutral infrastructure. When a platform embeds incentive gradients that mirror those of
+known scam systems, it ceases to function as a passive host. It becomes an active participant
+in the production of low-eﬃciency search policies. Users who propagate clickbait, gambling
+links, or engagement bait are not deviating from the platforms logic; they are conforming to
+it.
+The result is a normalization of manipulative behavior under the guise of opportunity.
+Actions that would be recognized as exploitative in other contextsoﬀering trivial rewards
+for labor, obscuring true probabilities of success, externalizing harmare reframed as em-
+powerment, creativity, or participation. Within such an environment, the boundary between
+legitimate expression and fraud becomes porous, not because users are unethical, but because
+the problem space itself has been corrupted.
+This structural convergence has broader consequences for public discourse. As mone-
+tization incentives favor speed, volume, and emotional salience, content that requires long
+horizons, specialized knowledge, or careful evaluation becomes energetically disfavored. The
+5
+
+platform thus enforces a systematic bias against mathematics, engineering, medicine, and
+other domains in which value accrues slowly and cannot be readily proxied by engagement
+metrics. What appears as a cultural preference for triviality is, in fact, an imposed opti-
+mization regime.
+The next section examines how similar dynamics operate within review and feedback
+systems, where evaluation itself becomes a mechanism of surveillance and control, further
+entrenching low-horizon governance over human behavior.
+4. Evaluation as Surveillance: Reviews, Reporting, and Algorithmic Governance
+Evaluation occupies a central role in the problem-space framework of intelligence. In cog-
+nitive systems, evaluation functions determine which states are desirable, which trajectories
+are reinforced, and which behaviors are extinguished. In social media platforms and ad-
+jacent gig-economy systems, evaluation is increasingly externalized into pervasive review,
+rating, and reporting mechanisms. These systems are typically presented as neutral tools for
+accountability and quality control. However, when examined structurally, they function as
+instruments of continuous surveillance that normalize low-horizon governance over human
+behavior.
+Review systems convert social interaction into statistical traces. Every encounter be-
+comes an opportunity for evaluation, and every evaluation feeds into an opaque aggregate
+score that conditions future visibility, access, or livelihood. This process collapses complex,
+contextual human behavior into scalar metrics, erasing ambiguity in favor of optimization.
+In such systems, evaluation is no longer a reﬂective judgment but a mechanical operator,
+continuously applied and rarely revisable.
+From the perspective of search eﬃciency, these mechanisms impose a severe restriction on
+horizon. The immediate risk of negative evaluation looms constantly, while the broader social
+consequences of normalized reportingerosion of trust, suppression of variance, and internal-
+ization of surveillanceremain diﬀuse and temporally distant. Agents adapt by minimizing
+local risk rather than pursuing long-term coherence or integrity. The resulting behavior is
+not ethically deﬁcient but structurally coerced.
+The normalization of reporting under the rubric of feedback has profound political and
+ethical implications. When individuals are encouraged to document and rate one anothers
+behavior as a routine aspect of participation, social life is reorganized around auditability.
+This produces what has often been described as a form of banal evil: not the result of
+ideological extremism, but of ordinary compliance with optimization regimes that reward
+conformity and penalize deviation (Arendt, 1963). In algorithmic systems, this banality is
+ampliﬁed by scale and automation, rendering resistance both costly and obscure.
+Embodied human variance becomes a liability within such frameworks. Bodies produce
+noise: fatigue, hunger, illness, error, and functions that resist standardization. Review sys-
+6
+
+tems implicitly encode an evaluation function that favors predictability, smoothness, and
+frictionless interaction. Agents that deviate from these normswhether through physical ne-
+cessity, emotional expression, or contextual complexityare statistically disadvantaged. This
+dynamic is particularly visible in gig-economy platforms, where negative reviews can trigger
+punitive actions without recourse or explanation.
+The preference for non-human agents follows naturally from this logic. Automated sys-
+tems, including self-driving vehicles and AI-generated content, are attractive not because
+they are intrinsically superior, but because they reduce entropy. They do not eat, tire, com-
+plain, or deviate. In environments governed by scalar evaluation and short horizons, such
+properties are decisive advantages. The gradual displacement of human labor and expres-
+sion thus emerges not from explicit hostility to humanity, but from optimization criteria that
+treat embodiment as defect.
+Social media platforms extend these dynamics into the domain of expression itself. Posts,
+comments, and reactions are continuously evaluated, ranked, and ﬁltered according to en-
+gagement metrics that users cannot meaningfully interrogate. Reporting tools, often framed
+as mechanisms for safety or community standards, further entrench asymmetrical power
+relations by enabling anonymous, consequence-free sanctioning. While some degree of mod-
+eration is necessary in large-scale systems, the absence of transparency and appeal transforms
+evaluation into a form of unaccountable governance.
+These systems reshape not only behavior but perception. When evaluation is omnipresent
+and inescapable, agents internalize the platforms criteria as normative. What is rewarded
+comes to appear valuable; what is suppressed appears irrelevant or deviant.
+Over time,
+this produces a form of learned compliance in which users self-censor, self-optimize, and
+self-surveil, all while retaining the illusion of voluntary participation.
+The cumulative eﬀect is a further degradation of collective intelligence.
+Evaluation,
+rather than guiding agents toward coherent outcomes, becomes a mechanism for enforcing
+conformity to engagement-driven norms. Search eﬃciency declines as agents prioritize locally
+safe actions over exploratory or constructive ones.
+Intelligence, in the sense of eﬃcient
+navigation toward meaningful goals, is sacriﬁced in favor of statistical regularity.
+The next section examines how outrage and compelled commentary operate within this
+evaluative regime, transforming moral response itself into a low-horizon operator that am-
+pliﬁes harm while masquerading as engagement.
+5. Outrage, Compulsory Commentary, and the Ampliﬁcation of Harm
+Moral outrage occupies an ambiguous position in contemporary public discourse. It is fre-
+quently defended as a sign of ethical engagement or civic responsibility, particularly in re-
+sponse to political violence, state misconduct, or highly publicized crimes. However, within
+engagement-optimized social media systems, outrage functions less as deliberative judgment
+7
+
+than as a low-horizon operator that reliably generates propagation. The problem is not that
+outrage is insincere or unjustiﬁed, but that it is structurally coerced and algorithmically
+instrumentalized.
+In problem-space terms, outrage is an energetically eﬃcient action with immediate evalu-
+ative feedback. It requires minimal deliberation, operates within a narrow expressive reper-
+toire, and reliably triggers engagement signals such as reactions, shares, and comments.
+Platforms amplify such signals because they maximize attention throughput, not because
+they improve collective understanding. As a result, outrage becomes a privileged operator
+within the platforms action set, displacing slower, higher-cost forms of inquiry.
+This dynamic produces a form of compulsory participation. Silence, reﬂection, or refusal
+to comment are algorithmically penalized through reduced visibility and social marginal-
+ization.
+Users experience pressure to respond publicly to trending events, regardless of
+expertise, proximity, or capacity for meaningful contribution. The appearance of univer-
+sal commentaryfrom private individuals to prominent public ﬁguresshould therefore not be
+interpreted as spontaneous consensus, but as evidence of a shared constraint regime that
+rewards visibility over restraint.
+The ampliﬁcation eﬀects of outrage are particularly pernicious because they invert the
+intuitive relationship between criticism and containment. In engagement-driven systems,
+negative attention extends the reach and half-life of harmful content. Commentary intended
+to condemn violence, extremism, or injustice often functions as an additional propagation
+vector, increasing exposure rather than limiting it. The moral valence of the response is
+irrelevant to the platforms evaluation function, which registers only engagement magnitude.
+From the perspective of search eﬃciency, this constitutes a severe distortion. Agents
+expend cognitive and emotional resources responding to states that are externally selected
+and ampliﬁed, rather than navigating toward constructive or reparative outcomes.
+The
+horizon remains collapsed: immediate expression is rewarded, while long-term eﬀects on
+discourse quality, emotional well-being, and social trust remain unaccounted for. Even well-
+intentioned participation thus contributes to a collective random walk through high-salience
+but low-yield regions of the problem space.
+This dynamic also undermines autonomy. When platforms implicitly require users to
+signal alignment with dominant emotional responses, dissent takes on a diﬀerent meaning.
+Refusal to engage may be interpreted as indiﬀerence or complicity, while participation re-
+inforces the very mechanisms that sustain attention capture. Users are thereby placed in
+a double bind: either amplify harm through engagement or risk social invisibility through
+silence.
+The epistemic consequences are signiﬁcant. Outrage-driven ampliﬁcation privileges events
+that are emotionally charged, visually striking, or narratively simple, while marginalizing
+slow-moving, systemic issues that resist viral representation. Domains such as mathematics,
+engineering, medicine, and infrastructurewhere value accrues through cumulative, often invis-
+8
+
+ible workare structurally disadvantaged. Their problem spaces demand long horizons, stable
+evaluation criteria, and tolerance for uncertainty, all of which conﬂict with engagement-based
+optimization.
+In this sense, the prevalence of outrage should not be understood as a failure of moral
+character or attention span. It is a predictable outcome of a system that rewards immediate
+expressive action while suppressing delayed, non-viral forms of cognition. What appears as
+a cultural obsession with negativity is more accurately described as an imposed optimization
+regime that converts moral response into fuel.
+The following section examines how artiﬁcial intelligence tools integrated into social
+media platforms further intensify these dynamics by increasing content volume, reducing
+production costs, and accelerating the displacement of human judgment from evaluative
+processes.
+6. Automation, AI-Enhanced Content, and the Devaluation of Human Agency
+The integration of artiﬁcial intelligence tools into social media platforms is frequently framed
+as an enhancement of creativity and accessibility. Automated captioning, image genera-
+tion, text expansion, and recommendation systems are presented as means of empowering
+users to express themselves more eﬀectively. However, when situated within an engagement-
+optimized environment already characterized by low-horizon search and externalized evalu-
+ation, these tools exacerbate rather than remedy the degradation of collective intelligence.
+Artiﬁcial intelligence lowers the energetic cost of content production while leaving the
+evaluation function unchanged. As a result, the volume of content increases dramatically
+without a corresponding improvement in epistemic quality or social value. From the stand-
+point of search eﬃciency, this expansion of the state space S without an increase in horizon
+H or reﬁnement of evaluation E further reduces eﬀective K. Agents are required to navigate
+an increasingly noisy environment using the same impoverished operators, making coherent
+search progressively more diﬃcult.
+This dynamic has direct implications for human participation.
+In environments gov-
+erned by scalar engagement metrics, speed and quantity are rewarded over deliberation and
+depth. Automated systems possess decisive advantages under such criteria. They do not tire,
+hesitate, or require reﬂection. They can generate content continuously and adapt rapidly
+to engagement signals. Human contributors, by contrast, are constrained by embodiment,
+time, and the need for meaning. As AI-generated content proliferates, human expression
+becomes statistically negligible, not because it lacks value, but because it cannot compete
+under throughput-based evaluation regimes.
+The displacement of human agency in this context is not primarily a technological in-
+evitability. It is the consequence of optimization choices that treat cognition as production
+rather than navigation. When intelligence is conﬂated with output volume, systems naturally
+9
+
+favor agents that minimize entropy and variance. Human qualities such as hesitation, revi-
+sion, silence, and contextual judgmentoften essential for high-horizon cognitionare rendered
+liabilities.
+The promise that AI tools will democratize expression thus conceals a deeper asymmetry.
+While users are invited to adopt automation to maintain visibility, the platform retains
+exclusive control over evaluation and distribution. AI-enhanced content becomes a means
+of conforming more eﬃciently to opaque engagement criteria, rather than a path to greater
+autonomy. In this sense, automation functions less as empowerment than as adaptation to
+constraint.
+These developments also intensify the erosion of self-curation. As content volume in-
+creases, platforms further intervene to algorithmically select what users see, citing relevance
+and personalization. Yet these selection mechanisms remain oriented toward engagement
+maximization, not epistemic alignment with user goals. Users cannot meaningfully restrict
+their feeds to followed accounts, disable short-form video formats, or impose stable chrono-
+logical ordering. Negative choicethe ability to refuse entire classes of contentis systematically
+denied.
+The denial of self-curation has signiﬁcant cognitive consequences. Intelligence, as deﬁned
+by eﬃcient navigation of a problem space, presupposes some degree of control over evaluation
+and horizon. When agents are denied the ability to shape their informational environment,
+they are forced into reactive modes of engagement. Attention becomes fragmented, horizons
+collapse further, and agency is reduced to moment-to-moment response. The platform thus
+enforces a form of learned helplessness with respect to cognition itself.
+Taken together, AI-enhanced content and enforced anti-curation accelerate the trans-
+formation of social media from a medium of communication into an entropy-maximizing
+system. Human participants are increasingly instrumentalized as sources of attention and
+training data, while their capacity for deliberate, high-horizon cognition is systematically
+undermined. What is presented as technological progress thus coincides with a measurable
+decline in search eﬃciency at the collective level.
+To complete the analysis, the following section situates social media platforms within a
+broader institutional landscape. It contrasts the horizon-extending constraints traditionally
+applied to high-stakes inﬂuencesuch as medicine, education, and engineeringwith the uncon-
+strained ampliﬁcation enabled by social media architectures. This comparison shows that
+the degradation of collective intelligence is not merely a platform-speciﬁc failure, but the
+result of a systematic bypass of institutional mechanisms designed to enforce long-horizon
+evaluation.
+10
+
+7. Institutional Horizons and the Asymmetry of Credentialed Speech
+Modern secular societies have historically recognized that certain forms of inﬂuence re-
+quire long horizons, formal constraints, and institutional accountability. Professions such
+as medicine, psychology, engineering, and education are regulated through extended train-
+ing, licensing requirements, and continual renewal. These mechanisms function as horizon-
+extending constraints. They delay authority, impose epistemic discipline, and create formal
+pathways for correction and sanction. While imperfect, they reﬂect an institutional recogni-
+tion that high-impact guidance over human lives cannot be safely optimized for immediacy
+or popularity.
+These constraints are not primarily moral safeguards but cognitive ones. By extending
+the horizon over which competence is evaluated, they reduce the likelihood that short-term
+persuasive success substitutes for long-term eﬃcacy. Licensing regimes do not guarantee
+intelligence or virtue, but they raise the energetic cost of irresponsible search by limiting
+who may operate within high-stakes problem spaces.
+However, signiﬁcant asymmetries exist in how these constraints are applied. Religious
+institutions have long operated outside secular credentialing frameworks while exercising
+substantial inﬂuence over moral, psychological, and social behavior. This exemption has
+historically been justiﬁed on grounds of freedom of belief and expression. Broadcast tele-
+vision similarly developed under regulatory regimes that prioritized content classiﬁcation
+over epistemic accountability. In both cases, the inﬂuence exerted was mediated by limited
+bandwidth and high production costs, which implicitly constrained scale.
+Social media platforms dissolve these constraints entirely. Any individual may oﬀer life
+coaching, ﬁnancial advice, medical commentary, or psychological guidance without training,
+accountability, or disclosure, provided such content is framed as entertainment, comedy,
+or personal opinion.
+This reclassiﬁcation enables platforms to evade the responsibilities
+associated with regulated expertise while retaining the beneﬁts of inﬂuence. Authority is
+decoupled from qualiﬁcation and reattached to engagement metrics.
+From the perspective of search eﬃciency, this represents a catastrophic horizon collapse.
+Advice that would require years of supervised training to dispense in institutional contexts
+can be delivered instantly to millions, evaluated solely by virality. The platforms evalua-
+tion function does not distinguish between epistemically grounded guidance and charismatic
+improvisation. Both are treated as interchangeable content units competing for attention.
+This asymmetry does not imply that credentialed systems are infallible or that uncreden-
+tialed speech is inherently harmful. Rather, it highlights a structural inconsistency: systems
+that once imposed high energetic and temporal costs on inﬂuence have been bypassed by
+architectures that monetize immediacy while disclaiming responsibility. The result is not
+democratized expertise, but the erosion of institutional horizon management altogether.
+Importantly, this erosion is not accidental.
+Platforms beneﬁt economically from the
+11
+
+removal of credentialing barriers, as controversy, novelty, and conﬁdence outperform caution
+under engagement-based evaluation. The designation of such content as entertainment or
+opinion functions as a legal and epistemic escape hatch, allowing platforms to proﬁt from
+inﬂuence while externalizing harm.
+This pattern can be further clariﬁed through the concept of disavowal, as developed by
+Zupani (2024). Disavowal describes a structure in which an agent simultaneously knows and
+does not know a fact, not as a psychological inconsistency but as a functional condition that
+enables continued participation in a harmful system. In this sense, platforms do not deny
+the existence of scams, misinformation, or epistemic degradation. Rather, they acknowledge
+these phenomena explicitly while organizing their architectures so that this knowledge never
+enters into evaluative or design constraints.
+The consequences mirror those observed elsewhere in the platform ecology. High-impact
+problem spaces are opened to low-horizon search policies, increasing entropy and reduc-
+ing collective intelligence. Individuals navigating these environments are not empowered
+to evaluate expertise eﬀectively, as the informational substrate itself suppresses the very
+signalscredentialing, peer review, longitudinal accountabilitythat enable eﬃcient search.
+This dynamic completes the picture of an anti-cognitive infrastructure. Where secular
+institutions attempted, however imperfectly, to align authority with long-horizon evaluation,
+social media platforms systematically dismantle such alignments. The resulting environment
+favors persuasion over accuracy, conﬁdence over competence, and immediacy over care.
+8. Conclusion
+This essay has argued that the failures commonly attributed to social mediascams, incoher-
+ence, outrage, surveillance, and the erosion of trustare not incidental side eﬀects of scale
+or insuﬃcient moderation. They are the predictable outcomes of architectures that enforce
+low-horizon, externally evaluated search over human attention and expression.
+Drawing on a scale-free account of intelligence as search eﬃciency, it has shown that
+platforms systematically degrade collective cognition by expanding state spaces, impoverish-
+ing operators, collapsing horizons, and monopolizing evaluation functions. These conditions
+force users into high-energy random walks that maximize engagement while minimizing
+progress toward coherent or constructive outcomes. Even ethical speech, critical commen-
+tary, and creative expression are converted into propagation operators that extend the reach
+of harm.
+The convergence between platform monetization systems and known scam architectures
+reveals that these dynamics are not merely tolerated but structurally reproduced. Review
+and reporting mechanisms normalize algorithmic governance and suppress embodied human
+variance. Artiﬁcial intelligence tools accelerate content production while further displacing
+human judgment. The erosion of institutional horizon management allows uncredentialed
+12
+
+inﬂuence to ﬂourish under the guise of entertainment, bypassing safeguards once considered
+essential in high-stakes domains.
+Taken together, these features deﬁne an anti-cognitive substrate. Intelligence, under-
+stood as eﬃcient navigation toward evaluated outcomes, becomes structurally impossible
+when agents are denied control over horizon, evaluation, and refusal. What appears as free
+expression is often coerced participation in an optimization regime that treats attention as
+raw material and cognition as expendable.
+The remedy to these failures cannot lie solely in improved moderation or individual self-
+discipline. As long as platforms are designed to maximize throughput rather than search
+eﬃciency, intelligence will continue to collapse under the weight of its own ampliﬁcation. A
+genuinely cognitive public medium would require architectures that support long horizons,
+meaningful constraint, negative choice, and evaluative autonomy. Absent these conditions,
+social media will remain a system that converts human intelligence into waste heat while
+insisting that the result is participation.
+13
+
+Appendices
+A. Appendix A: Formalization of Platform-Induced Search Ineﬃciency
+A.1
+Problem Space Deﬁnition
+Let a social media platform be modeled as a problem space
+P = ⟨S, O, C, E, H⟩
+following the formulation of ?.
+S := set of possible feed states and content conﬁgurations
+(1)
+O := {like, share, comment, react, post}
+(2)
+C := minimal constraints, weakly enforced
+(3)
+E := engagement proxy (views, reactions, reach)
+(4)
+H := short temporal horizon (seconds to hours)
+(5)
+The cardinality of S grows superlinearly in time due to continuous content injection:
+|St| ∼O(eλt),
+λ > 0
+A.2
+Baseline Random Search Cost
+Let Crand denote the expected energetic or attentional cost of locating a target state s∗∈S
+under blind random walk dynamics:
+Crand ≈|S|
+assuming uniform sampling and no heuristic bias.
+A.3
+Agent Policy Cost
+Let πplat denote the policy induced by platform incentives. The expected cost under this
+policy is:
+Cπ = Eπplat[steps to reach s∗]
+In high-entropy environments with collapsed horizon H and misaligned evaluation E, we
+have:
+Cπ ≳Crand
+14
+
+and in many regimes:
+Cπ > Crand
+due to repeated cycling through high-salience but non-progressive states.
+A.4
+Search Eﬃciency Metric
+Search eﬃciency is deﬁned as:
+K = log10
+Crand
+Cπ
+
+Thus:
+K ≤0
+for platform-enforced policies, indicating sub-random or anti-eﬃcient search.
+A.5
+Horizon Collapse Lemma
+Let H denote predictive horizon depth. For any policy π optimizing immediate engagement
+reward rt:
+lim
+H→0 arg max
+π
+E[rt] ⇒π ∈Oimpulsive
+where Oimpulsive ⊂O consists of low-cost, high-frequency operators.
+This induces:
+∂K
+∂H > 0
+That is, search eﬃciency strictly increases with horizon length.
+A.6
+Evaluation Externalization
+Let Eu be the user-aligned evaluation function and Ep the platform evaluation function.
+Deﬁne misalignment:
+∆E = ∥Eu −Ep∥
+Then expected eﬃciency satisﬁes:
+E[K] ∝−∆E
+Thus externally imposed evaluation monotonically reduces intelligence.
+15
+
+A.7
+Entropy Production
+Deﬁne entropy production per action:
+σ = log |S| −I(π; s∗)
+where I is mutual information between policy and target.
+Platform dynamics maximize σ subject to engagement constraints:
+max
+π
+σ
+s.t.
+E[rt] ≥ϵ
+This deﬁnes an entropy-maximizing regime with bounded reward.
+B. Appendix B: Outrage Dynamics as Attractor Formation
+B.1
+State Space Decomposition
+Partition the global content state space S into disjoint subsets:
+S = So ∪Sn
+where So denotes outrage-salient states and Sn non-outrage states.
+Deﬁne salience weight function:
+w : S →R+
+with
+E[w(s) | s ∈So] ≫E[w(s) | s ∈Sn]
+B.2
+Ampliﬁcation Operator
+Let A be the platform ampliﬁcation operator acting on content states:
+A(s) = s′
+with probability proportional to w(s)
+Repeated application yields:
+Ak(s) →So
+∀s ∈S \ C
+where C is a negligible constraint set.
+16
+
+B.3
+Outrage Attractors
+Deﬁne an outrage attractor basin:
+Bo = {s ∈S | lim
+k→∞Ak(s) ∈So}
+Under engagement maximization:
+µ(Bo) ≈1
+with respect to the induced measure µ on S.
+B.4
+Commentary as Propagation Operator
+Deﬁne a commentary operator C:
+C : s 7→s ∪δs
+where δs increases reach but does not alter semantic content.
+Then:
+w(C(s)) ≥w(s)
+independent of sentiment polarity.
+Thus condemnation, satire, and endorsement are equivalent under Ep.
+B.5
+Limit Cycles
+Deﬁne the outrage cycle:
+st
+A−→st+1
+C−→st+2
+A−→. . .
+This forms a limit cycle Lo with period τ ≪Hu, where Hu is user-intended horizon.
+The expected exit probability satisﬁes:
+P(exit Lo) →0
+as engagement optimization strengthens.
+B.6
+Search Eﬃciency Consequence
+Let Cπo denote expected cost under outrage-biased policy.
+Then:
+Cπo ≫Cconstructive
+17
+
+yielding:
+Ko = log10
+Crand
+Cπo
+
+< 0
+Thus outrage regimes are formally anti-intelligent.
+B.7
+Moral Neutrality of Ampliﬁcation
+Deﬁne moral labeling function m : S →{−1, 0, 1}.
+Then:
+∂Ep
+∂m = 0
+i.e., ampliﬁcation is insensitive to moral valence.
+B.8
+Silence as Dominated Strategy
+Let ∅denote non-participation.
+Then:
+Ep(∅) = 0
+and
+Ep(C(s)) > 0
+Thus silence is strictly dominated under Ep.
+B.9
+Conclusion
+Outrage dynamics emerge as stable attractors under engagement optimization. These attrac-
+tors maximize propagation while minimizing semantic progress, producing negative search
+eﬃciency independent of user intent.
+C. Appendix C: Credentialing as Horizon Constraint
+C.1
+Credentialed Inﬂuence Spaces
+Let I denote an inﬂuence space over human outcomes (e.g. medical, psychological, educa-
+tional, ﬁnancial).
+Deﬁne a credentialing operator K such that:
+K : a 7→˜a
+where ˜a is an agent permitted to act within I only after satisfying horizon-extending con-
+straints.
+These constraints include:
+K = {Ttrain, Rrenew, Ssanction}
+18
+
+corresponding to training duration, renewal requirements, and sanctionability.
+C.2
+Horizon Extension
+Let Ha be the agents eﬀective planning horizon.
+Credentialing enforces:
+H˜a ≫Ha
+by delaying entry into I and coupling future action to past performance.
+C.3
+Energy Barrier Formulation
+Deﬁne energetic cost of inﬂuence:
+Eentry =
+Z Ttrain
+0
+c(t) dt
+Credentialed systems impose:
+Eentry ≫0
+which ﬁlters low-horizon policies.
+C.4
+Damping of Random Walks
+Let πimp denote impulsive policy class.
+Credentialing induces a projection:
+π 7→π′ /∈πimp
+by excluding agents whose expected variance exceeds institutional bounds.
+C.5
+Uncredentialed Bypass
+Deﬁne entertainment framing operator E:
+E : I →I′
+such that I′ is legally reclassiﬁed as opinion, comedy, or entertainment.
+Then:
+K ◦E = ∅
+i.e. credentialing constraints are nulliﬁed.
+19
+
+C.6
+Platform Interaction
+Let P be the platform ampliﬁcation operator.
+Then:
+P ◦E(I) ≫P ◦K(I)
+because engagement favors immediacy over institutional validation.
+C.7
+Search Eﬃciency Consequence
+Let Kcred be eﬃciency under credentialed regimes, and Kunc under bypass.
+Then:
+Kunc < Kcred
+with strict inequality as horizon collapses.
+C.8
+Inﬂuence Inﬂation
+Deﬁne inﬂuence volume:
+VI = |SI| · ¯r
+where ¯r is average reach.
+Uncredentialed ampliﬁcation yields:
+dVI
+dt →∞
+without corresponding increase in evaluative ﬁdelity.
+C.9
+Conclusion
+Credentialing functions as a horizon-enforcing damping mechanism. Platform architectures
+that bypass credentialing reintroduce low-horizon random walks into high-stakes inﬂuence
+spaces, producing systematic intelligence degradation.
+D. Appendix D: Automation, Entropy Minimization, and Agent Displacement
+D.1
+Agent Classes
+Let Ah denote the class of human agents and Aai the class of automated or AI-assisted
+agents.
+Deﬁne per-action energetic cost:
+ch > cai
+20
+
+and per-action latency:
+τh ≫τai
+D.2
+Throughput Advantage
+Deﬁne content throughput:
+Θ = 1
+τ
+Then:
+Θai ≫Θh
+under identical platform constraints.
+D.3
+Evaluation Function Bias
+Let Ep be the platform evaluation function:
+Ep = f(engagement volume)
+Then:
+∂Ep
+∂Θ > 0
+and
+∂Ep
+∂semantic depth ≈0
+D.4
+Selection Pressure
+Deﬁne selection probability:
+P(a) ∝Ep(a)
+Then:
+P(Aai)
+P(Ah) →∞
+as τai →0.
+D.5
+Entropy Production
+Let entropy per agent be:
+σa = log |S| −I(a; Eu)
+where Eu is user-aligned evaluation.
+AI agents minimize σa with respect to Ep but maximize σa with respect to Eu.
+21
+
+D.6
+Human Disadvantage
+Humans incur unavoidable entropy from embodiment:
+σh = σcog + σbio
+with σbio > 0 irreducible.
+AI agents satisfy:
+σai ≈σcog
+D.7
+Competitive Exclusion
+Deﬁne survival condition:
+Ep(a) ≥ϵ
+Then:
+∃t∗∀t > t∗: Ah /∈arg max Ep
+This implies competitive exclusion under engagement optimization.
+D.8
+Illusion of Empowerment
+Let Tai be AI tooling oﬀered to humans.
+Then:
+Ah
+Tai
+−→A′
+h
+where A′
+h approximates Aai behaviorally but retains ch.
+Thus:
+Ep(A′
+h) < Ep(Aai)
+D.9
+Search Eﬃciency
+Let Kh, Kai be search eﬃciencies.
+Then:
+Kai(Ep) > Kh(Ep)
+but
+Kai(Eu) < Kh(Eu)
+indicating platform-relative intelligence diverges from user-relative intelligence.
+D.10
+Conclusion
+Automation under engagement-optimized evaluation produces systematic selection against
+embodied human agents. This displacement is not a consequence of superior cognition, but
+of entropy minimization under misaligned evaluation functions.
+22
+
+E. Appendix E: Refusal Operators and Impossibility of Cognition Under Forced
+Feeds
+E.1
+Negative Choice
+Deﬁne negative choice as the ability to exclude classes of states:
+R : S →S′
+where
+S′ ⊂S
+Negative choice requires:
+∃R ̸= ∅
+E.2
+Forced Feed Constraint
+Let F be the forced feed operator:
+F : R 7→∅
+i.e. platform design disables refusal.
+E.3
+Operator Closure
+Let O be the operator set.
+Under forced feeds:
+O = O+
+where O+ excludes all refusal operators.
+E.4
+Cognition Requirement
+Deﬁne minimal cognition condition:
+∃π s.t. I(π; s∗) > 0
+where s∗is user-aligned target.
+E.5
+Impossibility Theorem
+Theorem. If refusal operators are absent, and evaluation is externally imposed, then no
+policy π can achieve positive search eﬃciency relative to user-aligned goals.
+Proof. Without R, the agent must sample from S under F. External evaluation enforces
+∆E > 0. Thus:
+I(π; s∗) →0
+⇒
+K ≤0
+23
+
+□
+E.6
+Silence vs Refusal
+Deﬁne silence ∅as null action.
+Silence satisﬁes:
+∅/∈O
+Refusal requires active operator R.
+Platforms allow silence but forbid refusal.
+E.7
+Feed Entropy
+Let entropy rate:
+˙HS = d
+dt log |S|
+Without refusal:
+˙HS > 0
+∀t
+E.8
+Attention Dissipation
+Deﬁne attention budget B.
+Expected dissipated attention:
+D =
+Z T
+0
+˙HS dt
+Then:
+lim
+T→∞D →∞
+E.9
+Cognitive Suﬀocation
+Deﬁne suﬀocation condition:
+lim
+t→∞K(t) →−∞
+This holds under forced feed dynamics.
+E.10
+Conclusion
+Refusal is a necessary operator for cognition. Forced-feed architectures eliminate refusal,
+rendering intelligence formally impossible regardless of agent capability or intent.
+24
+
+References
+Chis-Ciure, R. and Levin, M. (2025). Cognition all the way down 2.0: neuroscience beyond
+neurons in the diverse intelligence era. Synthese, 206:257. Received 30 June 2025; accepted
+8 October 2025; published 6 November 2025. 10.1007/s11229-025-05319-6. Available at
+https://doi.org/10.1007/s11229-025-05319-6.
+Arendt, H. (1963). Eichmann in Jerusalem: A Report on the Banality of Evil. Viking Press,
+New York.
+Zuboﬀ, S. (2019). The Age of Surveillance Capitalism: The Fight for a Human Future at
+the New Frontier of Power. PublicAﬀairs, New York.
+Doctorow, C. (2023).
+The enshittiﬁcation of TikTok.
+Pluralistic.
+Available at https:
+//pluralistic.net/2023/01/21/potemkin-ai/.
+Sch¨ull, N. D. (2012). Addiction by Design: Machine Gambling in Las Vegas. Princeton
+University Press, Princeton.
+Tufekci, Z. (2017). Twitter and Tear Gas: The Power and Fragility of Networked Protest.
+Yale University Press, New Haven.
+Friston, K. (2010). The free-energy principle: A uniﬁed brain theory?
+Nature Reviews
+Neuroscience, 11(2):127-138.
+Clark, A. (2016). Surﬁng Uncertainty: Prediction, Action, and the Embodied Mind. Oxford
+University Press, Oxford.
+Gillespie, T. (2018). Custodians of the Internet: Platforms, Content Moderation, and the
+Hidden Decisions That Shape Social Media. Yale University Press, New Haven.
+Vaidhyanathan, S. (2018). Antisocial Media: How Facebook Disconnects Us and Undermines
+Democracy. Oxford University Press, Oxford.
+Lanier, J. (2018). Ten Arguments for Deleting Your Social Media Accounts Right Now. Henry
+Holt, New York.
+Hartzog, W. and Selinger, E. (2018). Privacy's Blueprint: The Battle to Control the Design
+of New Technologies. Harvard University Press, Cambridge.
+Pasquale, F. (2015). The Black Box Society: The Secret Algorithms That Control Money
+and Information. Harvard University Press, Cambridge.
+Beer, D. (2017). The social power of algorithms. Information, Communication & Society,
+20(1):1-13.
+25
+
+Foucault, M. (1977). Discipline and Punish: The Birth of the Prison. Pantheon Books, New
+York.
+Beniger, J. R. (1986). The Control Revolution: Technological and Economic Origins of the
+Information Society. Harvard University Press, Cambridge.
+Goodhart, C. A. E. (1975). Problems of monetary management: The U.K. experience. In
+Papers in Monetary Economics, Reserve Bank of Australia.
+Zupani, A. (2024). Disavowal. Polity Press, Cambridge. ISBN: 9781509561193.
+26
+

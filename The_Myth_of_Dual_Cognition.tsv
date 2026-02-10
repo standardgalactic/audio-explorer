@@ -1,0 +1,779 @@
+start	end	text
+0	6460	Welcome back to The Deep Dive. Today, we are going to do something a little, a little dangerous.
+6660	8080	Oh, I like the sound of that.
+8240	15140	We're going to take a concept that I guarantee almost every single person listening right now believes is true.
+15580	18180	I mean, something that feels as natural as breathing.
+18540	18780	Yeah.
+19100	22500	And we are going to try to, well, dismantle it.
+22640	26760	It is a bit of a demolition job today, isn't it? But, you know, a necessary one.
+26760	37500	Absolutely. Look, if you've been anywhere near a business book, a psychology podcast, or even just like a dinner party in the last 15 years, you know the drill.
+37760	38220	Oh, yeah.
+38300	44660	You know the Bible of behavioral economics. I'm talking about Daniel Kahneman. I'm talking about thinking fast and slow.
+44840	50240	It's the standard model. It's pretty much the framework we all use to talk about thinking.
+50540	54220	It's practically the operating system for how we talk about our own minds.
+54220	59380	The idea is, on the surface, incredibly simple, right? You have two brains.
+59540	62640	Or, to be precise, two systems. System one and system two.
+62740	63880	Right. Two systems.
+64280	76140	And for most people, that distinction is absolute. System one is the fast one. It's instinct. It's the gut. It's the thing that makes you grab a cookie without thinking.
+76280	77160	The impulsive one.
+77160	84340	And system two is the slow one. It's logic. It's doing your taxes. It's painful deliberation.
+84680	96880	Exactly. It's the angel and the devil on your shoulder. It's the impulsive child and the responsible adult, all wrapped up in one neat package. And we all accept this. I mean, it feels true.
+96880	108140	It really does. When I'm driving on an empty highway, just zoned out, I'm in system one. But when I'm trying to calculate a 20% tip at a restaurant while my friends are all watching me.
+108180	109320	Oh, the pressure.
+110000	113520	That's pure system two. I can feel my brain creaking.
+113720	119020	It's a very, very seductive heuristic. It just matches our subjective experience so perfectly.
+119020	131580	Well, hold on to your heuristics, because today we're diving into a stack of documents that argues that entire framework is, well, maybe not wrong in its observations, but fundamentally wrong in its conclusions.
+131920	132820	This is a big one.
+133140	142300	We're looking at a paper titled The Myth of Dual Cognition by an author named Flexion, along with a really spicy explanatory note that came with it.
+142300	148940	And the thesis here is radical. It says there are not two systems. There is only one system.
+149140	156660	And that one system isn't like switching gears between two different engines. It's simply operating at different levels of resolution.
+157320	161480	Resolution. That is the key word we are going to be obsessing over today.
+161680	167460	This isn't just semantics, is it? This is not just a nerdy academic dispute about how we label things.
+167460	171740	Well, not at all. I mean, if the source material is correct, this changes everything.
+171740	175200	It changes how we view our own habits, how we view expertise.
+175940	177400	And maybe most importantly.
+177440	181840	And perhaps most importantly, it completely reframes the debate around artificial intelligence.
+182140	185780	That's the part that really got me. I mean, we're going to get to the AI stuff later.
+185920	196020	But the argument here basically says if we misunderstand how we think, we are definitely absolutely misunderstanding how machines think.
+196200	197180	That's a huge claim.
+197180	203800	We might be accusing AI of being dumb for the exact same reasons that actually make a human smart.
+204060	210160	It's a bold claim. But before we get to the robots, we have to deal with the humans.
+210760	216060	We have to unpack why we believe in the two system model in the first place. I mean, where did it come from?
+216060	223020	Right. Let's start with the status quo, because to understand the disruption, you have to understand what's being disrupted.
+223660	227520	When we talk about system one and system two, what are we actually describing?
+228060	235800	So the traditional definition, which really solidified with Kahneman and Tversky, posits this dichotomy.
+236620	237060	A split.
+237600	239420	On one side, you've got system one.
+239820	240420	The fast one.
+240420	248760	The fast one. It's described as automatic, intuitive, and crucially effortless. It's associative. It just happens.
+249060	250340	Give me a concrete example.
+250820	263120	Okay. So imagine you see a face. A friend walks into the room and they look absolutely furious. You don't have to break out a calculator. You don't have to measure the angle of their eyebrows or like the redness of their skin. You just know.
+263180	263860	It happens to you.
+263860	271540	Precisely. You don't do the work. The conclusion just arrives, fully formed. That's the hallmark of system one. It feels involuntary.
+271780	273420	Right. It feels like an input.
+273620	273780	Yeah.
+273840	277220	I didn't do the thinking. The thinking just appeared in my brain.
+277320	288800	Exactly. Now compare that to system two. This is slow, deliberative, reflective, and crucially effortful. It consumes resources. It's hard work.
+288800	292580	This is my calculating the tip moment. The cold sweat.
+292780	298440	Yes. Or if I ask you right now, what's 17 times 24?
+298720	302300	Oh, okay. Yeah. I'm stopping everything else. I'd have to like write it down.
+302400	316720	Exactly. You stop walking. Literally, studies show your pupils dilate, your blood pressure rises slightly. You have to grind through the steps. You have to hold the numbers in your head, perform an operation, check the result. That is system two.
+316720	321060	And it feels physically different. It feels like work. My brain hurts.
+321260	327420	It is work. And that's why the distinction feels so real. We have a fast and easy mode and a slow and hard mode. It's intuitive.
+327840	338760	But this is where the source material starts to poke holes in the theory. It points out that this didn't start as a claim about brain anatomy or, you know, different modules in the brain.
+338860	339720	No, not at all.
+339720	345900	It started as a phenomenological observation, which is a fancy way of saying it's just how it feels.
+346420	358320	Yes. And that history is vital here. This goes back way before Kahneman. We're talking about William James in the late 19th century. He was talking about the difference between habit and effort.
+358320	358980	Right.
+359080	369700	He wasn't doing fMRI scans. He had no idea which neurons were firing where. He was just a brilliant observer describing the human experience from the inside out.
+369920	376220	So originally, system one and system two were just adjectives. They were just ways of describing a process.
+376800	385440	Exactly. There were descriptors. You could say, I'm thinking quickly right now or I'm thinking slowly. I'm thinking effortlessly or I'm thinking effortfully.
+385440	387900	It's a description of the texture of thought.
+388440	394360	But then something happened. The paper calls it, and I love this term, ontological drift.
+394880	397260	Ontological drift. It's such a great phrase.
+397720	399880	It sounds like something from a sci-fi movie.
+400800	406340	Captain, we're experiencing ontological drift. But what does it actually mean in this context?
+406660	413780	Well, it's a philosophical term. Ontology is the study of what exists, what things fundamentally are.
+413780	416600	And drift is the error.
+417620	427000	So ontological drift happens when we take a descriptive, label-like, fast thinking, and we drift into believing it is a physical thing.
+427200	429020	We turn the adjective into a noun.
+429260	432840	We turn the adjective into a noun, and then we turn that noun into a machine.
+433100	439960	We move from saying, this thought process is fast, to believing there is a fast-thinking machine inside my head.
+439960	443960	Okay, I want to use an analogy here to make sure I've got this locked down.
+444860	448060	The paper mentions cars, but let's look at a runner.
+448200	449600	A runner. Okay, I'm with you.
+449760	451080	Say you have an Olympic athlete.
+451300	451540	Uh-huh.
+451640	456800	Sometimes they sprint. They're going 100% max effort, exploding off the blocks.
+456980	458540	That's fast. That's intense.
+458800	461820	System two in the old model. All-out effort.
+462040	465620	Right. Other times, they're just jogging a warm-up lap.
+465960	469140	That's slow. That's easy. They can chat while they do it. System one.
+469200	470420	Right. Two different speeds.
+470940	475940	Now, ontological drift would be like watching that athlete and saying, oh, I get it.
+476140	480200	He has two separate bodies. He has a sprinting body and a jogging body.
+480400	485460	And when he wants to go fast, he climbs out of the jogging body and gets into the sprinting body.
+485460	488720	That sounds completely absurd when you put it that way.
+488720	497100	It is absurd. It's the same legs. It's the same lungs. It's the same heart. It's the same person just operating at a different level of intensity.
+498480	503200	But the source material argues that this is exactly what we have done with our brains.
+503320	504860	That is a perfect analogy.
+504860	511820	We have created a homunculus, a little person inside our heads, or in this case, two little people.
+512400	523720	We act as if there is a system one guy who is impulsive and kind of dumb and a system two guy who is smart and rational and they are fighting for control of the steering wheel.
+524120	526400	And the source says this isn't just a harmless metaphor.
+526760	530600	It leads to what the author calls the moralization of cognition.
+530600	540260	And this is a really, really important point. Because once you split the brain into two characters, you inevitably start assigning them moral roles. Good versus evil.
+540520	542340	We cast system one as the villain.
+542620	548440	We do. In the current worldview, the standard Kahneman worldview system one is the problem.
+548840	554960	It's the source of all our biases. It's the thing that makes you racist or sexist or lazy.
+555660	558940	It's the thing that eats the donut when you're on a diet.
+558940	562760	It's the lizard brain. The primitive part we have to overcome.
+563280	567140	And system two is the hero. System two is the adult in the room.
+567540	570100	It's rational. It's normative. It's corrective.
+570480	575640	We tell ourselves things like, I need to engage my system two to stop doom scrolling.
+576080	579940	Or, I need to use logic to overcome my unconscious bias.
+580780	585000	It becomes a morality play. The beast versus the angel fighting inside your skull.
+585000	588260	Exactly. But the source argues this is a trap.
+588820	595860	It suggests that by splitting them into good cop and bad cop, we completely miss the mechanical reality of how thinking actually works.
+596140	599400	We are ignoring how the runner actually learns to run in the first place.
+599480	601100	So let's get to that mechanical reality.
+601240	604800	If there aren't two guys in my head fighting for the steering wheel, what is actually happening?
+605140	608160	This brings us to the core thesis of this whole deep dive.
+608780	610320	Aspect relegation theory.
+610320	619000	Aspect relegation theory. It sounds a bit technical, but I promise you, the concept is beautifully simple once you grasp it.
+619080	621160	Okay. Bring it down for us. What's the elevator pitch?
+621520	624980	The theory proposes that system one is not a separate thing at all.
+625220	629200	It is simply system two processes that have become automated.
+629840	633080	Good. Say that again. That's the whole ballgame right there.
+633180	635360	System one is just automated system two.
+635360	638340	Yes. There is a key quote in the paper I want to read.
+639020	648020	System one is the residual form of system two processes that have become automated through repetition, stabilization, and attentional compression.
+648300	652760	The residual form. I love that phrasing. It's like what's left over after a process.
+652940	654980	I was thinking about it like cooking.
+655640	658840	Specifically, think about making a reduction sauce.
+659000	661140	Okay. I'm listening. You've got my attention.
+661140	667060	You start with a huge pot of liquid stock, wine, herbs, onions, all this stuff.
+667260	668780	That is your system two.
+669280	672420	It is voluminous. It has all these distinct ingredients.
+672600	674520	You can see the individual onions floating in it.
+674580	676320	It takes up a lot of space in the pot.
+676640	677780	It takes a lot of attention.
+678080	680760	That's the high effort phase. The deliberative phase.
+681080	684000	Right. Now you simmer it for hours.
+684420	685220	You reduce it.
+685400	688920	You apply heat and time, which is like practice and repetition.
+688920	698140	The water evaporates, the volume shrinks, and eventually you are left with this thick, intense, glossy glaze at the bottom of the pan.
+698900	700460	That is system one.
+700560	701640	It's the same stuff.
+701720	703460	It is chemically the same stuff.
+703560	708240	It's the same flavor profile, just unbelievably compressed.
+708520	710460	You can't see the individual onions anymore.
+710560	713160	They've dissolved into the very essence of the sauce.
+713380	715200	But their flavor is still there.
+715660	717600	System one is in a different liquid.
+717600	720880	It's just the concentrated residue of the original reasoning.
+721180	721360	Wow.
+721600	721840	Okay.
+721940	726820	So my gut feeling isn't some magic bolt of lightning from a different brain.
+727080	727320	Yeah.
+727560	731020	It's a reduction sauce of all my past experiences and calculations.
+731200	731660	Exactly.
+731860	738600	And the mechanism for how we get from the big pot of soup to that tiny bit of sauce is what the author calls aspect relegation.
+739340	740420	Let's unpack those words.
+740820	741600	Aspects and relegation.
+742280	742960	What's an aspect?
+742960	750180	So any cognitive process, reasoning, driving, doing math, whatever, is made up of aspects.
+750740	754240	These are the intermediate steps, the little subroutines, the conditional branches.
+754740	756960	If X happens, then I do Y.
+757500	758360	The error checks.
+758600	759860	Did I carry the one correctly?
+760340	762240	Is that light red or is it green?
+762580	767200	The little distinct pieces of the thought, the individual instructions in the recipe.
+767200	767720	Perfect.
+768020	768220	Right.
+769020	776120	When a task is new, when you're first making that sauce, you are in what the author calls high resolution.
+776980	779300	You have to see every single aspect.
+779500	782780	You are monitoring the onions, the heat, the spoon, the timing.
+783200	785900	You are consciously aware of every variable.
+786120	787740	Because you don't know which ones matter yet.
+787820	788460	You're a novice.
+788560	789660	You haven't figured out the pattern.
+789660	790180	Exactly.
+790780	797080	But as you repeat the task, as it becomes stable and predictable, you start to relegate those aspects.
+797240	798380	You push them into the background.
+798560	800780	You stop paying attention to the intermediate steps.
+801020	803600	You just see the input, ingredients, and the output.
+804020	804920	Delicious sauce.
+805260	807320	The middle part becomes automatic.
+807640	813300	This brings us to the central metaphor of the paper, which I think is just brilliant for the digital age.
+813640	814960	It's not about engines.
+815080	816040	It's about resolution.
+816500	816860	Yes.
+816860	822520	This moves us away from the two engines idea and toward a one screen idea.
+822840	824660	It's a much better way to think about it.
+824800	827880	The argument is that the brain isn't switching engines.
+828500	830800	It's changing the resolution of its attention.
+831260	836480	Think about streaming a video on YouTube or Netflix or whatever you use.
+836640	838120	You are watching a movie.
+838480	842000	It's the same file, the same plot, same character, same runtime.
+842760	845820	That file represents the core reasoning process.
+845820	849480	Now, imagine your internet connection is a bit spotty.
+849940	851320	You have limited bandwidth.
+851880	852720	Limited attention.
+853280	854800	Limited cognitive resources.
+854960	855380	Exactly.
+855600	856720	Bandwidth is attention.
+856880	860840	If you have limited bandwidth, the stream automatically drops down to 240p.
+861040	861700	It's blocky.
+861860	862300	It's blurry.
+862300	866140	You can't see the texture of the actor's shirt or the leaves on the trees.
+866720	869920	But, and this is key, it loads instantly.
+870160	872240	It plays smoothly without buffering.
+872400	873360	That is system one.
+873880	876100	Low resolution, but high speed and low effort.
+876480	876920	Precisely.
+877120	879340	But let's say you need to see a specific detail.
+879540	884000	There's a clue written on a tiny piece of paper in a movie, and you need to read it to solve the mystery.
+884000	886800	You can't read it in 240p, so what do you do?
+887120	890780	I pause it, go to the settings, and I crank it up to 4K.
+891440	894880	You crank up the resolution, and what happens immediately?
+894980	895380	Buffers.
+895600	897120	The little spinning wheel of death comes up.
+897460	898240	It takes time.
+898720	899720	It chews up my data.
+899880	901660	It consumes massive bandwidth.
+902420	903560	That is system two.
+903900	905120	It's not a different movie.
+905360	911780	It's the same data, just rendered at a much higher fidelity, because you need to inspect the details, the aspects.
+911780	914760	This completely demystifies the experience for me.
+915280	918300	When I'm thinking hard, I'm not using a different brain.
+918460	922120	I'm just forcing my mental video stream into 4K.
+922560	924180	I'm looking at the individual pixels.
+924500	928040	And when you are thinking fast, you are accepting the blur.
+928600	933440	You are trusting that the general shape of the image is enough to get by for now.
+933880	934920	Trusting the blur.
+935400	936460	That's a great way to put it.
+936460	942520	I want to ground this in a real-world example, because the paper gives a couple of really good ones that make this concrete.
+943080	944900	The first one is the commuter.
+945160	945620	The commuter.
+945800	946080	Yes.
+946160	951480	This is a classic example of habit formation, or what this theory would call relegation.
+951800	952560	Walk us through it.
+952560	956600	Okay, so imagine someone who lives in a big city, like New York or London.
+957380	961420	They walk to the subway station every single morning for five years, same route.
+961800	965880	They walk out their front door, turn left, cross two streets.
+966120	970360	They dodge that same puddle that always forms on the corner after it rains.
+970500	971500	We all have that puddle.
+971500	978860	They swipe their transit card, walk down the stairs, and stand in the exact same spot on the platform every day.
+979300	984720	Now, if you stop them on the platform and ask, how did you get here, describe your walk.
+984780	985420	What do they say?
+985540	987400	They'll say, I don't know.
+987460	988860	I was thinking about dinner tonight.
+988920	989960	I was listening to a podcast.
+990280	991820	I just, I kind of arrived.
+992040	993720	It feels like teleportation.
+993800	995260	It feels completely automatic.
+995440	996860	It feels like pure system one.
+997000	997500	It does.
+998000	1000720	But let's look at the reality of what they just did.
+1001520	1006640	Navigating a busy city street is an incredibly complex physics and logic problem.
+1007240	1011480	They had to calculate the velocity of oncoming cars to cross the street safely.
+1011800	1016040	They had to navigate complex spatial geometry to turn the corners.
+1016600	1020780	They had to use fine motor skills to swick their car just right.
+1020780	1028760	I mean, if you tried to get a Boston Dynamics robot to do that, it would take millions of lines of code, and it would still probably fall into the puddle.
+1028880	1029300	Exactly.
+1029300	1034900	So, did the commuter use a primitive lizard brain to do all that complex math?
+1035120	1035480	No.
+1036060	1042980	According to this theory, they used the exact same reasoning they used the very first day they moved into that apartment.
+1043360	1046460	But the first day they moved in, it was hard.
+1046860	1047640	It was stressful.
+1047640	1049980	The first day was high resolution.
+1050200	1051020	It was 4K.
+1051360	1053160	Okay, what's the street sign say?
+1053280	1054300	Is this a one-way street?
+1054500	1056000	Okay, there's a puddle on the left side.
+1056040	1056980	I need to remember that.
+1057280	1058680	Where did I put my transit card?
+1059760	1062760	They were streaming every single detail.
+1063020	1067840	But after five years, they have relegated all those aspects.
+1068020	1069020	They've compressed them.
+1069020	1070200	They have solved the problem.
+1070480	1073360	The solution is cached, to use a computer term.
+1073620	1078640	They aren't re-solving the complex problem of how to get to the station every morning.
+1078880	1081540	They are just executing the stored program.
+1081940	1085240	The reasoning, the physics, the geometry is all still there.
+1085520	1089460	It's just been compressed into a smooth 240p stream.
+1089460	1094100	But, and here is the kicker, and this is where the theory really shines for me.
+1094620	1099320	What happens if one day they walk up to the station and the entrance is closed for construction?
+1099800	1102740	A big sign, yellow tape, the words.
+1102760	1103800	Oh yeah, boom.
+1104260	1106480	The automaticity shatters instantly.
+1107300	1108440	Relegation stops.
+1108540	1109920	The blur snaps into focus.
+1110120	1112460	The commuter stops dead in their tracks.
+1112660	1113520	They look around.
+1113640	1115840	The autopilot disengages completely.
+1116560	1118040	Suddenly they are reading signs.
+1118140	1119140	They are checking their watch.
+1119140	1121160	They are pulling out their phone to check the map.
+1121240	1122480	They're looking for a bus stop.
+1122640	1124240	They're calculating a new route.
+1124380	1125760	They are back in 4K.
+1125880	1126120	Yeah.
+1126420	1127600	Full buffering mode.
+1127720	1129580	They are back in what we call system 2.
+1130220	1133540	But notice, they didn't switch brains.
+1133740	1137900	They just re-promoted the aspects of navigation back into conscious attention.
+1138420	1140060	Their brain got an error message.
+1140440	1142000	The cast solution has failed.
+1142440	1145080	I need to open the source file and look at the code again.
+1145480	1148060	That transition is so seamless we don't even notice it.
+1148060	1150680	It's like the auto quality setting on YouTube.
+1151060	1152480	My phone just does it.
+1152680	1155220	It fluctuates based on need, on bandwidth.
+1155720	1159160	And that fluctuation is the essence of intelligence.
+1160160	1162980	It's not about being in system 2 all the time.
+1163240	1165920	That would be completely paralyzing.
+1166060	1168100	And it's not about being in system 1 all the time.
+1168180	1169500	That would be reckless.
+1169800	1170040	Right.
+1170120	1172800	It's about the dynamic regulation of that resolution.
+1173440	1176340	Knowing when to zoom in and when to zoom out.
+1176340	1178300	I want to talk about the driving example, too.
+1178380	1180440	Because I think that connects to the feeling of effort.
+1180640	1183260	We mentioned earlier that system 2 feels like work.
+1183500	1183740	Yes.
+1184560	1189160	Effort is the defining characteristic of the slow system in the old model.
+1189420	1193320	The paper makes a really interesting point about what effort actually is.
+1194020	1197400	Because we tend to equate effort with being smart.
+1198120	1201320	You know, I'm thinking really hard, so I must be being rational.
+1201320	1201720	Right.
+1201920	1203860	We wear effort like a badge of honor.
+1204440	1210440	But the author here argues that effort is simply a bandwidth warning light on your mental dashboard.
+1210780	1212160	A bandwidth warning light.
+1212440	1213120	I like that.
+1213340	1214660	Think about the novice driver.
+1215020	1217460	The 16-year-old with their learner's permit.
+1217800	1219360	I remember when I was learning to drive.
+1219500	1221200	It was physically exhausting.
+1221860	1222360	Oh, totally.
+1222760	1227460	I remember gripping the steering wheel so hard my knuckles were white I couldn't have the radio on.
+1227460	1230120	My mom tried to talk to me from the passenger seat.
+1230200	1230900	I'd snap at her.
+1231180	1231540	Quiet.
+1231800	1232360	I'm urging.
+1233000	1233440	Exactly.
+1234040	1236020	You were in maximum high resolution.
+1236340	1239060	You were tracking 50 different variables explicitly.
+1239340	1241760	The pressure of your foot on the gas pedal.
+1242180	1244560	The exact angle of the rearview mirror.
+1244900	1246460	The distance to the curb.
+1246620	1248620	The speed of the car behind you.
+1249000	1253240	You were holding all these aspects in your active working memory.
+1253440	1254240	Your RAM.
+1254580	1255920	And that burns energy.
+1255920	1257520	That is the effort.
+1257980	1262060	That's the feeling of my brain's CPU running at 100%.
+1262060	1263060	That is the effort.
+1263240	1265960	You are keeping all those plates spinning manually.
+1266320	1267300	Now, look at you today.
+1267500	1269080	You probably drive to work.
+1269160	1270000	You're drinking coffee.
+1270240	1271480	You're listening to this podcast.
+1271780	1273280	You're arguing with the radio host.
+1273460	1275380	You are barely looking at the road.
+1275640	1277320	Hopefully looking at the road a little bit.
+1277460	1278340	For legal reasons.
+1278720	1279740	Well, yes.
+1280360	1283260	But you aren't consciously thinking about the pedal pressure.
+1283260	1286340	You aren't calculating the angle of the turn.
+1286780	1288520	You have relegated those aspects.
+1288980	1289920	They have been compressed.
+1290460	1294520	The reasoning structure, how to drive a car, hasn't vanished.
+1294760	1296340	You still know how to drive.
+1296460	1298600	In fact, you know it better than the 16-year-old.
+1298900	1301960	But because I know it better, it feels like I'm doing less.
+1302040	1302400	It feels effortless.
+1302400	1302960	Effortless.
+1303120	1303600	Exactly.
+1304220	1305540	And this is the paradox.
+1306200	1309940	As you become an expert, the feeling of effort decreases.
+1310480	1314080	You move from what feels like System 2 to what feels like System 1.
+1314460	1322280	So if we follow the old model, we'd have to say the expert driver is thinking less or being less rational than the novice.
+1322580	1323840	Which is just ridiculous.
+1324100	1325900	The expert is obviously a better driver.
+1325980	1326300	Right.
+1326600	1328600	The expert has simply compiled the code.
+1328600	1333180	The novice is running the code line by line, interpreting it as they go in real time.
+1333320	1334480	That's slow and hard.
+1334900	1337640	The expert is running the compiled, executable file.
+1338100	1340700	It runs instantly and silently in the background.
+1341280	1346240	This leads us naturally into the most mystical, most romanticized part of human cognition.
+1347180	1347700	Intuition.
+1347920	1348840	Ah, yes.
+1349380	1350760	The magic of the gut feeling.
+1351120	1352580	We love to talk about intuition.
+1353440	1355960	Especially in business or creative fields.
+1355960	1358920	We idolize the CEO who says,
+1359140	1360880	I didn't look at the data.
+1361380	1362640	I just went with my gut.
+1363480	1365060	We treat it like a superpower.
+1365360	1368440	Like it's a direct line to some cosmic truth.
+1368540	1371380	We treat it as if it is fundamentally distinct from reasoning.
+1371840	1372980	You know, don't overthink it.
+1373040	1375100	Just feel it as if they're opposites.
+1375380	1379140	But Flixin, the author here, is basically the party pooper.
+1379300	1381760	He's the magician revealing how the trick is done.
+1382180	1384500	What is the definition of intuition in this theory?
+1384500	1386840	It is remarkably unmagical.
+1387060	1388920	And I think that's why it's so powerful.
+1389180	1395900	The paper defines intuition as successful concealment of previously explicit inferential structure.
+1396160	1397020	Successful concealment.
+1397100	1398840	That is so dry.
+1399040	1399600	So clinical.
+1399780	1401280	It is dry, but it's so accurate.
+1401380	1407200	It basically says intuition is just reasoning that has been compressed so tightly that you can no longer see the steps.
+1407280	1408580	You've hidden the work from yourself.
+1408760	1412560	There's a phrase in the source that I highlighted three times because it's so good.
+1412560	1415740	Intuition is just yesterday's reasoning.
+1416420	1417340	Efficiently forgotten.
+1418020	1419040	Yesterday's reasoning.
+1419520	1420400	Efficiently forgotten.
+1421220	1422000	I love that.
+1422080	1422260	Yeah.
+1422500	1425320	It's what you'd call a deflationary view of intuition.
+1425740	1427800	Takes all the hot air out of the balloon.
+1428060	1429840	So let's apply this.
+1429980	1430140	Yeah.
+1430220	1431640	Say I'm a seasoned detective.
+1431900	1433460	I've been on the force for 30 years.
+1433460	1435520	I walk into a crime scene.
+1435640	1437620	Within five seconds, I look around.
+1437720	1439380	I say, the husband did it.
+1439560	1439680	Right.
+1440160	1442900	In the movies, that's presented as a psychic flash.
+1443160	1446180	A moment of pure, unexplainable genius.
+1446600	1450240	But under aspect relegation theory, what just happened in my brain?
+1450360	1454140	What happened is that your brain scanned the room in high speed, low resolution.
+1454800	1460020	You noticed, without consciously realizing it, that there was no sign of forced entry.
+1460020	1464260	You noticed the husband's body language was defensive, not grieving.
+1464560	1468600	You noticed a glass on the table was wiped clean when everything else was dusty.
+1468840	1472380	I saw the onions in the reduction sauce, but I just tasted the final sauce.
+1472480	1473000	Exactly.
+1473200	1475360	You processed a dozen clues in parallel.
+1476100	1480700	Clues that 20 years ago, as a rookie detective, you would have had to write down in a notebook
+1480700	1482460	and stare at for hours.
+1482740	1482900	Okay.
+1483100	1483700	Clue one.
+1483960	1484980	No forced entry.
+1485260	1485840	Clue two.
+1487180	1488640	Weird body language.
+1488640	1490240	You would have had to do it in 4K.
+1490820	1491160	Yes.
+1491620	1497480	But because you've done this a thousand times, your brain ran the crime scene analysis script
+1497480	1501460	in the background and just handed you the output, the final answer.
+1502120	1502620	Husband.
+1503800	1510400	So the gut feeling is actually just a hyper-fast summary of evidence presented to your consciousness
+1510400	1511200	as a feeling.
+1511500	1511940	Correct.
+1511940	1517900	It feels like the answer just appears only because the intermediate work is hidden from
+1517900	1518820	your conscious view.
+1519060	1520160	You don't see the factory.
+1520580	1523180	You just get the finished product delivered to your doorstep.
+1523660	1529060	This really explains why trusting your gut is only good advice if you're actually an expert
+1529060	1529880	in that domain.
+1530120	1530700	Oh, absolutely.
+1530920	1532340	That is the critical takeaway.
+1533020	1537280	If a novice in a field tries to trust their gut, they are just guessing.
+1537680	1539440	They are just expressing their biases.
+1539440	1541520	They don't have the compressed reasoning.
+1541840	1543600	They don't have the reduction sauce.
+1543760	1545300	All they have is hot water.
+1545440	1546520	There's nothing to reduce.
+1546740	1547280	Perfectly put.
+1547380	1549080	You have to do the work in system two.
+1549320	1554120	You have to do the slow, deliberative learning before you can earn the speed of system one.
+1554280	1557620	You can't have the glaze without the long, slow reduction.
+1558020	1558260	Okay.
+1558360	1560020	So we've dismantled the human mind.
+1560400	1565980	We've turned intuition into zip files and expert driving into compiled code.
+1565980	1568560	But the source material doesn't stop there.
+1569160	1573600	It takes this theory and throws a grenade right into the middle of the biggest debate
+1573600	1574880	in technology right now.
+1575020	1576180	Artificial intelligence.
+1576440	1578440	Specifically large language models.
+1578920	1581420	Chachi-BT, Claude, Gemini.
+1582160	1584820	The AIs that we are all talking about constantly.
+1585040	1589940	This is where the paper gets a little combative, especially in that explanatory note.
+1590340	1594120	It explicitly calls out the Gary Marcus style of critique.
+1594120	1597480	We need to set the stage here for anyone who might not be familiar.
+1597780	1603260	Who is Gary Marcus and what is the standard critique of these AI models?
+1603400	1607460	Because I hear this argument all the time, even from people who don't know who Gary Marcus is.
+1607540	1614420	So Gary Marcus is a cognitive scientist and a very vocal, very prominent critic of the current AI hype.
+1614820	1621680	His argument, and I'm simplifying a bit here, but not much, is that these models are just stochastic parrots.
+1621680	1623680	Stochastic parrots.
+1623880	1625020	It's such a great insult.
+1625200	1625920	So sticky.
+1626340	1627580	It sticks, doesn't it?
+1627720	1630180	Stochastic just means random or probabilistic.
+1630820	1632260	The idea is this.
+1633180	1636240	A parrot can learn to say, Polly wants a cracker.
+1636880	1641420	It can make the sounds perfectly, but the parrot doesn't know what a cracker is.
+1641820	1643280	It doesn't understand hunger.
+1643520	1645620	It doesn't understand the concept of wanting.
+1645620	1647340	It's just mimicry.
+1647660	1648900	It's not understanding.
+1649180	1651280	It's just associating sounds.
+1651660	1651780	Right.
+1652080	1656680	And the critique says that LLMs are doing the exact same thing on a massive scale.
+1657020	1662920	They have ingested the entire internet and they are just predicting the next word based on probability.
+1663320	1667840	They see the cat sat on them and they know Matt is a very likely next word.
+1667840	1675240	So they have system one, this ability to associate patterns really, really fast, but they lack system two.
+1675360	1676080	They can't reason.
+1676240	1677300	They can't stop and think.
+1677480	1679800	They were just autocomplete on steroids.
+1679940	1680680	That's the argument.
+1680840	1682100	I'm sure you've heard it a hundred times.
+1682200	1683280	It's not real intelligence.
+1683500	1684500	It's just statistics.
+1684860	1686840	It's a pattern matcher, not a thinker.
+1686960	1690020	But here comes Flitch in with aspect relegation theory.
+1690140	1692300	And he says, wait a minute.
+1692980	1695780	You are making a fundamental category error.
+1695840	1697100	A category error.
+1697100	1697900	Unpack that.
+1698020	1699200	Why is it an error?
+1699740	1701720	Well, think about what we just learned about humans.
+1702400	1716960	If system one is just compiled system two, if intuition is just reasoning that has been stabilized and compressed, then accusing AI of only having system one is a completely meaningless statement.
+1717200	1721020	Because you're basically accusing the AI of acting like a human expert.
+1721260	1721780	Exactly.
+1721780	1727420	If I watch a chess grandmaster play a game of speed chess, they are moving instantly.
+1727880	1730700	They aren't pausing for minutes to calculate every move.
+1730820	1732540	They are playing on intuition.
+1732740	1734940	They are using what feels like system one.
+1735180	1741720	If I told you that grandmaster isn't actually thinking, he's just pattern matching, you'd laugh at me.
+1741720	1747640	I'd say he's pattern matching because he has mastered the logic of chess over tens of thousands of hours.
+1748060	1749780	His pattern matching is his thinking.
+1750100	1750280	Right.
+1750480	1754000	His speed is proof of his competence, not proof of his stupidity.
+1754360	1762020	The source argues that when we see ChatGPT spit out a complex coding solution in three seconds, our reaction shouldn't be, it's not thinking.
+1762020	1766220	It should be, it is thinking at an incredibly high level of compression.
+1766840	1773360	So just because I can't see the AI stopping to think doesn't mean the logic isn't there embedded in the system.
+1773560	1777260	The author uses a programming analogy that is really, really helpful here.
+1777780	1780780	Think about source code versus machine code.
+1780920	1781120	Okay.
+1781480	1782820	Source code is what humans write.
+1783200	1785300	It's in Python or C plus tells me.
+1785400	1785620	Right.
+1785740	1787940	If you write a program in Python, it's readable.
+1787940	1791160	It says, if X is greater than five, then print the word hello.
+1791900	1793960	You can see the logical steps clearly.
+1794820	1796080	That is system two.
+1796940	1798020	It's explicit.
+1798380	1799300	It's slow to write.
+1799480	1800580	It's easy to understand.
+1801180	1801880	And machine code.
+1802020	1802360	What's that?
+1802700	1808220	Machine code is what happens after you compile the program so the computer can actually run it.
+1808380	1812180	It turns into a massive string of binary, zeros and ones.
+1812440	1814540	It's completely unreadable to a human.
+1814760	1816460	The if then statements are gone.
+1816460	1820260	The logic is like smeared across the entire file.
+1820420	1822440	It just executes instantly.
+1822680	1825000	But the logic is still inside the zeros and ones.
+1825000	1827720	It has to be or the program wouldn't work.
+1828080	1828680	Precisely.
+1829160	1836680	The author argues that criticizing AI for only having system one is like looking at the compiled machine code and saying,
+1836980	1840360	this isn't real computation because I can't read the source code anymore.
+1840360	1848900	The reasoning steps are hidden in the weights of the neural network, much like they are hidden in the expert driver's brain or the detective's gut.
+1848900	1852200	That is, wow, that really flips the script.
+1852780	1858840	It suggests that the stochastic parrot argument is actually punishing AI for being too efficient?
+1859200	1862640	It suggests we are mistaking fluency for lack of thought.
+1862860	1866680	We're mistaking the compiled executable for a dumb parrot.
+1866680	1872080	So does this mean the author thinks AI is perfect, that there's no problem here?
+1872140	1882120	Because I have definitely seen these models make some pretty stupid non-human mistakes, hallucinations, making up facts, getting basic logic wrong.
+1882120	1884200	And the source material absolutely admits that.
+1884340	1885840	It's not an AI hype piece.
+1885980	1887360	It's not saying AI is perfect.
+1887480	1889820	It's saying we are diagnosing the problem wrong.
+1890180	1892220	The problem isn't a lack of system two.
+1892780	1896320	The problem is a lack of dynamic regulation of resolution.
+1896680	1899100	Okay, bring that back to the commuter example for me.
+1899340	1900840	Think about our commuter again.
+1901520	1905980	When the subway entrance is closed, the commuter snaps out of it.
+1905980	1911180	They have an internal trigger, a feeling of surprise, of confusion that says,
+1911560	1914120	Hey, the autopilot is failing.
+1914640	1917400	Promote these aspects to system two immediately.
+1917540	1918220	Open the aperture.
+1918580	1920760	We need 4K resolution right now.
+1921220	1923280	The 240p stream is not working.
+1923720	1924100	Correct.
+1924640	1927260	Humans have what the author calls endogenous control.
+1927680	1929600	We can self-regulate our resolution.
+1929880	1931200	We know when we are confused.
+1931600	1934480	We feel it when a situation is weird or unexpected.
+1934480	1936340	And AI doesn't have that feeling.
+1937280	1938500	Currently, not really.
+1938700	1940260	AI is kind of stuck in one gear.
+1940720	1944760	It generates the answer to a complex physics riddle with the same resolution
+1944760	1948680	and the same level of confidence that it generates a poem about a cat
+1948680	1950420	or a simple coding solution.
+1950720	1952040	It doesn't have that internal,
+1952500	1953480	Wait a minute, this is tricky.
+1953640	1957060	I need to slow down and unpack my compressed reasoning trigger.
+1957500	1961720	So it's like a driver who is on autopilot and keeps driving at 60 miles per hour
+1961720	1963200	even though the bridge ahead is out
+1963200	1965640	because it doesn't have the internal mechanism to say
+1965640	1968340	situation changed, disengage autopilot.
+1968900	1969980	That is the perfect analogy.
+1970180	1972220	It lacks the metacognitive layer.
+1972380	1973600	It doesn't know what it doesn't know.
+1973900	1975740	It doesn't know when to widen the aperture.
+1976060	1978200	It's not that it can't reason in 4K.
+1978420	1981640	It's that it doesn't know when to stop streaming in 240p.
+1981840	1983500	That is such a crucial distinction.
+1984020	1988000	It completely shifts the goalpost for AI research, doesn't it?
+1988000	1993940	We don't need to build a logic module and try to bolt it onto the language module.
+1994300	1996620	We need to teach the system introspection.
+1997060	1997340	Yes.
+1998020	2000560	We need to teach it to recognize its own uncertainty.
+2001020	2005600	We need systems that can say, I don't know, or let me think about that,
+2005700	2008960	or let me expand my search and double check my work.
+2008960	2012640	The next breakthrough in AI won't be about getting faster.
+2013180	2015940	It will be about learning how and when to slow down.
+2016300	2017340	The ability to slow down.
+2017420	2017960	That's poetic.
+2018280	2018720	It is.
+2018820	2024860	It's about restoring the ability to access the source code when the compiled code fails you.
+2025020	2026920	I want to play devil's advocate for a second here
+2026920	2030260	because the source material anticipates some objections,
+2030640	2033320	and I think the listeners might be screaming at their advices right now
+2033320	2035000	about one specific thing.
+2035060	2035820	Lay it on me.
+2035880	2036360	I'm ready.
+2036360	2041580	We are saying all this system one stuff is just learned expertise.
+2042160	2044280	It's just relegated system two.
+2044880	2046380	But what about reflexes?
+2046820	2049980	If I hear a loud bang right behind me, I duck.
+2050440	2053500	If I touch a hot stove, I pull my hand away instantly.
+2054180	2055180	I didn't learn that.
+2055340	2058680	I didn't sit in a classroom and study loud bang theory.
+2058860	2059640	Loud bang theory?
+2059740	2061100	No, you definitely didn't.
+2061180	2062340	That wasn't compressed reasoning.
+2062440	2063460	That was just hardwired.
+2063640	2065540	I was born with that program.
+2065540	2070660	So doesn't that prove there is a separate fast brain, a lizard brain?
+2070840	2074780	This is the innate automaticity objection, and you are absolutely right.
+2074860	2076140	The source acknowledges this.
+2076380	2078820	There is such a thing as hardwired automaticity.
+2079060	2080820	Evolution gave you reflexes.
+2080980	2082460	That was never a system two.
+2082760	2084620	It's not a reduction sauce you cooked up.
+2084620	2087620	It's just raw ingredients you were born with.
+2088100	2089220	So doesn't that break the theory?
+2089420	2092360	Doesn't that prove there are two systems, one learned and one innate?
+2092580	2096640	The author argues, no, it doesn't break the theory for the purposes of this discussion.
+2096900	2097680	And here's why.
+2098180	2103120	The things we actually care about when we talk about intelligence, math, language, logic,
+2103320	2109160	strategy, chess, driving a car, diagnosing a disease, all of that stuff is relegated automaticity.
+2109160	2110360	Ah, I see.
+2110760	2112580	No one is born playing chess.
+2112940	2115920	No one is born speaking French fluently.
+2116080	2116600	Exactly.
+2116900	2121440	No one is born knowing how to navigate a subway system or write a podcast script.
+2121620	2127160	All the stuff that makes us smart, all the complex cognitive stuff we're trying to replicate
+2127160	2132500	in AI was learned through a process of moving from high resolution to low resolution.
+2133240	2137340	So for the context of intelligence and AI, the hardwired stuff is less relevant.
+2137720	2139960	The debate is about the learned capabilities.
+2140420	2140740	Got it.
+2140960	2147280	So we're distinguishing between biological reflexes, which are hardware, and cognitive intuition,
+2147560	2149940	which is software we wrote ourselves over time.
+2150140	2150660	Precisely.
+2150900	2153620	The theory of aspect relegation applies to the software.
+2153620	2157360	Okay, there's another objection here about metacognition, which we touched on.
+2157500	2158940	The idea of waking up.
+2159240	2160080	How do we do that?
+2160160	2160940	What does that trigger?
+2161200	2162140	This is the big mystery.
+2162400	2167300	The paper identifies this as the open problem for cognitive science and for AI.
+2168240	2171000	Humans have this incredibly rich set of triggers.
+2172080	2176100	Anxiety, surprise, cognitive dissonance.
+2176260	2180560	That feeling you get in your stomach when something just isn't right, when the story doesn't add up.
+2180780	2181040	Right.
+2181040	2187860	When you are driving and it suddenly starts raining really hard, you feel a physical tension.
+2188160	2189820	That effort signal kicks in.
+2189980	2194600	It forces you to grip the wheel, to pay more attention, to wake up from autopilot.
+2194960	2199660	And an AI, well, an AI doesn't have anxiety, doesn't get that stomach feeling.
+2199800	2200400	Not yet.
+2200740	2208120	The paper suggests that feeling effort or feeling confusion is the very mechanism that regulates our mental resolution.
+2208120	2214160	And since AI doesn't feel, in a biological sense, it doesn't know when to switch modes.
+2214640	2218900	So maybe the future of AI is we need to give it anxiety.
+2219360	2220760	That sounds like a terrible idea.
+2221080	2222520	In a functional sense, maybe.
+2222640	2229620	It needs an internal signal that says my current model of the world isn't matching the data coming in, error wake up, increase resolution.
+2229620	2232700	That is both terrifying and kind of amazing.
+2233020	2239680	The idea that Marvin the paranoid android from Hitchhiker's Guide might actually be the peak of AI evolution.
+2239740	2244560	It might be a necessary component for true, robust intelligence, a little bit of self-doubt.
+2244780	2246340	Okay, so let's bring this all home.
+2246760	2249200	What does this all mean for us, for the listener?
+2249200	2252140	We've dismantled the two-brain theory.
+2252600	2257000	We've realized our intuition is just zipped files of our own past work.
+2257400	2259880	We've realized AI might need anxiety.
+2260560	2263280	How does this change how I go about my Tuesday?
+2263680	2265300	I think there are two big practical takeaways.
+2265520	2269860	The first is about re-evaluating what we call lazy thinking.
+2269860	2273240	We are so hard on ourselves for being on autopilot.
+2273380	2280820	We read all these mindfulness books, and we think we should be present and logical and in system, too, 100% of the time.
+2280960	2281400	We do.
+2281880	2285220	But the source argues this is just cognitive economy.
+2285560	2286740	It is adaptive.
+2287100	2288080	It is smart.
+2288260	2295960	If you tried to walk to the subway in high-resolution mode every day, thinking about every muscle movement, every single paver on the sidewalk,
+2295960	2300000	you would collapse from exhaustion before you even got to the corner.
+2300160	2301740	You would completely crash the system.
+2301860	2302940	You have to relegate.
+2303140	2303840	You have to compress.
+2304720	2312620	Being on autopilot for the routine stuff is what allows you to have the bandwidth, the 4K streaming capability for the important stuff.
+2313140	2315740	You shouldn't try to be in system two all the time.
+2315860	2316860	That's not being smart.
+2317000	2319080	That's being profoundly inefficient.
+2319600	2321000	So embrace the blur.
+2321540	2325140	It's okay to watch the movie in 240p if it's a boring scene.
+2325400	2325880	Exactly.
+2326480	2328120	Save the 4K for the climax.
+2328840	2332240	Save your mental bandwidth for the decisions that actually matter.
+2332240	2333740	And the second takeaway.
+2334120	2334580	What's that?
+2335120	2338040	It's about moving away from this binary thinking.
+2338260	2342880	Stop thinking fast versus slow or logic versus emotion.
+2343060	2343400	Yes.
+2344000	2348220	Stop asking, am I being emotional or am I being rational right now?
+2348720	2352000	Start asking, what resolution does this problem require?
+2352580	2353380	It's a continuum.
+2353700	2354840	It's a sliding scale.
+2354840	2356760	It's a dial, not a switch.
+2357000	2358940	That is so much more helpful.
+2359340	2361120	Sometimes I feel like I need to be logical.
+2361120	2369440	But maybe I just need to turn up the dial a little bit, zoom in on one or two details, not try to flip a switch to a different brain.
+2369440	2371080	And it helps with learning, too.
+2371080	2375680	When you are learning something new, you have to accept that you must be in high resolution.
+2375880	2376680	It will feel hard.
+2376820	2377640	It will feel slow.
+2377800	2379520	It will feel deeply uncomfortable.
+2379840	2380720	That's the grind.
+2381200	2382900	That feeling of incompetence.
+2382900	2384280	That's the grind.
+2384280	2387660	But knowing this theory, you can reframe it.
+2388080	2388920	I'm not dumb.
+2389180	2390760	I'm just writing the source code.
+2391920	2394860	Eventually, with enough practice, it will compile.
+2395560	2397520	Eventually, it will become effortless.
+2397520	2400240	But you can't skip the coding phase.
+2400760	2403280	You can't just download the compiled file.
+2403440	2405960	You can't have the intuition without putting in the work first.
+2406120	2409500	You can't have the reduction sauce without the long simmer.
+2410140	2410620	Exactly.
+2411080	2417640	As we wrap up, I want to leave the listeners with a final thought from the source material that really, really twisted my brain.
+2418480	2421080	It's about the nature of consciousness itself.
+2421220	2422020	Oh, yes.
+2422540	2424180	This is the provocative end note.
+2424300	2426740	This is the real philosophical twist at the end.
+2426740	2437380	The source suggests that system two, that conscious, deliberative, hard thinking that we prize so much, the thing we think makes us human, isn't actually the superior mode of thinking.
+2437580	2438540	It's not the goal.
+2438820	2441740	It argues that consciousness is just the training mode.
+2442060	2448080	It implies that conscious thought is the clumsy, inefficient state of not having mastered a subject yet.
+2448420	2449660	Just think about that for a second.
+2449660	2460120	When you are perfect at something like walking or speaking your native language or a musician playing a song they've practiced 10,000 times, you are unconscious of it.
+2460620	2461320	You just do it.
+2461320	2468820	It's only when you are bad at it or learning it or fixing a mistake that you have to become conscious and deliberate.
+2469540	2482220	So if we follow that logic to its absolute limit, a perfect mind, a mind that had mastered everything, a godlike intelligence would be entirely unconscious.
+2482220	2491520	It would be pure automaticity, pure, effortless, relegated system one, no inner monologue, no feeling of effort.
+2491860	2496760	It completely questions our entire assumption that consciousness is the pinnacle of evolution.
+2497520	2505240	Maybe consciousness is just the scaffolding we use to build our habits and our expertise, and once the building is done, we are supposed to take the scaffolding down.
+2505460	2508620	Maybe the goal of all our thinking is to finally be able to stop thinking.
+2508620	2513620	That is a thought worth meditating on, or perhaps not meditating on.
+2513680	2520280	Well, on that absolute existential cliffhanger, I'm going to go relegate some aspects of my commute home.
+2520540	2522100	I'm going to try to enjoy the blur.
+2522360	2523460	Try not to overthink it.
+2523720	2525440	Thanks for listening to The Deep Dive.
+2525580	2526500	We'll catch you next time.

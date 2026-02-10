@@ -1,0 +1,3036 @@
+1
+00:00:00,000 --> 00:00:05,440
+Welcome back to the Deep Dive. Today, we are doing something a little bit different.
+
+2
+00:00:05,720 --> 00:00:06,140
+Oh, yeah.
+
+3
+00:00:06,400 --> 00:00:10,720
+Yeah, we're not just looking at a piece of tech or, you know, some historical event.
+
+4
+00:00:10,940 --> 00:00:12,640
+We are wrestling with a ghost.
+
+5
+00:00:13,040 --> 00:00:17,860
+A ghost? That is a very dramatic way to start.
+
+6
+00:00:18,120 --> 00:00:21,600
+It is, isn't it? But honestly, after spending the last few days with the paper,
+
+7
+00:00:21,820 --> 00:00:23,400
+that's exactly what it feels like.
+
+8
+00:00:23,420 --> 00:00:25,300
+Okay, I'm intrigued. What's the ghost?
+
+9
+00:00:25,660 --> 00:00:27,260
+We're talking about difficulty.
+
+10
+00:00:27,260 --> 00:00:32,940
+You know, that visceral feeling when you're trying to solve a math problem
+
+11
+00:00:32,940 --> 00:00:34,880
+that just won't crack or learn a new language.
+
+12
+00:00:35,180 --> 00:00:37,500
+And this is a big one for me personally.
+
+13
+00:00:38,120 --> 00:00:43,300
+Trying to fold a fitted sheet without it looking like a crumpled ball of despair.
+
+14
+00:00:43,580 --> 00:00:47,320
+The nemesis of laundry folders everywhere. The final box.
+
+15
+00:00:47,340 --> 00:00:49,480
+Exactly. But here's the thing.
+
+16
+00:00:49,980 --> 00:00:55,260
+We instinctively feel like difficulty is this heavy thing.
+
+17
+00:00:55,260 --> 00:00:57,640
+We treat it like a physical property.
+
+18
+00:00:57,980 --> 00:01:01,700
+Like calculus is heavy and tic-tac-toe is light.
+
+19
+00:01:01,860 --> 00:01:06,180
+We treat it like weight that, you know, lives inside the task itself.
+
+20
+00:01:06,520 --> 00:01:09,060
+Right. We treat difficulty like it's gravity.
+
+21
+00:01:09,260 --> 00:01:13,180
+It's just there, an intrinsic property of the universe that you have to overcome.
+
+22
+00:01:13,560 --> 00:01:17,380
+But we are looking at a paper today that says, absolutely not.
+
+23
+00:01:17,380 --> 00:01:21,480
+That entire way of thinking is wrong.
+
+24
+00:01:21,780 --> 00:01:23,040
+Not just a little bit off.
+
+25
+00:01:23,160 --> 00:01:25,560
+No, not just slightly off. It's fundamentally backwards.
+
+26
+00:01:26,780 --> 00:01:32,780
+The paper is titled, Noun-Free Cognition, Difficulty, Abstraction, and the Mobility of Computation
+
+27
+00:01:32,780 --> 00:01:36,400
+by Flickshannon, published just this year, 2026.
+
+28
+00:01:36,740 --> 00:01:37,100
+Right.
+
+29
+00:01:37,100 --> 00:01:40,640
+And it starts with this central mystery that has bugged me for years.
+
+30
+00:01:41,460 --> 00:01:46,940
+Why are experts so incredibly bad at predicting what computers will find hard?
+
+31
+00:01:47,580 --> 00:01:50,260
+The paradox of predictable unpredictability.
+
+32
+00:01:50,540 --> 00:01:56,760
+This is a fascinating place to start because it really, um, it exposes our arrogance as a species.
+
+33
+00:01:57,020 --> 00:01:57,680
+It really does.
+
+34
+00:01:58,040 --> 00:01:59,740
+I mean, think back to the 1990s.
+
+35
+00:01:59,780 --> 00:02:01,660
+Think about Deep Blue versus Kasparov.
+
+36
+00:02:01,700 --> 00:02:02,660
+Oh, yeah. Huge deal.
+
+37
+00:02:02,660 --> 00:02:04,740
+The entire world held its breath.
+
+38
+00:02:05,240 --> 00:02:11,100
+We truly believe that if a machine could conquer chess, this fortress of logic, strategy, and foresight,
+
+39
+00:02:11,420 --> 00:02:12,660
+that intelligence was solved.
+
+40
+00:02:12,720 --> 00:02:13,660
+They were at the finish line.
+
+41
+00:02:13,820 --> 00:02:19,220
+We thought the rest folding shirts, walking upstairs, common sense, was just the easy cleanup work.
+
+42
+00:02:19,380 --> 00:02:20,840
+We thought those things were trivial.
+
+43
+00:02:21,480 --> 00:02:26,460
+We assume that because we do them without thinking, they must be, you know, computationally simple.
+
+44
+00:02:26,800 --> 00:02:27,140
+Right.
+
+45
+00:02:27,460 --> 00:02:29,800
+We mistook a calculator for a brain.
+
+46
+00:02:29,980 --> 00:02:30,240
+Yeah.
+
+47
+00:02:30,240 --> 00:02:31,440
+And now...
+
+48
+00:02:31,440 --> 00:02:33,140
+Well, now it's a completely different story.
+
+49
+00:02:33,260 --> 00:02:36,900
+My phone plays better chess than any human who has ever lived.
+
+50
+00:02:37,960 --> 00:02:41,240
+It can beat a grandmaster while I'm scrolling through social media.
+
+51
+00:02:41,240 --> 00:02:54,040
+But if I ask a robot, even a billion-dollar cutting-edge robot, to walk into a messy room and just tidy up or fold a warm towel...
+
+52
+00:02:54,040 --> 00:02:55,160
+It has a nervous breakdown.
+
+53
+00:02:55,320 --> 00:02:55,760
+It freezes.
+
+54
+00:02:55,880 --> 00:02:56,400
+Freezes.
+
+55
+00:02:56,500 --> 00:02:59,060
+It's the classic chess versus laundry paradox.
+
+56
+00:02:59,060 --> 00:03:07,300
+We assume chess was hard and laundry was easy because we were judging difficulty based on what we find hard.
+
+57
+00:03:07,520 --> 00:03:10,800
+We projected our own biological struggles onto the machine.
+
+58
+00:03:10,800 --> 00:03:20,680
+And this paper argues that the reason we keep getting this wrong, why we have self-driving cars that can navigate highways at 70 miles per hour but get confused by a traffic cone...
+
+59
+00:03:20,680 --> 00:03:20,880
+Right.
+
+60
+00:03:21,200 --> 00:03:23,280
+...is because we think difficulty is a noun.
+
+61
+00:03:23,500 --> 00:03:24,580
+We think it's a thing.
+
+62
+00:03:24,580 --> 00:03:29,200
+And the mission today for this deep dive is to dismantle that.
+
+63
+00:03:29,200 --> 00:03:37,980
+We need to stop seeing difficulty as a noun, as a static weight, and start seeing it as a relation, a moving target.
+
+64
+00:03:38,140 --> 00:03:40,160
+A ghost that moves through the system.
+
+65
+00:03:40,580 --> 00:03:41,140
+Precisely.
+
+66
+00:03:41,480 --> 00:03:44,960
+If we can get our heads around this, we stop asking, why is this hard?
+
+67
+00:03:44,960 --> 00:03:48,100
+And we start asking a much more interesting question.
+
+68
+00:03:48,200 --> 00:03:48,600
+Which is?
+
+69
+00:03:48,960 --> 00:03:51,240
+Where did the difficulty go?
+
+70
+00:03:51,420 --> 00:04:01,720
+So let's unpack this difficulty is not weight idea because I have to be honest, when I'm lifting a 50-pound dumbbell, that's 50 pounds.
+
+71
+00:04:01,880 --> 00:04:02,300
+Sure.
+
+72
+00:04:02,740 --> 00:04:03,540
+Feels that way.
+
+73
+00:04:03,760 --> 00:04:05,100
+It doesn't matter if I'm tired.
+
+74
+00:04:05,280 --> 00:04:06,500
+It doesn't matter if I'm happy.
+
+75
+00:04:06,700 --> 00:04:07,920
+It's 50 pounds.
+
+76
+00:04:08,240 --> 00:04:10,320
+Gravity doesn't care about my feelings.
+
+77
+00:04:10,520 --> 00:04:10,700
+Yeah.
+
+78
+00:04:11,040 --> 00:04:13,560
+Are you saying a math problem isn't like a dumbbell?
+
+79
+00:04:13,560 --> 00:04:16,700
+That is exactly what Flickshan is arguing.
+
+80
+00:04:16,980 --> 00:04:19,760
+If difficulty were like weight, it would be intrinsic.
+
+81
+00:04:20,060 --> 00:04:22,000
+It would live inside the math problem.
+
+82
+00:04:22,480 --> 00:04:24,760
+But let's stick with that dumbbell for a second.
+
+83
+00:04:24,960 --> 00:04:25,240
+Okay.
+
+84
+00:04:25,520 --> 00:04:26,260
+Is it heavy?
+
+85
+00:04:26,740 --> 00:04:27,220
+Yes.
+
+86
+00:04:28,120 --> 00:04:28,920
+50 pounds.
+
+87
+00:04:29,100 --> 00:04:30,660
+Is it heavy to a forklift?
+
+88
+00:04:30,960 --> 00:04:32,060
+Well, no.
+
+89
+00:04:32,700 --> 00:04:34,080
+To a forklift, it's nothing.
+
+90
+00:04:34,340 --> 00:04:38,100
+Is it heavy if you are floating in the International Space Station?
+
+91
+00:04:38,220 --> 00:04:39,420
+Okay, I see where you're going with this.
+
+92
+00:04:39,500 --> 00:04:40,500
+It's weightless there.
+
+93
+00:04:40,720 --> 00:04:41,860
+The mass is the same.
+
+94
+00:04:41,860 --> 00:04:47,020
+The heaviness, the difficulty of lifting it, changed entirely because the context changed.
+
+95
+00:04:47,640 --> 00:04:50,240
+The paper introduces a relational model.
+
+96
+00:04:50,780 --> 00:04:54,920
+It says difficulty is actually a function of four variables interacting at once.
+
+97
+00:04:54,980 --> 00:04:56,760
+You can't look at just the object.
+
+98
+00:04:56,860 --> 00:04:57,860
+Okay, lay them on me.
+
+99
+00:04:58,080 --> 00:04:59,020
+What are the four variables?
+
+100
+00:04:59,080 --> 00:05:00,600
+First, you have the task.
+
+101
+00:05:00,940 --> 00:05:03,900
+That's the abstract goal, like get from point A to point B.
+
+102
+00:05:04,180 --> 00:05:05,060
+Okay, the task.
+
+103
+00:05:05,060 --> 00:05:06,680
+Second, you have the system.
+
+104
+00:05:06,900 --> 00:05:10,860
+That's you, or the computer, or the forklift, the thing doing the work.
+
+105
+00:05:11,000 --> 00:05:11,340
+System.
+
+106
+00:05:11,620 --> 00:05:12,040
+Got it.
+
+107
+00:05:12,300 --> 00:05:15,400
+Third, and this is crucial, you have the prompt.
+
+108
+00:05:16,120 --> 00:05:17,100
+We'll dig into that one.
+
+109
+00:05:17,160 --> 00:05:17,580
+It's a prompt.
+
+110
+00:05:17,900 --> 00:05:18,420
+And fourth.
+
+111
+00:05:18,500 --> 00:05:19,320
+The environment.
+
+112
+00:05:20,520 --> 00:05:23,280
+The context, the time, the energy available.
+
+113
+00:05:23,280 --> 00:05:27,200
+Okay, let's break these down because usually we just lump them all together.
+
+114
+00:05:27,420 --> 00:05:28,440
+Driving is hard.
+
+115
+00:05:28,920 --> 00:05:32,240
+But under this model, driving isn't the difficulty.
+
+116
+00:05:32,640 --> 00:05:33,080
+Exactly.
+
+117
+00:05:33,520 --> 00:05:34,200
+Let's take driving.
+
+118
+00:05:34,440 --> 00:05:37,500
+The task is navigate the vehicle to the destination.
+
+119
+00:05:38,080 --> 00:05:39,740
+Pretty simple, abstractly.
+
+120
+00:05:39,820 --> 00:05:40,020
+Sure.
+
+121
+00:05:40,020 --> 00:05:45,880
+The system is a human with eyes, hands, and a brain that's evolved for certain things.
+
+122
+00:05:46,340 --> 00:05:48,460
+The environment is the road conditions.
+
+123
+00:05:49,000 --> 00:05:51,480
+So, driving a car is easy on a sunny day.
+
+124
+00:05:52,180 --> 00:05:53,400
+The task is the same.
+
+125
+00:05:53,560 --> 00:05:54,120
+I'm the same.
+
+126
+00:05:54,560 --> 00:05:56,220
+But let's say a blizzard hits.
+
+127
+00:05:57,220 --> 00:05:58,780
+Suddenly, the environment shifts.
+
+128
+00:05:59,140 --> 00:06:00,620
+And what happens to the difficulty?
+
+129
+00:06:00,700 --> 00:06:01,320
+It spikes.
+
+130
+00:06:02,340 --> 00:06:03,300
+Through the roof.
+
+131
+00:06:04,140 --> 00:06:05,060
+My knuckles turn white.
+
+132
+00:06:05,280 --> 00:06:06,140
+I turn off the radio.
+
+133
+00:06:06,360 --> 00:06:07,000
+I'm sweating.
+
+134
+00:06:07,000 --> 00:06:08,820
+But did the task change?
+
+135
+00:06:08,820 --> 00:06:10,900
+You're still just trying to get to the destination.
+
+136
+00:06:11,180 --> 00:06:11,380
+No.
+
+137
+00:06:11,620 --> 00:06:12,280
+Same task.
+
+138
+00:06:12,420 --> 00:06:13,400
+Did the car change?
+
+139
+00:06:13,640 --> 00:06:13,940
+No.
+
+140
+00:06:14,420 --> 00:06:20,520
+The difficulty emerged from the friction between the system, you, and the environment.
+
+141
+00:06:20,800 --> 00:06:21,340
+The snow.
+
+142
+00:06:21,560 --> 00:06:22,420
+It's a mismatch.
+
+143
+00:06:22,540 --> 00:06:24,060
+It is a profound mismatch.
+
+144
+00:06:24,140 --> 00:06:25,100
+And the paper goes deeper.
+
+145
+00:06:25,760 --> 00:06:32,440
+It argues that we constantly mistake our own compilations, our habits and tools, for the task itself.
+
+146
+00:06:32,620 --> 00:06:34,380
+Okay, what do you mean by compilations?
+
+147
+00:06:34,380 --> 00:06:36,180
+Think of them as shortcuts.
+
+148
+00:06:37,380 --> 00:06:37,860
+Habits.
+
+149
+00:06:38,340 --> 00:06:39,020
+Muscle memory.
+
+150
+00:06:39,660 --> 00:06:42,360
+When the environment shifts, those tools stop working.
+
+151
+00:06:42,840 --> 00:06:45,680
+And that mismatch is what we experience as hard.
+
+152
+00:06:46,000 --> 00:06:48,080
+So difficulty isn't a thing you encounter.
+
+153
+00:06:48,420 --> 00:06:50,740
+It's a signal that your tools just broke.
+
+154
+00:06:50,880 --> 00:06:52,020
+That's a great way to put it.
+
+155
+00:06:52,300 --> 00:06:54,040
+It's an error message from your brain.
+
+156
+00:06:54,620 --> 00:06:58,380
+It's the sound of your internal software crashing against a new reality.
+
+157
+00:06:58,380 --> 00:07:01,760
+I want to dig into that third variable you mentioned, the prompt.
+
+158
+00:07:02,180 --> 00:07:11,180
+Because, honestly, when I hear prompt in 2026, I immediately think of typing into an AI chatbot.
+
+159
+00:07:11,760 --> 00:07:12,380
+Of course.
+
+160
+00:07:12,760 --> 00:07:14,700
+Write me a poem about a sad toaster.
+
+161
+00:07:14,980 --> 00:07:17,260
+Generate an image of a cat in a spacesuit.
+
+162
+00:07:17,720 --> 00:07:18,520
+That's a prompt.
+
+163
+00:07:18,800 --> 00:07:22,680
+And that is exactly the cultural baggage this paper wants to strip away.
+
+164
+00:07:22,680 --> 00:07:29,360
+We have narrowed the definition of prompt so much that we're missing its actual function in cognition.
+
+165
+00:07:29,980 --> 00:07:30,240
+How so?
+
+166
+00:07:30,460 --> 00:07:38,900
+If we only think of prompts as text we type into a box, we miss how the entire physical world prompts us constantly.
+
+167
+00:07:39,300 --> 00:07:41,140
+So, de-narrow it for me.
+
+168
+00:07:41,440 --> 00:07:44,360
+What is a prompt in this noun-free world?
+
+169
+00:07:44,720 --> 00:07:50,020
+A prompt is any specification that partitions the world into given and unresolved.
+
+170
+00:07:50,200 --> 00:07:50,760
+Whoa, okay.
+
+171
+00:07:50,760 --> 00:07:51,820
+It's a boundary condition.
+
+172
+00:07:52,080 --> 00:07:55,900
+It draws a line in the sand and says, everything behind this line is resolved.
+
+173
+00:07:56,200 --> 00:07:57,320
+You don't need to think about it.
+
+174
+00:07:57,380 --> 00:07:59,260
+Everything in front of the line, that's your problem.
+
+175
+00:07:59,380 --> 00:07:59,640
+Okay.
+
+176
+00:07:59,780 --> 00:08:00,600
+That's a bit abstract.
+
+177
+00:08:01,200 --> 00:08:02,000
+Partitions the world.
+
+178
+00:08:02,760 --> 00:08:05,220
+Can you give me a concrete example that isn't a chatbot?
+
+179
+00:08:05,460 --> 00:08:07,080
+Think about a blueprint for a house.
+
+180
+00:08:07,280 --> 00:08:07,500
+Okay.
+
+181
+00:08:08,120 --> 00:08:10,180
+A big roll of paper with blue lines.
+
+182
+00:08:10,480 --> 00:08:12,100
+A blueprint is a prompt.
+
+183
+00:08:13,020 --> 00:08:15,980
+Think about the cognitive load required to build a house.
+
+184
+00:08:15,980 --> 00:08:24,960
+You need to know the load-bearing capacity of the wood, the geometry of the roof pitch, the flow of the plumbing, the electrical layout.
+
+185
+00:08:25,040 --> 00:08:25,160
+Right.
+
+186
+00:08:25,200 --> 00:08:25,800
+It's massive.
+
+187
+00:08:26,000 --> 00:08:31,440
+If a builder had to figure all that out from scratch on the morning of the build, nothing would ever get built.
+
+188
+00:08:31,520 --> 00:08:32,000
+Exactly.
+
+189
+00:08:32,000 --> 00:08:40,680
+Honestly, when a builder looks at a blueprint, the geometry of the house, the dimensions, the layout, that is all given.
+
+190
+00:08:40,820 --> 00:08:41,500
+It's resolved.
+
+191
+00:08:41,740 --> 00:08:43,020
+It's resolved structure.
+
+192
+00:08:43,020 --> 00:08:48,600
+The builder doesn't have to derive the math of the roof pitch or decide where the bathroom goes.
+
+193
+00:08:49,080 --> 00:08:52,120
+That cognitive load has been relegated to the paper.
+
+194
+00:08:52,300 --> 00:08:53,920
+The paper is doing the thinking.
+
+195
+00:08:54,240 --> 00:08:57,320
+The paper is holding the frozen thinking of the architect.
+
+196
+00:08:57,800 --> 00:09:01,300
+The blueprint says, don't worry about the math, just cut the wood to this length.
+
+197
+00:09:01,900 --> 00:09:05,800
+The builder's unresolved task is just the physical execution.
+
+198
+00:09:05,800 --> 00:09:13,480
+So the blueprint prompts the construction by removing the need to be an architect in real time.
+
+199
+00:09:13,620 --> 00:09:15,540
+It's like a time capsule of decision making.
+
+200
+00:09:15,660 --> 00:09:15,900
+Yes.
+
+201
+00:09:16,080 --> 00:09:17,180
+It's an act of relegation.
+
+202
+00:09:17,340 --> 00:09:19,760
+And once you see this, you see prompts everywhere.
+
+203
+00:09:20,020 --> 00:09:20,400
+There else.
+
+204
+00:09:20,840 --> 00:09:21,880
+Take a musical score.
+
+205
+00:09:22,280 --> 00:09:22,780
+Sheet music.
+
+206
+00:09:23,260 --> 00:09:25,100
+Think about what a musician is doing.
+
+207
+00:09:25,620 --> 00:09:30,000
+If you didn't have the score, you'd have to compose the music while playing it.
+
+208
+00:09:30,000 --> 00:09:36,260
+You'd have to decide the melody, the rhythm, the harmony, the dynamics, all in real time.
+
+209
+00:09:36,400 --> 00:09:37,280
+That's improvisation.
+
+210
+00:09:37,820 --> 00:09:39,120
+And it's incredibly hard.
+
+211
+00:09:39,240 --> 00:09:41,680
+It is a huge cognitive load.
+
+212
+00:09:42,340 --> 00:09:50,020
+But the sheet music is a prompt that relegates the decision of what note comes next and how long do I hold it.
+
+213
+00:09:50,120 --> 00:09:50,780
+I see.
+
+214
+00:09:51,060 --> 00:09:58,640
+The composer took on the structural difficulty so the performer can focus on the performance difficulty, the emotion, the timbre, the timing.
+
+215
+00:09:58,640 --> 00:09:59,560
+That's fascinating.
+
+216
+00:09:59,740 --> 00:10:05,840
+So a prompt is basically a way of saying, here, ignore all this stuff so you can focus on this one little sliver.
+
+217
+00:10:06,000 --> 00:10:06,320
+Yes.
+
+218
+00:10:06,680 --> 00:10:08,360
+And here's the really cool part.
+
+219
+00:10:09,120 --> 00:10:12,600
+The paper argues that physical objects can be prompts too.
+
+220
+00:10:12,880 --> 00:10:15,500
+Wait, how can a physical object be a prompt?
+
+221
+00:10:15,540 --> 00:10:20,920
+Have you ever done any woodworking or even just assembled, you know, IKEA furniture?
+
+222
+00:10:21,220 --> 00:10:22,400
+I built some bookshelves.
+
+223
+00:10:22,780 --> 00:10:24,380
+I used a jig to drill the holes.
+
+224
+00:10:24,500 --> 00:10:26,000
+Perfect example, a jig.
+
+225
+00:10:26,000 --> 00:10:34,400
+If you need to drill a hole in exactly the same spot on 10,000 boards, you could try to measure it every time with a ruler and a pencil.
+
+226
+00:10:34,900 --> 00:10:35,680
+That would take forever.
+
+227
+00:10:36,100 --> 00:10:40,180
+And I'd probably mess up half of them because my hand would shake or I'd misread the ruler.
+
+228
+00:10:40,340 --> 00:10:40,640
+Right.
+
+229
+00:10:40,940 --> 00:10:47,480
+That's a high difficulty task requiring intense focus, steady hands, and constant calculation.
+
+230
+00:10:48,000 --> 00:10:49,680
+But what does the jig do?
+
+231
+00:10:50,060 --> 00:10:51,600
+It's a clamp with a guide hole.
+
+232
+00:10:51,600 --> 00:10:55,540
+You just shove the wood in until it hits the stopper and put the drill in the hole.
+
+233
+00:10:55,720 --> 00:10:55,960
+Boom.
+
+234
+00:10:56,340 --> 00:10:56,600
+Done.
+
+235
+00:10:57,060 --> 00:10:58,620
+The jig is a physical prompt.
+
+236
+00:10:59,140 --> 00:11:01,160
+It resolves the spatial alignment.
+
+237
+00:11:01,720 --> 00:11:04,100
+It relegates the need for hand stability.
+
+238
+00:11:04,280 --> 00:11:06,520
+The difficulty is just gone.
+
+239
+00:11:06,680 --> 00:11:13,920
+The task drill the hole is technically the same, but the difficulty has vanished because the prompt changed the boundary conditions.
+
+240
+00:11:13,920 --> 00:11:18,400
+This connects to something the paper mentioned about the interface of difficulty.
+
+241
+00:11:19,160 --> 00:11:23,480
+It said that changing the prompt changes the difficulty without changing the task.
+
+242
+00:11:23,820 --> 00:11:24,140
+Right.
+
+243
+00:11:24,340 --> 00:11:26,420
+Imagine a spatial logic puzzle.
+
+244
+00:11:26,840 --> 00:11:34,160
+If I describe it to you in text, block A is left of block B, which is above block C, it's really hard to solve.
+
+245
+00:11:34,340 --> 00:11:36,600
+Your brain has to simulate the space.
+
+246
+00:11:36,740 --> 00:11:37,680
+I hate those.
+
+247
+00:11:37,680 --> 00:11:43,060
+Susan sits next to the person wearing red, but not opposite the person eating fish.
+
+248
+00:11:43,240 --> 00:11:44,840
+My brain just shuts down.
+
+249
+00:11:44,940 --> 00:11:45,800
+It feels impossible.
+
+250
+00:11:46,260 --> 00:11:50,620
+But if I give you a diagram, a picture of the table with empty slots.
+
+251
+00:11:50,780 --> 00:11:51,040
+Easy.
+
+252
+00:11:51,540 --> 00:11:51,880
+Instant.
+
+253
+00:11:52,340 --> 00:11:53,200
+I can just see it.
+
+254
+00:11:53,260 --> 00:11:54,240
+I can just move things around.
+
+255
+00:11:54,400 --> 00:11:55,680
+The task is identical.
+
+256
+00:11:56,980 --> 00:11:58,100
+Find the seating arrangement.
+
+257
+00:11:58,740 --> 00:12:02,340
+But the diagram prompt aligns with your visual processing system.
+
+258
+00:12:02,340 --> 00:12:07,620
+It selects a pre-compiled affordance, your ability to see patterns instantly.
+
+259
+00:12:08,000 --> 00:12:08,940
+And the text prompt.
+
+260
+00:12:09,400 --> 00:12:10,940
+It mismatches your toolkit.
+
+261
+00:12:11,520 --> 00:12:16,180
+It forces you to use your much slower, more energy-intensive logical brain.
+
+262
+00:12:16,620 --> 00:12:18,600
+So is the puzzle hard?
+
+263
+00:12:19,180 --> 00:12:21,340
+Or did I just give you a bad prompt?
+
+264
+00:12:21,560 --> 00:12:23,440
+That is the key takeaway here, isn't it?
+
+265
+00:12:23,520 --> 00:12:23,740
+Yeah.
+
+266
+00:12:23,920 --> 00:12:25,400
+Prompts select our tools.
+
+267
+00:12:25,660 --> 00:12:25,960
+Yes.
+
+268
+00:12:25,960 --> 00:12:31,960
+If the prompt matches the tools we already have, our pre-compiled affordances, it feels easy.
+
+269
+00:12:32,340 --> 00:12:34,200
+If it misses, it feels impossible.
+
+270
+00:12:34,460 --> 00:12:38,900
+Which leads us directly into the mechanism of how we build those tools in the first place.
+
+271
+00:12:39,020 --> 00:12:41,860
+The paper calls this abstraction as compilation.
+
+272
+00:12:42,340 --> 00:12:44,640
+I have to admit, this is where I stumbled a bit in the reading.
+
+273
+00:12:45,280 --> 00:12:47,400
+I know compilation from computer science.
+
+274
+00:12:47,520 --> 00:12:56,180
+You write code in, like, English-ish words, and the compiler crunches it down into ones and zeros that the machine can run instantly.
+
+275
+00:12:56,180 --> 00:12:56,820
+Correct.
+
+276
+00:12:57,100 --> 00:13:01,960
+It turns a complex logical argument into a set of automatic instructions.
+
+277
+00:13:02,340 --> 00:13:04,420
+It bundles it up.
+
+278
+00:13:04,520 --> 00:13:05,320
+But I'm not a computer.
+
+279
+00:13:05,680 --> 00:13:06,620
+I'm not running code.
+
+280
+00:13:06,760 --> 00:13:07,000
+Yeah.
+
+281
+00:13:07,220 --> 00:13:10,040
+So how does this apply to me driving to the grocery store?
+
+282
+00:13:10,300 --> 00:13:12,420
+Think about when you first learned to drive.
+
+283
+00:13:12,540 --> 00:13:14,380
+Do you remember that first day in the parking lot?
+
+284
+00:13:14,500 --> 00:13:15,340
+Oh, God, yes.
+
+285
+00:13:16,060 --> 00:13:16,900
+It was a nightmare.
+
+286
+00:13:17,100 --> 00:13:18,480
+I was thinking about everything.
+
+287
+00:13:18,740 --> 00:13:20,200
+How much pressure is on the gas?
+
+288
+00:13:20,300 --> 00:13:21,200
+Where are my hands?
+
+289
+00:13:21,560 --> 00:13:22,960
+Am I too close to the curb?
+
+290
+00:13:23,120 --> 00:13:24,460
+What did the mirrors show?
+
+291
+00:13:24,460 --> 00:13:26,700
+You were running interpreted code.
+
+292
+00:13:26,880 --> 00:13:31,280
+You were processing every single line of data in real time.
+
+293
+00:13:31,960 --> 00:13:33,540
+High cognitive load.
+
+294
+00:13:33,740 --> 00:13:34,440
+High energy.
+
+295
+00:13:35,200 --> 00:13:36,860
+You were exhausted after 20 minutes.
+
+296
+00:13:37,160 --> 00:13:38,100
+Drenched in sweat.
+
+297
+00:13:38,180 --> 00:13:38,740
+It was awful.
+
+298
+00:13:38,920 --> 00:13:43,100
+But now you drive to work and sometimes you don't even remember doing it.
+
+299
+00:13:43,180 --> 00:13:45,900
+You arrive and think, wait, did I stop at all the red lights?
+
+300
+00:13:46,160 --> 00:13:47,020
+Ideally, I did.
+
+301
+00:13:47,180 --> 00:13:48,660
+But yes, I know the feeling.
+
+302
+00:13:48,780 --> 00:13:49,220
+It's automatic.
+
+303
+00:13:49,420 --> 00:13:51,340
+It's just driving.
+
+304
+00:13:51,340 --> 00:13:54,240
+That is because you have compiled the process.
+
+305
+00:13:54,840 --> 00:13:58,140
+Press pedal is now a single atomic action for you.
+
+306
+00:13:58,540 --> 00:14:06,800
+You are not thinking about the combustion engine, the fuel injection, the friction of the tires, or the hydraulic pressure in the brake lines.
+
+307
+00:14:07,280 --> 00:14:14,280
+You have an interface, the pedal, and you trust that the underlying machinery will handle the physics.
+
+308
+00:14:14,480 --> 00:14:18,400
+So my brain has zipped up all that complexity into a single file called go.
+
+309
+00:14:18,520 --> 00:14:19,100
+Exactly.
+
+310
+00:14:19,100 --> 00:14:20,700
+But here is the danger.
+
+311
+00:14:21,340 --> 00:14:24,200
+And the paper calls this the informal theorem.
+
+312
+00:14:24,940 --> 00:14:27,560
+No compilation remains optimal forever.
+
+313
+00:14:27,840 --> 00:14:33,720
+Because unlike software, where the hardware doesn't change much, reality is a moving target.
+
+314
+00:14:34,000 --> 00:14:34,240
+Right.
+
+315
+00:14:34,400 --> 00:14:36,900
+The pedal abstraction works great on dry asphalt.
+
+316
+00:14:37,120 --> 00:14:38,960
+The go file executes perfectly.
+
+317
+00:14:39,240 --> 00:14:42,260
+But let's go back to that snowy day we talked about.
+
+318
+00:14:42,380 --> 00:14:45,560
+Suddenly, press pedal does not equal go forward.
+
+319
+00:14:45,920 --> 00:14:47,760
+It equals spin out and die.
+
+320
+00:14:47,760 --> 00:14:49,480
+The compilation fails.
+
+321
+00:14:49,640 --> 00:14:50,940
+The abstraction leaks.
+
+322
+00:14:51,180 --> 00:14:51,900
+It breaks.
+
+323
+00:14:52,100 --> 00:14:53,500
+And this is that moment of panic.
+
+324
+00:14:53,720 --> 00:14:54,840
+You have to decompile.
+
+325
+00:14:55,480 --> 00:15:00,100
+You have to suddenly remember that the car is a physical object interacting with a slippery surface.
+
+326
+00:15:00,320 --> 00:15:03,300
+You have to pump the brakes, steer into the skid.
+
+327
+00:15:03,300 --> 00:15:06,580
+You have to think about the physics again from first principles.
+
+328
+00:15:06,580 --> 00:15:13,640
+And that re-exposure of the internal structure is what we experience as a sudden spike in difficulty.
+
+329
+00:15:13,640 --> 00:15:19,120
+The paper suggests that expertise is actually a form of fragility because of this.
+
+330
+00:15:19,240 --> 00:15:20,220
+Wait, hang on.
+
+331
+00:15:20,460 --> 00:15:21,720
+Expertise is fragility.
+
+332
+00:15:22,060 --> 00:15:24,100
+I thought experts were the robust ones.
+
+333
+00:15:24,300 --> 00:15:28,560
+If I hire an expert driver, I expect them to handle the snow better than me.
+
+334
+00:15:28,560 --> 00:15:31,800
+They can handle the snow because they have a compilation for snow.
+
+335
+00:15:32,060 --> 00:15:33,400
+That's a pattern they've compiled.
+
+336
+00:15:33,900 --> 00:15:35,500
+But think about it structurally.
+
+337
+00:15:36,300 --> 00:15:41,960
+Experts are efficient because they have deep stacks of these compiled shortcuts.
+
+338
+00:15:42,220 --> 00:15:42,480
+Okay.
+
+339
+00:15:42,720 --> 00:15:48,580
+They can ignore 99% of the information because they have a prompt or a mental model that handles it.
+
+340
+00:15:48,660 --> 00:15:51,400
+They see a pattern and they just run the snow program.
+
+341
+00:15:51,400 --> 00:15:57,820
+But if the context shifts in a way that violates their hidden assumptions...
+
+342
+00:15:57,820 --> 00:16:03,300
+Like a grandmaster chess player suddenly having to play on a board where the squares change color and gravity shift.
+
+343
+00:16:03,380 --> 00:16:03,760
+Oh, wow.
+
+344
+00:16:03,860 --> 00:16:05,720
+They often crash harder than a novice.
+
+345
+00:16:05,820 --> 00:16:08,400
+Because the novice never had the shortcut to begin with.
+
+346
+00:16:08,700 --> 00:16:09,160
+Exactly.
+
+347
+00:16:09,460 --> 00:16:11,800
+The novice was already looking at the raw physics.
+
+348
+00:16:12,280 --> 00:16:13,280
+They were already struggling.
+
+349
+00:16:13,560 --> 00:16:15,960
+So the change in context isn't as jarring.
+
+350
+00:16:16,140 --> 00:16:21,340
+The expert has to unlearn their shortcuts before they can even start solving the new problem.
+
+351
+00:16:21,720 --> 00:16:22,840
+That makes so much sense.
+
+352
+00:16:23,020 --> 00:16:27,160
+It's like when a software update changes the location of a button I use every single day.
+
+353
+00:16:27,280 --> 00:16:27,540
+Right.
+
+354
+00:16:27,740 --> 00:16:30,120
+I'm paralyzed for like 10 minutes trying to find it.
+
+355
+00:16:30,700 --> 00:16:36,180
+My mom, who never learned where the button was in the first place, just looks for it and finds it.
+
+356
+00:16:36,500 --> 00:16:37,020
+Precisely.
+
+357
+00:16:37,240 --> 00:16:41,560
+Your expertise, your muscle memory, became an obstacle.
+
+358
+00:16:42,080 --> 00:16:43,520
+It was a brittle compilation.
+
+359
+00:16:43,660 --> 00:16:47,380
+This really explains the chess vs. Tetris thing we started with.
+
+360
+00:16:47,900 --> 00:16:49,620
+This asymmetry of intelligence.
+
+361
+00:16:49,620 --> 00:16:54,480
+The paper argues that chess was a socio-historical artifact.
+
+362
+00:16:54,900 --> 00:16:56,920
+It's a bit of a burn on chess, honestly.
+
+363
+00:16:57,120 --> 00:16:57,500
+It is.
+
+364
+00:16:57,580 --> 00:17:05,400
+It basically says chess became the benchmark for intelligence just because it was hard for us in a very specific human way.
+
+365
+00:17:05,600 --> 00:17:10,100
+It was hard because it required combinatorial, search-looking, many moves ahead.
+
+366
+00:17:10,500 --> 00:17:13,200
+If I move here, he moved there, then I move there.
+
+367
+00:17:13,260 --> 00:17:14,660
+Our working memory is small.
+
+368
+00:17:14,660 --> 00:17:15,580
+It's tiny.
+
+369
+00:17:16,020 --> 00:17:18,840
+We can't hold that many future states in our heads.
+
+370
+00:17:19,380 --> 00:17:25,620
+That is difficult for a biological brain that evolved to hunt and gather and read facial expressions.
+
+371
+00:17:25,720 --> 00:17:26,640
+Not to play chess.
+
+372
+00:17:26,760 --> 00:17:27,800
+Not to play chess.
+
+373
+00:17:28,260 --> 00:17:31,860
+But for a computer, that kind of search is trivial.
+
+374
+00:17:32,200 --> 00:17:33,340
+It's just math.
+
+375
+00:17:33,660 --> 00:17:36,000
+It's a closed system with rigid rules.
+
+376
+00:17:36,400 --> 00:17:39,880
+Once we figured out the structure, we could externalize it.
+
+377
+00:17:40,060 --> 00:17:41,140
+We could write a prompt.
+
+378
+00:17:41,500 --> 00:17:43,260
+The chess engine that solved it.
+
+379
+00:17:43,260 --> 00:17:48,780
+So once the structure aligned with the compilation, the difficulty just vanished.
+
+380
+00:17:49,420 --> 00:17:50,800
+It wasn't inherently hard.
+
+381
+00:17:50,920 --> 00:17:52,480
+It was just hard for meat brains.
+
+382
+00:17:52,960 --> 00:17:53,400
+Precisely.
+
+383
+00:17:53,620 --> 00:17:54,880
+But look at Tetris.
+
+384
+00:17:55,220 --> 00:17:57,840
+Or even better, let's go back to folding that towel.
+
+385
+00:17:58,280 --> 00:18:00,180
+Why is the towel so hard for the robot?
+
+386
+00:18:00,460 --> 00:18:03,080
+I've watched videos of robots trying to fold laundry.
+
+387
+00:18:03,280 --> 00:18:03,800
+It's painful.
+
+388
+00:18:03,980 --> 00:18:04,940
+They move so slowly.
+
+389
+00:18:05,060 --> 00:18:05,700
+They poke at it.
+
+390
+00:18:05,720 --> 00:18:06,320
+They get tangled.
+
+391
+00:18:06,460 --> 00:18:06,660
+Why?
+
+392
+00:18:06,760 --> 00:18:07,900
+What's the core problem?
+
+393
+00:18:08,200 --> 00:18:10,600
+I guess because the towel is soft.
+
+394
+00:18:10,700 --> 00:18:11,400
+It flops.
+
+395
+00:18:11,400 --> 00:18:13,160
+It changes shape every time you touch it.
+
+396
+00:18:13,260 --> 00:18:13,600
+Right.
+
+397
+00:18:13,740 --> 00:18:18,080
+It relies on real-time perception, motor loops, feedback from your fingertips.
+
+398
+00:18:18,860 --> 00:18:20,400
+There is no rigid grid.
+
+399
+00:18:20,540 --> 00:18:22,660
+You cannot just calculate the towel.
+
+400
+00:18:23,100 --> 00:18:24,380
+You have to feel it.
+
+401
+00:18:24,540 --> 00:18:30,460
+And humans have millions of years of evolution embodied compilations that handle that.
+
+402
+00:18:30,460 --> 00:18:37,520
+We have compiled grasping a soft object so deeply that we don't even know how we do it.
+
+403
+00:18:38,020 --> 00:18:42,880
+Try to explain to a robot how to hold a towel without crushing it or dropping it.
+
+404
+00:18:42,940 --> 00:18:43,140
+Okay.
+
+405
+00:18:43,340 --> 00:18:46,220
+Don't squeeze too hard, but don't squeeze too soft.
+
+406
+00:18:46,340 --> 00:18:47,820
+That means nothing to a robot.
+
+407
+00:18:47,960 --> 00:18:49,220
+That's a useless prompt.
+
+408
+00:18:49,220 --> 00:18:54,900
+It involves millions of micro-adjustments per second based on tension sensors in your skin.
+
+409
+00:18:55,460 --> 00:19:00,760
+For the machine, the towel is an uncompiled nightmare of physics simulations.
+
+410
+00:19:01,300 --> 00:19:03,360
+For us, it's just... grab.
+
+411
+00:19:03,680 --> 00:19:05,860
+This is the no final convergence argument.
+
+412
+00:19:05,860 --> 00:19:12,040
+There is this belief in tech, I hear it all the time in Silicon Valley, that AI will eventually
+
+413
+00:19:12,040 --> 00:19:15,100
+just catch up and everything will be easy for everyone.
+
+414
+00:19:15,500 --> 00:19:17,580
+Machines will do what we do, we'll do what they do.
+
+415
+00:19:17,700 --> 00:19:20,680
+And this paper says, no, that's a fundamental misunderstanding.
+
+416
+00:19:20,980 --> 00:19:22,480
+There will always be an asymmetry.
+
+417
+00:19:22,640 --> 00:19:24,000
+Because our histories are different.
+
+418
+00:19:24,180 --> 00:19:25,500
+Our compilations are different.
+
+419
+00:19:25,500 --> 00:19:26,020
+Yes.
+
+420
+00:19:26,620 --> 00:19:32,080
+We are compiled for the savanna, for social nuance, for manipulated physical objects.
+
+421
+00:19:32,560 --> 00:19:36,140
+Machines are compiled for symbol manipulation and massive data processing.
+
+422
+00:19:36,460 --> 00:19:41,780
+We will always find different things hard because we are running on different legacy code.
+
+423
+00:19:41,980 --> 00:19:43,200
+That makes so much sense.
+
+424
+00:19:43,740 --> 00:19:46,460
+We aren't converging on some universal intelligence.
+
+425
+00:19:46,780 --> 00:19:50,200
+We're just distinct systems with different easy buttons.
+
+426
+00:19:50,320 --> 00:19:50,840
+Exactly.
+
+427
+00:19:50,840 --> 00:19:55,880
+And this leads to a massive misunderstanding of technological progress.
+
+428
+00:19:56,280 --> 00:19:56,740
+How so?
+
+429
+00:19:56,960 --> 00:19:59,720
+We tend to think technology eliminates difficulty.
+
+430
+00:20:00,340 --> 00:20:03,400
+We invented the dishwasher, so washing dishes is solved.
+
+431
+00:20:03,600 --> 00:20:06,580
+We invented the internet, so communication is solved.
+
+432
+00:20:06,860 --> 00:20:11,680
+But the paper argues for the conservation of complexity.
+
+433
+00:20:12,160 --> 00:20:14,440
+Or rather, computational displacement.
+
+434
+00:20:14,680 --> 00:20:14,980
+Right.
+
+435
+00:20:15,180 --> 00:20:17,340
+It's not that the difficulty is destroyed.
+
+436
+00:20:17,460 --> 00:20:18,160
+That's impossible.
+
+437
+00:20:18,380 --> 00:20:19,700
+It's redistributed.
+
+438
+00:20:19,700 --> 00:20:21,260
+It has to go somewhere.
+
+439
+00:20:21,760 --> 00:20:24,500
+The example of the one-click purchase really hit home for me.
+
+440
+00:20:25,100 --> 00:20:28,220
+On my end, as the user, I tap a glass screen.
+
+441
+00:20:28,720 --> 00:20:29,360
+One second.
+
+442
+00:20:30,080 --> 00:20:31,040
+Zero difficulty.
+
+443
+00:20:31,480 --> 00:20:33,240
+Low assembly index for you?
+
+444
+00:20:33,440 --> 00:20:34,300
+It's effortless.
+
+445
+00:20:34,480 --> 00:20:39,240
+But for that one tap to result in a package at my door the next day, let's trace that difficulty.
+
+446
+00:20:39,360 --> 00:20:39,980
+Where did it go?
+
+447
+00:20:40,420 --> 00:20:41,400
+It didn't vanish.
+
+448
+00:20:41,580 --> 00:20:42,720
+It exploded outward.
+
+449
+00:20:43,360 --> 00:20:47,460
+To make your experience simple, the system had to absorb massive complexity.
+
+450
+00:20:47,460 --> 00:20:52,660
+You need global logistics networks tracking millions of items in real time.
+
+451
+00:20:52,660 --> 00:20:59,280
+You need server farms cooling themselves in the desert, consuming small cities' worth of electricity.
+
+452
+00:20:59,720 --> 00:21:00,160
+I like it.
+
+453
+00:21:00,300 --> 00:21:04,400
+You need cybersecurity teams fighting off hackers 24-7.
+
+454
+00:21:04,660 --> 00:21:09,940
+You need version control for the app software, A-B testing, user support.
+
+455
+00:21:10,060 --> 00:21:12,020
+It moved into the infrastructure layer.
+
+456
+00:21:12,020 --> 00:21:13,980
+And it moved on to other people.
+
+457
+00:21:14,120 --> 00:21:15,640
+Think about the warehouse worker.
+
+458
+00:21:15,760 --> 00:21:18,680
+That's the hardening of the analog world the paper talks about.
+
+459
+00:21:18,800 --> 00:21:19,160
+Yes.
+
+460
+00:21:19,720 --> 00:21:27,060
+When you make the digital interface smooth and frictionless, you often make the physical reality harder, more brutal.
+
+461
+00:21:27,860 --> 00:21:35,040
+The warehouse worker's job shifts from craftsmanship, or storekeeping, to becoming a component in the machine's logic.
+
+462
+00:21:35,040 --> 00:21:36,800
+They're chasing the algorithm.
+
+463
+00:21:37,000 --> 00:21:40,400
+The robot tells them where to go, how fast to walk, when to take a break.
+
+464
+00:21:40,840 --> 00:21:44,920
+Their difficulty, the physical toll on their body increases to support my ease.
+
+465
+00:21:45,120 --> 00:21:47,020
+The complexity got displaced onto them.
+
+466
+00:21:47,300 --> 00:21:51,400
+And for the rest of us, look at the physical toll of these easy interfaces.
+
+467
+00:21:51,660 --> 00:21:55,540
+We have interfaces optimized for symbols, screens, keyboards.
+
+468
+00:21:56,140 --> 00:21:57,400
+And our bodies are screening.
+
+469
+00:21:58,080 --> 00:22:01,140
+Carpal tunnel, tech neck, eye strain, anxiety.
+
+470
+00:22:01,140 --> 00:22:04,900
+That is the difficulty returning to us in a different form.
+
+471
+00:22:05,240 --> 00:22:16,140
+We removed the difficulty of walking to the store or hunting for food, but we replaced it with the difficulty of sedentary lifestyle management and attention fragmentation.
+
+472
+00:22:16,880 --> 00:22:19,020
+Oh, the attention fragmentation is real.
+
+473
+00:22:19,320 --> 00:22:21,880
+The paper calls this the paradox of efficiency.
+
+474
+00:22:22,280 --> 00:22:22,840
+Exactly.
+
+475
+00:22:23,260 --> 00:22:28,220
+Making things easier to start lowering the friction means we do them more often.
+
+476
+00:22:28,340 --> 00:22:29,480
+I feel this with email.
+
+477
+00:22:29,480 --> 00:22:36,500
+If sending an email cost $5 and took an hour to handwrite, I would send maybe one a week.
+
+478
+00:22:36,720 --> 00:22:37,360
+I'd be thoughtful.
+
+479
+00:22:37,580 --> 00:22:39,000
+But since it's free and instant.
+
+480
+00:22:39,240 --> 00:22:40,240
+I get $500 a day.
+
+481
+00:22:41,040 --> 00:22:42,820
+And I'm expected to answer them all.
+
+482
+00:22:43,060 --> 00:22:46,040
+My entire day is managing this easy task.
+
+483
+00:22:46,520 --> 00:22:50,620
+So what was hard to do, writing a letter is now easy.
+
+484
+00:22:50,880 --> 00:22:54,480
+But what was easy managing your correspondence is now impossible.
+
+485
+00:22:55,300 --> 00:22:57,740
+The difficulty shifted from execution to management.
+
+486
+00:22:57,740 --> 00:23:01,740
+We are drowning in volume because we remove the friction of entry.
+
+487
+00:23:02,080 --> 00:23:05,400
+This feels like a perfect segue into section five, the trap of metrics.
+
+488
+00:23:06,160 --> 00:23:08,560
+Because how do we try to manage this volume?
+
+489
+00:23:08,720 --> 00:23:12,520
+How do companies manage the 500 emails or the warehouse efficiency?
+
+490
+00:23:12,840 --> 00:23:13,400
+We measure it.
+
+491
+00:23:13,480 --> 00:23:14,560
+We count the emails.
+
+492
+00:23:14,820 --> 00:23:15,020
+Yeah.
+
+493
+00:23:15,100 --> 00:23:16,000
+We track productivity.
+
+494
+00:23:16,000 --> 00:23:19,360
+And we run headfirst into Goodhart's Law.
+
+495
+00:23:20,100 --> 00:23:26,360
+Now, usually when people talk about Goodhart's Law, when a measure becomes a target, it ceases to be a good measure.
+
+496
+00:23:26,760 --> 00:23:28,500
+They treat it like a data problem.
+
+497
+00:23:28,600 --> 00:23:28,920
+Right.
+
+498
+00:23:29,260 --> 00:23:30,920
+Oh, we just picked the wrong KPI.
+
+499
+00:23:31,160 --> 00:23:33,020
+If we find the right number, it'll work.
+
+500
+00:23:33,280 --> 00:23:36,920
+But Flickshaw argues it's an evolutionary force.
+
+501
+00:23:37,000 --> 00:23:37,980
+It's almost biological.
+
+502
+00:23:37,980 --> 00:23:41,420
+It's about turning a process into a noun.
+
+503
+00:23:41,900 --> 00:23:42,980
+Unpack that for me.
+
+504
+00:23:43,200 --> 00:23:44,140
+Process to noun.
+
+505
+00:23:44,260 --> 00:23:44,440
+Okay.
+
+506
+00:23:45,160 --> 00:23:46,640
+Learning is a process.
+
+507
+00:23:47,200 --> 00:23:47,900
+It's fluid.
+
+508
+00:23:48,200 --> 00:23:49,080
+It's messy.
+
+509
+00:23:49,240 --> 00:23:50,340
+It happens in your head.
+
+510
+00:23:50,520 --> 00:23:53,700
+It involves failure and confusion and insight.
+
+511
+00:23:54,080 --> 00:23:56,440
+But a bureaucracy can't manage learning.
+
+512
+00:23:56,740 --> 00:23:57,840
+It's too ghostly.
+
+513
+00:23:57,960 --> 00:23:58,600
+It's invisible.
+
+514
+00:23:58,900 --> 00:24:00,280
+So they turn it into a noun.
+
+515
+00:24:01,120 --> 00:24:01,860
+A test score.
+
+516
+00:24:01,920 --> 00:24:02,800
+Or a line of code.
+
+517
+00:24:03,280 --> 00:24:04,320
+Or a number of tickets closed.
+
+518
+00:24:04,320 --> 00:24:05,940
+These are static snapshots.
+
+519
+00:24:06,080 --> 00:24:13,440
+And once the system sets that noun as the goal, every actor in the system starts optimizing for the noun, not the process.
+
+520
+00:24:14,020 --> 00:24:17,620
+This reminds me so much of my time working in a call center right out of college.
+
+521
+00:24:17,720 --> 00:24:18,160
+Oh, I bet.
+
+522
+00:24:18,340 --> 00:24:19,080
+We had a metric.
+
+523
+00:24:19,600 --> 00:24:20,500
+Average handle time.
+
+524
+00:24:20,940 --> 00:24:22,800
+We had to keep calls under three minutes.
+
+525
+00:24:23,140 --> 00:24:23,820
+That was the noun.
+
+526
+00:24:24,120 --> 00:24:25,160
+Let me guess what happened.
+
+527
+00:24:26,060 --> 00:24:31,480
+Did you become incredibly efficient at solving complex problems in under 180 seconds?
+
+528
+00:24:31,640 --> 00:24:32,100
+No.
+
+529
+00:24:32,100 --> 00:24:34,340
+We started hanging up on people.
+
+530
+00:24:34,760 --> 00:24:37,760
+If a problem sounded hard, we'd accidentally lose the connection.
+
+531
+00:24:38,280 --> 00:24:41,580
+Or we'd solve the easy part and tell them to call back for the rest.
+
+532
+00:24:42,040 --> 00:24:43,160
+You gamed the metric.
+
+533
+00:24:43,620 --> 00:24:45,680
+We optimized the metric perfectly.
+
+534
+00:24:46,120 --> 00:24:47,260
+Our times were great.
+
+535
+00:24:47,840 --> 00:24:52,780
+But the underlying process, actually helping customers, was destroyed.
+
+536
+00:24:53,300 --> 00:24:53,820
+Completely.
+
+537
+00:24:54,240 --> 00:24:56,700
+Customer satisfaction must have tanked.
+
+538
+00:24:56,700 --> 00:24:57,880
+It fell off a cliff.
+
+539
+00:24:58,440 --> 00:25:01,400
+And that is the optimization death spiral.
+
+540
+00:25:02,200 --> 00:25:05,580
+Because what did management do when they saw satisfaction drop?
+
+541
+00:25:05,900 --> 00:25:07,360
+Did they remove the metric?
+
+542
+00:25:07,780 --> 00:25:08,640
+No, of course not.
+
+543
+00:25:08,700 --> 00:25:09,620
+They added a new layer.
+
+544
+00:25:09,720 --> 00:25:10,520
+They added a new layer.
+
+545
+00:25:10,640 --> 00:25:16,220
+They said, okay, you have to keep calls under three minutes, but the customer also has to give you a four-star rating.
+
+546
+00:25:16,300 --> 00:25:18,000
+And now you have two metrics to game.
+
+547
+00:25:18,240 --> 00:25:20,260
+You just beg people for good ratings.
+
+548
+00:25:20,260 --> 00:25:23,280
+The complexity of the system has net increased.
+
+549
+00:25:23,800 --> 00:25:27,940
+You have added rules to patch the holes created by your previous simplification.
+
+550
+00:25:28,400 --> 00:25:31,740
+This explains why bureaucracies and tech stacks always get bloated.
+
+551
+00:25:32,300 --> 00:25:34,380
+They are patching their own abstractions.
+
+552
+00:25:34,380 --> 00:25:39,300
+They are chasing the ghost of the process they killed by turning it into a noun.
+
+553
+00:25:40,140 --> 00:25:41,700
+That is actually kind of tragic.
+
+554
+00:25:42,000 --> 00:25:42,320
+It is.
+
+555
+00:25:42,420 --> 00:25:43,640
+It's a tragedy of structure.
+
+556
+00:25:43,900 --> 00:25:45,540
+Nobody is evil in that scenario.
+
+557
+00:25:45,940 --> 00:25:48,180
+The system just forces that behavior.
+
+558
+00:25:48,600 --> 00:25:49,560
+But why do we do this?
+
+559
+00:25:49,640 --> 00:25:52,200
+It seems like there is a physics to this behavior.
+
+560
+00:25:52,620 --> 00:25:53,980
+Why do we always take the shortcut?
+
+561
+00:25:54,520 --> 00:25:56,100
+Why do we always game the metric?
+
+562
+00:25:56,580 --> 00:25:59,860
+The paper uses assembly theory to explain this.
+
+563
+00:25:59,860 --> 00:26:06,900
+Now, we don't need to get into the heavy math, but the core principle is the assembly index.
+
+564
+00:26:07,240 --> 00:26:11,860
+Which is basically, how many steps does it take to build this thing from its parts?
+
+565
+00:26:12,020 --> 00:26:12,360
+Right.
+
+566
+00:26:12,680 --> 00:26:14,800
+But the key insight is about selection.
+
+567
+00:26:15,720 --> 00:26:21,820
+The rule of adaptive systems, whether it's evolution or a chemical reaction or a corporate team,
+
+568
+00:26:21,960 --> 00:26:25,460
+is that they do not look for the global best solution.
+
+569
+00:26:25,760 --> 00:26:28,380
+They don't look at the map and plan the optimal route.
+
+570
+00:26:28,380 --> 00:26:28,820
+No.
+
+571
+00:26:29,180 --> 00:26:31,360
+They look for the immediate lowest resistance.
+
+572
+00:26:32,060 --> 00:26:33,760
+Imagine water flowing down a hill.
+
+573
+00:26:33,820 --> 00:26:34,060
+Okay.
+
+574
+00:26:34,400 --> 00:26:36,500
+The water doesn't look at the landscape and say,
+
+575
+00:26:36,680 --> 00:26:41,720
+oh, if I go slightly uphill here over this ridge, I'll find a much faster route to the ocean later.
+
+576
+00:26:42,420 --> 00:26:42,720
+No.
+
+577
+00:26:42,940 --> 00:26:43,800
+It just goes down.
+
+578
+00:26:44,220 --> 00:26:44,700
+Immediately.
+
+579
+00:26:45,240 --> 00:26:47,220
+It follows the slope right in front of it.
+
+580
+00:26:47,400 --> 00:26:49,500
+It takes the next easiest step.
+
+581
+00:26:49,920 --> 00:26:52,640
+Even if that step leads it into a swamp instead of the ocean.
+
+582
+00:26:52,840 --> 00:26:53,320
+Exactly.
+
+583
+00:26:53,940 --> 00:26:57,540
+And in cognition, that means using a compiled abstraction.
+
+584
+00:26:57,540 --> 00:26:59,020
+Using a shortcut.
+
+585
+00:26:59,020 --> 00:27:03,860
+So if I'm a programmer, using a pre-made software library is easier now.
+
+586
+00:27:04,100 --> 00:27:06,200
+It lowers my immediate assembly index.
+
+587
+00:27:06,600 --> 00:27:08,160
+I don't have to write the code myself.
+
+588
+00:27:08,280 --> 00:27:11,100
+But that library couples you to someone else's bugs.
+
+589
+00:27:11,360 --> 00:27:11,560
+Yeah.
+
+590
+00:27:11,620 --> 00:27:12,600
+It bloats your software.
+
+591
+00:27:12,800 --> 00:27:14,080
+It creates technical debt.
+
+592
+00:27:14,380 --> 00:27:15,920
+That is the shortcut trap.
+
+593
+00:27:16,180 --> 00:27:20,260
+We lower the immediate effort, but we raise the long-term maintenance cost.
+
+594
+00:27:20,480 --> 00:27:23,560
+We flow downhill into a swamp of complexity.
+
+595
+00:27:23,560 --> 00:27:25,300
+And here's the scary part.
+
+596
+00:27:25,900 --> 00:27:28,940
+Technological progress just gives us more shortcuts.
+
+597
+00:27:29,280 --> 00:27:30,080
+Oh, right.
+
+598
+00:27:30,240 --> 00:27:35,820
+Greater capability expands the number of pre-compiled libraries, tools, and AIs we can reach for.
+
+599
+00:27:35,940 --> 00:27:39,040
+So we can build things faster, low immediate resistance.
+
+600
+00:27:39,040 --> 00:27:42,680
+But we are building them out of black boxes we don't understand.
+
+601
+00:27:42,880 --> 00:27:47,440
+So we are accelerating the redistribution of complexity into invisible layers.
+
+602
+00:27:47,440 --> 00:27:53,020
+We are building a skyscraper out of bricks we didn't bake on a foundation we didn't pour.
+
+603
+00:27:53,440 --> 00:27:55,300
+And wondering why it sways in the wind.
+
+604
+00:27:55,840 --> 00:28:00,060
+This connects to the philosophy section of the paper, which I found surprisingly deep.
+
+605
+00:28:00,900 --> 00:28:03,080
+The saying versus doing gap.
+
+606
+00:28:04,200 --> 00:28:06,580
+This was in the appendix, but I found it profound.
+
+607
+00:28:06,820 --> 00:28:10,700
+It connects to Ludwig Wittgenstein, the ghost of Wittgenstein.
+
+608
+00:28:10,860 --> 00:28:12,500
+He's the meaning is use guy, right?
+
+609
+00:28:12,620 --> 00:28:13,360
+Language games.
+
+610
+00:28:13,360 --> 00:28:13,880
+Yes.
+
+611
+00:28:14,340 --> 00:28:18,420
+He argued you can't define game or difficulty in a vacuum.
+
+612
+00:28:19,300 --> 00:28:22,520
+The meaning comes from playing the game, from the context.
+
+613
+00:28:23,080 --> 00:28:25,160
+But the paper adds this corollary.
+
+614
+00:28:25,880 --> 00:28:27,120
+Saying is compression.
+
+615
+00:28:27,700 --> 00:28:29,160
+Doing is construction.
+
+616
+00:28:29,480 --> 00:28:30,700
+Saying is a pointer.
+
+617
+00:28:30,940 --> 00:28:31,640
+What does that mean?
+
+618
+00:28:31,820 --> 00:28:33,180
+Think about generative AI.
+
+619
+00:28:33,700 --> 00:28:35,680
+Think about mid-journey or DALI.
+
+620
+00:28:35,960 --> 00:28:36,320
+Okay.
+
+621
+00:28:36,320 --> 00:28:45,780
+If I type the prompt, show me a photorealistic image of a suspension bridge connecting New York to London, the AI generates it in seconds.
+
+622
+00:28:46,160 --> 00:28:47,480
+And it looks incredible.
+
+623
+00:28:47,640 --> 00:28:50,040
+It has cables, towers, water, lighting.
+
+624
+00:28:50,140 --> 00:28:50,820
+It's beautiful.
+
+625
+00:28:51,320 --> 00:28:52,400
+But is it a bridge?
+
+626
+00:28:52,600 --> 00:28:52,840
+No.
+
+627
+00:28:53,040 --> 00:28:53,580
+It's a picture.
+
+628
+00:28:53,780 --> 00:28:54,780
+It's worse than a picture.
+
+629
+00:28:54,940 --> 00:28:55,500
+It's a pointer.
+
+630
+00:28:55,980 --> 00:28:59,760
+If you tried to build from that image, the bridge would collapse instantly.
+
+631
+00:29:00,580 --> 00:29:03,240
+The AI said bridge, but it didn't do bridge.
+
+632
+00:29:03,380 --> 00:29:10,700
+It didn't resolve the gravity, the tension, the wind shear, the steel ratings, the cost of materials, the bedrock on the ocean floor.
+
+633
+00:29:11,060 --> 00:29:15,020
+It pointed to the idea of a bridge without doing the work of the bridge.
+
+634
+00:29:15,260 --> 00:29:15,700
+Exactly.
+
+635
+00:29:16,380 --> 00:29:20,500
+Saying uses a pointer to a region of possibility space.
+
+636
+00:29:21,320 --> 00:29:24,460
+Doing requires building the causal chain to get there.
+
+637
+00:29:24,460 --> 00:29:28,280
+It requires resolving every single unresolved dependency.
+
+638
+00:29:28,280 --> 00:29:31,220
+The paper argues this asymmetry is structural.
+
+639
+00:29:32,260 --> 00:29:35,240
+It will always be easier to say something than to do it.
+
+640
+00:29:35,700 --> 00:29:38,840
+Because language is a lossy compression of reality.
+
+641
+00:29:39,040 --> 00:29:40,280
+It strips away the constraints.
+
+642
+00:29:41,100 --> 00:29:47,260
+And as our tools improve, as we get better AI, we can say things with even higher fidelity.
+
+643
+00:29:47,780 --> 00:29:50,760
+We can generate plans that look incredibly detailed.
+
+644
+00:29:50,960 --> 00:29:53,600
+So the saying has become incredibly sophisticated.
+
+645
+00:29:53,840 --> 00:29:54,640
+It looks like doing.
+
+646
+00:29:54,900 --> 00:29:55,720
+But it isn't.
+
+647
+00:29:55,780 --> 00:29:57,120
+The image is still just a pointer.
+
+648
+00:29:57,120 --> 00:29:59,200
+It has zero structural integrity.
+
+649
+00:29:59,720 --> 00:30:02,280
+This explains why project timelines are always wrong.
+
+650
+00:30:02,700 --> 00:30:03,380
+Ideas are cheap.
+
+651
+00:30:03,620 --> 00:30:06,580
+Ideas are cheap because they are nonified possibilities.
+
+652
+00:30:06,880 --> 00:30:07,640
+They are just pointers.
+
+653
+00:30:08,400 --> 00:30:11,420
+Execution is the re-exposure of all the hidden difficulty.
+
+654
+00:30:11,820 --> 00:30:14,520
+And the paper suggests this gap is widening.
+
+655
+00:30:14,680 --> 00:30:21,880
+We can imagine and prompt systems that are vastly more complex than what we can physically manage or execute.
+
+656
+00:30:21,880 --> 00:30:23,540
+That is daunting.
+
+657
+00:30:24,260 --> 00:30:31,200
+It feels like we are trapping ourselves in a hall of mirrors where everything looks easy but nothing actually works.
+
+658
+00:30:31,340 --> 00:30:32,240
+It can feel that way.
+
+659
+00:30:32,340 --> 00:30:33,240
+It's a real danger.
+
+660
+00:30:33,680 --> 00:30:35,220
+So where does this leave us?
+
+661
+00:30:35,620 --> 00:30:46,920
+I mean, if difficulty is this moving target, this relation, this ghost, if our metrics are lying to us and our shortcuts are traps, what does it mean to be smart?
+
+662
+00:30:46,920 --> 00:30:50,260
+This is Section 8, Implications for Intelligence.
+
+663
+00:30:50,560 --> 00:30:51,720
+We have to redefine it.
+
+664
+00:30:51,720 --> 00:30:57,220
+The old definition was capacity to solve inherently hard problems, like chess.
+
+665
+00:30:57,680 --> 00:30:59,280
+Which we know now doesn't exist.
+
+666
+00:30:59,480 --> 00:31:01,360
+There are no inherently hard problems.
+
+667
+00:31:01,480 --> 00:31:04,360
+There are only problems that mismatch your current tools.
+
+668
+00:31:04,560 --> 00:31:06,900
+So the new definition, what is it?
+
+669
+00:31:07,060 --> 00:31:10,600
+Intelligence is the capacity to navigate shifting boundaries.
+
+670
+00:31:11,120 --> 00:31:14,400
+It is the ability to recompile when the environment changes.
+
+671
+00:31:14,580 --> 00:31:15,140
+I love that.
+
+672
+00:31:15,140 --> 00:31:17,660
+It's not about how fast you can run the code.
+
+673
+00:31:17,860 --> 00:31:21,100
+It's about how fast you can rewrite it when the hardware melts.
+
+674
+00:31:21,320 --> 00:31:21,720
+Exactly.
+
+675
+00:31:22,000 --> 00:31:23,960
+It's about fluidity and adaptation.
+
+676
+00:31:24,460 --> 00:31:30,300
+And the paper defines stupidity in a very interesting way, not as a lack of brain power.
+
+677
+00:31:30,520 --> 00:31:33,520
+But as an overcommitment to obsolete abstractions.
+
+678
+00:31:33,860 --> 00:31:41,120
+Being stuck in your old ways, insisting that the pedal still works even though you're on ice, that is stupidity.
+
+679
+00:31:41,460 --> 00:31:42,960
+It's a rigidity of compilation.
+
+680
+00:31:42,960 --> 00:31:45,720
+This has huge ethical consequences, too.
+
+681
+00:31:46,040 --> 00:31:47,380
+The paper talks about fairness.
+
+682
+00:31:47,760 --> 00:31:48,340
+It does.
+
+683
+00:31:48,880 --> 00:31:58,000
+If difficulty is a relation between the task, the prompt, and your pre-compiled affordances, then you cannot judge two people by the same output.
+
+684
+00:31:58,200 --> 00:32:00,080
+Because one person might have a scaffold.
+
+685
+00:32:01,460 --> 00:32:02,580
+A better set of tools.
+
+686
+00:32:02,820 --> 00:32:03,240
+Exactly.
+
+687
+00:32:03,240 --> 00:32:13,560
+If I grew up with tutors, high-speed internet, a stable home, and fluent English, I have a massive stack of compiled abstractions that resolve difficulty for me.
+
+688
+00:32:13,760 --> 00:32:19,140
+I can focus on the high-level task because the low-level survival stuff is given.
+
+689
+00:32:19,560 --> 00:32:20,840
+It's been humbled for me.
+
+690
+00:32:20,840 --> 00:32:27,220
+And if someone else is dealing with food insecurity, or a second language, or a noisy home, or lack of access?
+
+691
+00:32:27,460 --> 00:32:30,120
+They are decompiling survival every single day.
+
+692
+00:32:30,240 --> 00:32:32,580
+They are spending their cognitive energy on the given.
+
+693
+00:32:33,120 --> 00:32:35,980
+So a task that is easy for me is hard for them.
+
+694
+00:32:36,100 --> 00:32:40,420
+Not because I am smarter, but because my scaffolding is doing the heavy lifting.
+
+695
+00:32:40,420 --> 00:32:43,460
+So fairness isn't about treating everyone the same.
+
+696
+00:32:43,680 --> 00:32:45,760
+It's about looking at the compilation history.
+
+697
+00:32:46,380 --> 00:32:50,840
+And recognizing that responsibility lies in the design of the system.
+
+698
+00:32:51,360 --> 00:32:52,800
+The design of the prompts.
+
+699
+00:32:53,560 --> 00:32:57,680
+Are we designing prompts that only work for people with a specific set of tools?
+
+700
+00:32:57,920 --> 00:32:59,220
+That is a powerful shift.
+
+701
+00:32:59,600 --> 00:33:03,460
+It moves the blame from the individual to the architecture.
+
+702
+00:33:03,460 --> 00:33:10,180
+It forces us to ask, who is bearing the displaced complexity of our simple systems?
+
+703
+00:33:11,160 --> 00:33:12,080
+So we've been on a journey.
+
+704
+00:33:12,220 --> 00:33:14,940
+We started with the paradox of the robot folding laundry.
+
+705
+00:33:15,380 --> 00:33:17,760
+The things we thought were easy are actually hard.
+
+706
+00:33:18,060 --> 00:33:18,180
+Right.
+
+707
+00:33:18,680 --> 00:33:21,040
+We realized difficulty isn't a weight.
+
+708
+00:33:21,320 --> 00:33:23,720
+It's a relation between the system and the environment.
+
+709
+00:33:24,440 --> 00:33:29,720
+We learned that prompts are boundaries that partition the world into given and unresolved.
+
+710
+00:33:30,380 --> 00:33:35,500
+We saw that abstraction is just compilation that eventually breaks when the road gets icy.
+
+711
+00:33:35,880 --> 00:33:37,840
+And that that's what difficulty feels like.
+
+712
+00:33:37,840 --> 00:33:42,420
+We tracked the movement of complexity from the user interface into the infrastructure in the human body.
+
+713
+00:33:42,740 --> 00:33:46,420
+And we saw how metrics turn processes into nouns and break them.
+
+714
+00:33:46,640 --> 00:33:48,440
+A tour of noun-free cognition.
+
+715
+00:33:48,920 --> 00:33:50,120
+So what now?
+
+716
+00:33:50,840 --> 00:33:52,720
+The paper ends with a provocation.
+
+717
+00:33:53,380 --> 00:33:54,020
+A so what?
+
+718
+00:33:54,840 --> 00:33:58,200
+And it uses a metaphor that I think is perfect for wrapping this up.
+
+719
+00:33:58,620 --> 00:33:59,140
+The ladder.
+
+720
+00:33:59,520 --> 00:34:00,560
+The ladder metaphor.
+
+721
+00:34:01,300 --> 00:34:03,480
+It's a nod to Wittgenstein again.
+
+722
+00:34:03,480 --> 00:34:06,580
+He said that his philosophy was like a ladder.
+
+723
+00:34:07,420 --> 00:34:09,920
+You use it to climb up to a new vantage point.
+
+724
+00:34:10,160 --> 00:34:11,300
+But once you're up there...
+
+725
+00:34:11,300 --> 00:34:12,740
+You can throw the ladder away.
+
+726
+00:34:12,900 --> 00:34:13,940
+You don't need it anymore.
+
+727
+00:34:14,080 --> 00:34:21,380
+You don't need to walk around reciting assembly index minimization or prompt boundary conditions in your daily life.
+
+728
+00:34:21,560 --> 00:34:23,160
+You don't need the jargon.
+
+729
+00:34:23,320 --> 00:34:24,400
+You just need the view.
+
+730
+00:34:24,700 --> 00:34:26,220
+You just need to change your seeing.
+
+731
+00:34:26,220 --> 00:34:26,860
+Exactly.
+
+732
+00:34:27,800 --> 00:34:30,720
+The goal isn't to become a philosopher of difficulty.
+
+733
+00:34:31,440 --> 00:34:33,820
+The goal is to notice the ghost.
+
+734
+00:34:34,480 --> 00:34:38,240
+And the call to action is simple but radical.
+
+735
+00:34:38,640 --> 00:34:40,640
+Stop trying to eliminate difficulty.
+
+736
+00:34:40,820 --> 00:34:42,000
+It cannot be destroyed.
+
+737
+00:34:42,240 --> 00:34:43,580
+That is the fundamental law.
+
+738
+00:34:43,680 --> 00:34:44,800
+It can only be moved.
+
+739
+00:34:44,960 --> 00:34:46,920
+And the goal isn't a frictionless world.
+
+740
+00:34:47,320 --> 00:34:47,680
+No.
+
+741
+00:34:47,860 --> 00:34:50,780
+That's a fantasy that leads to fragility and disaster.
+
+742
+00:34:51,060 --> 00:34:54,580
+The goal is to consciously manage where you put the friction.
+
+743
+00:34:54,580 --> 00:34:59,880
+Do you want the friction on the user, on the worker, on the environment, on the future?
+
+744
+00:35:00,600 --> 00:35:01,980
+Because it has to go somewhere.
+
+745
+00:35:02,320 --> 00:35:03,160
+The choice is where.
+
+746
+00:35:03,500 --> 00:35:06,360
+So, to everyone listening, here's your final thought.
+
+747
+00:35:07,100 --> 00:35:09,900
+The next time you are struggling with a task,
+
+748
+00:35:10,180 --> 00:35:14,020
+whether it's a spreadsheet that won't balance a difficult conversation with a partner,
+
+749
+00:35:14,560 --> 00:35:16,940
+or, yes, folding that fitted sheet,
+
+750
+00:35:17,960 --> 00:35:20,020
+don't ask, why is this hard?
+
+751
+00:35:20,980 --> 00:35:23,640
+Because this doesn't have a difficulty.
+
+752
+00:35:23,640 --> 00:35:29,440
+Instead, ask, which of my compiled abstractions just stopped working?
+
+753
+00:35:29,660 --> 00:35:33,020
+Or, even better, who moved the complexity onto me?
+
+754
+00:35:33,180 --> 00:35:34,260
+That is the question.
+
+755
+00:35:34,460 --> 00:35:35,820
+Thanks for diving deep with us.
+
+756
+00:35:35,980 --> 00:35:36,900
+We'll see you in the next one.
+
+757
+00:35:36,980 --> 00:35:37,640
+Keep recompiling.
+
+758
+00:35:37,640 --> 00:35:38,200
+Keep compiling.
+
+759
+00:35:38,260 --> 00:35:38,720
+Keep compiling.
+

@@ -1,0 +1,648 @@
+1
+00:00:00,000 --> 00:00:06,540
+Oye, ¿no te pasa que miras hacia el futuro y te equivocas por completo en qué va a ser fácil o difícil?
+
+2
+00:00:07,440 --> 00:00:10,240
+Totalmente. Es casi una constante.
+
+3
+00:00:10,240 --> 00:00:23,720
+Es que hace no tanto. Pensábamos que tareas como, no sé, ganar en ajedrez o en go o crear arte complejo eran como la cima de la genialidad humana. Imposibles para una máquina.
+
+4
+00:00:24,180 --> 00:00:26,240
+El pináculo de la inteligencia.
+
+5
+00:00:26,240 --> 00:00:34,560
+Y de repente, ¡pum! Ahora son casi triviales para una IA. Pero al mismo tiempo, cosas que un niño de 5 años hace sin pensar.
+
+6
+00:00:34,780 --> 00:00:36,320
+¿Como doblar una toalla?
+
+7
+00:00:36,600 --> 00:00:48,240
+Exacto. Doblar una toalla, entender el sarcasmo o simplemente caminar por un cuarto lleno de gente sin chocar. Eso resulta ser un dolor de cabeza monumental para la robótica.
+
+8
+00:00:48,240 --> 00:00:56,860
+Es una paradoja increíble. Y nos dice mucho más sobre nosotros y cómo entendemos el mundo que sobre la tecnología en sí.
+
+9
+00:00:57,220 --> 00:01:03,240
+Sí. Nos muestra que nuestra vara para medir la dificultad está como mínimo un poco chueca.
+
+10
+00:01:03,640 --> 00:01:05,400
+Bastante chueca, diría yo.
+
+11
+00:01:05,760 --> 00:01:15,100
+Trata el material que traemos hoy. Vamos a sumergirnos en un artículo académico reciente que es neta una joya. Se llama Cognición sin sustantivos.
+
+12
+00:01:15,100 --> 00:01:26,000
+Un gran título. Buenísimo. Y la idea central es un gancho al hígado. Nos dice que nuestra concepción de la dificultad está fundamentalmente equivocada.
+
+13
+00:01:26,520 --> 00:01:33,820
+No es una propiedad fija de una tarea. No es algo que puedas pesar o medir como si fuera una roca.
+
+14
+00:01:33,820 --> 00:01:42,240
+Exacto. El artículo propone que la dificultad no es un sustantivo, algo estático, sino más bien un verbo.
+
+15
+00:01:42,240 --> 00:01:52,920
+Es una relación dinámica. Un baile constante entre quien resuelve el problema y el problema mismo. Y todo dentro de un contexto específico.
+
+16
+00:01:53,440 --> 00:02:02,340
+Me encanta esa idea. La dificultad como un baile. Y para entender los pasos, el artículo usa el ejemplo perfecto. El ajedrez.
+
+17
+00:02:02,340 --> 00:02:08,960
+El ejemplo clásico. Durante décadas fue el Everest de la inteligencia artificial. El estándar de oro.
+
+18
+00:02:09,600 --> 00:02:16,800
+Cuando Deep Blue venció a Kasparov, se sintió como la conquista de un problema difícil. Pero lo curioso es lo que pasó después.
+
+19
+00:02:17,400 --> 00:02:24,200
+Que el ajedrez como desafío para la IA perdió casi toda su relevancia. Dejó de ser la frontera.
+
+20
+00:02:24,460 --> 00:02:24,720
+Claro.
+
+21
+00:02:24,720 --> 00:02:37,600
+Y la pregunta que plantea el artículo no es, ¿cómo se volvió más fácil el ajedrez? Porque las reglas no cambiaron. La pregunta es, ¿por qué dejó de importarnos como medida de inteligencia?
+
+22
+00:02:37,740 --> 00:02:39,600
+Claro. ¿Qué fue lo que cambió entonces?
+
+23
+00:02:39,600 --> 00:02:51,920
+Pues lo que cambió fue todo el andamiaje alrededor del juego. El hardware se volvió exponencialmente más rápido. Los algoritmos de búsqueda se refinaron hasta el absurdo. Y...
+
+24
+00:02:51,920 --> 00:02:55,880
+Y las bases de datos gigantescas con todas las partidas de la historia.
+
+25
+00:02:55,880 --> 00:03:09,280
+Justo. La dificultad del ajedrez no fue conquistada en un duelo de ingenio. Más bien se disolvió en el momento en que el problema se alineó perfecto con las fortalezas del cómputo bruto.
+
+26
+00:03:09,820 --> 00:03:12,640
+Y esto nos lleva a la tesis central del artículo, ¿no?
+
+27
+00:03:13,080 --> 00:03:22,060
+Nos lleva directo. La dificultad no existe en el vacío. Emerge de la interacción de cuatro elementos. Primero, la tarea en sí.
+
+28
+00:03:22,060 --> 00:03:32,280
+Las reglas del juego. Segundo, el sistema que la intenta resolver, ya sea un cerebro humano o un chip. Tercero, y esto es crucial, el prompt.
+
+29
+00:03:32,620 --> 00:03:46,500
+La forma en que se presenta la tarea. Exacto. Y cuarto, el entorno, con todas sus restricciones y recursos. Si modificas uno solo de esos cuatro, toda la ecuación de la dificultad se recalcula por completo.
+
+30
+00:03:46,500 --> 00:03:57,320
+Ok, a ver, vamos a desempacar eso porque suena, suena denso. La tarea y el sistema, el qué y el quién, eso está claro. Pero me intriga mucho la idea del prompt.
+
+31
+00:03:57,620 --> 00:03:58,060
+Ajá.
+
+32
+00:03:58,200 --> 00:04:00,980
+O sea, yo oigo prompt y pienso inmediatamente en…
+
+33
+00:04:00,980 --> 00:04:03,620
+En la cajita de texto de ChatGPD.
+
+34
+00:04:04,020 --> 00:04:07,260
+Justo. Pero aquí se refiere en algo mucho más grande, ¿verdad?
+
+35
+00:04:07,260 --> 00:04:21,500
+Uf, muchísimo más allá. Un prompt en este contexto es cualquier cosa que estructura un problema, que divide el mundo entre lo que das por sentado y lo que necesita resolverse.
+
+36
+00:04:21,680 --> 00:04:27,700
+A ver, un ejemplo. El artículo usa un no perfecto. Un plano de arquitectura.
+
+37
+00:04:27,700 --> 00:04:39,640
+Claro. El plano es el prompt para el equipo de construcción. Resuelve de antemano todas las preguntas increíblemente complejas de geometría, de cargas estructurales…
+
+38
+00:04:39,640 --> 00:04:49,600
+Distribución de espacios, todo. Libera a los constructores para que se enfoquen únicamente en la ejecución. O sea, en poner un ladrillo sobre otro, básicamente.
+
+39
+00:04:49,600 --> 00:04:53,980
+Entendido. O como dicen también, una partitura musical.
+
+40
+00:04:54,140 --> 00:05:09,880
+Exacto. La partitura es un prompt que ya resolvió las notas, el ritmo, la armonía. El músico no tiene que reinventar la sinfonía cada vez. Puede concentrarse en la interpretación, la emoción.
+
+41
+00:05:10,040 --> 00:05:10,700
+El matiz.
+
+42
+00:05:10,700 --> 00:05:19,960
+El matiz. El prompt es una forma de empaquetar conocimiento previo para hacer manejable un problema presente.
+
+43
+00:05:20,260 --> 00:05:27,680
+Entiendo. Y eso se conecta directo con otra idea muy potente del artículo, que es cómo redefine la abstracción.
+
+44
+00:05:27,820 --> 00:05:29,700
+Aquí es donde se pone fascinante.
+
+45
+00:05:30,500 --> 00:05:37,100
+Normalmente uno piensa en abstraer como quitar detalles, simplificar. Pero ellos proponen algo distinto.
+
+46
+00:05:37,100 --> 00:05:44,400
+Sí. Ellos redefinen la abstracción no como simplificación, sino como una forma de…
+
+47
+00:05:44,400 --> 00:05:45,100
+Compilación.
+
+48
+00:05:45,260 --> 00:05:46,100
+Como en la programación.
+
+49
+00:05:46,780 --> 00:05:48,720
+Compilación. ¿Cómo compilar un código?
+
+50
+00:05:48,860 --> 00:06:02,200
+Justo. ¿Qué es compilar? Es tomar un lenguaje complejo, lleno de dependencias y librerías, y empaquetarlo todo en un archivo ejecutable. Una interfaz simple y opaca.
+
+51
+00:06:02,200 --> 00:06:06,680
+O sea, escondes toda la complejidad detrás de un solo botón que es fácil de usar.
+
+52
+00:06:07,300 --> 00:06:17,960
+Precisamente. Usan una analogía genial. Cuando un conductor pisa el acelerador, no necesita calcular la termodinámica de la combustión interna.
+
+53
+00:06:18,180 --> 00:06:20,600
+Ni la fricción de los pistores, ni nada de eso.
+
+54
+00:06:20,920 --> 00:06:33,560
+Nada. Toda esa ingeniería infernal está compilada en la simple acción de pisar un pedal. Ese es el poder de una buena abstracción. Volvió trivial una tarea increíblemente compleja.
+
+55
+00:06:33,560 --> 00:06:46,340
+Ok. Espera. Porque aquí es donde mi cabeza empieza a dar vueltas. Si la abstracción es compilación, y la hacemos todo el tiempo, ¿cuál es el truco? Porque en la vida real las cosas no son tan fáciles.
+
+56
+00:06:46,340 --> 00:06:59,700
+Ahí está el punto clare. El artículo señala una diferencia crítica. En el software, la compilación se hace para un entorno fijo, predecible. El procesador no cambia de humor.
+
+57
+00:06:59,700 --> 00:07:15,440
+Exacto. Pero en la vida, nuestras compilaciones mentales, nuestros hábitos, nuestra experiencia, son contraobjetivos en movimiento. El mundo real es un caos que cambia constantemente.
+
+58
+00:07:15,440 --> 00:07:20,800
+Y eso explicaría por qué la experiencia es a la vez tan poderosa y…
+
+59
+00:07:20,800 --> 00:07:21,700
+Tan frágil.
+
+60
+00:07:21,980 --> 00:07:32,440
+Exacto. Tan frágil. Un experto, no sé, un taxista de la vieja escuela en la Ciudad de México, tiene compilado en su cerebro una cantidad de información absurda.
+
+61
+00:07:33,040 --> 00:07:39,440
+El nombre de cada calle, los atajos, los patrones de tráfico… es increíblemente eficiente.
+
+62
+00:07:40,340 --> 00:07:41,780
+Hasta que el entorno cambia.
+
+63
+00:07:41,780 --> 00:07:51,960
+Hasta que ponen una nueva línea de metrobús o cierran una avenida o simplemente aparece una app como Waze que externaliza todo ese conocimiento.
+
+64
+00:07:52,220 --> 00:07:56,520
+Y de repente, esa compilación mental tan profunda ya no sirve.
+
+65
+00:07:56,700 --> 00:08:03,680
+Peor. Puede ser un obstáculo. El experto se queda perdido insistiendo en las rutas de siempre.
+
+66
+00:08:03,920 --> 00:08:11,060
+Mientras que un novato, sin esas abstracciones tan arraigadas, simplemente abre la app y se adapta al instante.
+
+67
+00:08:11,060 --> 00:08:21,180
+Tiene menos que desaprender. Y este fenómeno nos lleva a lo que el texto llama asimetrías persistentes entre humanos y máquinas.
+
+68
+00:08:21,580 --> 00:08:22,340
+Ok. ¿Qué es eso?
+
+69
+00:08:22,800 --> 00:08:30,680
+La idea es que siempre habrá tareas que son triviales para nosotros y herculeas para las máquinas. Y viceversa.
+
+70
+00:08:31,060 --> 00:08:34,860
+Y no es una brecha temporal que el progreso vaya a cerrar.
+
+71
+00:08:34,860 --> 00:08:36,760
+Sino que es algo estructural.
+
+72
+00:08:37,060 --> 00:08:46,020
+Es una diferencia estructural en nuestras compilaciones históricas, en lo que la evolución y la tecnología han optimizado por separado.
+
+73
+00:08:46,260 --> 00:08:51,800
+Hablando de esa asimetría, la comparación que hacen entre el ajedrez y el Tetris me pareció brillante.
+
+74
+00:08:52,240 --> 00:08:53,360
+Es buenísima.
+
+75
+00:08:53,360 --> 00:09:13,020
+Desde una perspectiva puramente combinatoria, lo es. El ajedrez es un universo simbólico, discreto, con reglas fijas. Es un problema perfecto para el cómputo bruto.
+
+76
+00:09:13,560 --> 00:09:14,620
+Lo que ya vimos.
+
+77
+00:09:14,620 --> 00:09:21,900
+Exacto. Una vez que las máquinas tuvieron la potencia, lo dominaron. El Tetris, en cambio.
+
+78
+00:09:22,400 --> 00:09:27,620
+Es otro animal. Parece un juego de niños, pero para una máquina es una pesadilla.
+
+79
+00:09:28,000 --> 00:09:40,440
+Es una pesadilla porque no se trata de cálculo simbólico. Depende de la percepción en tiempo real, de la coordinación motora fina, para rotar y colocar las piezas justo a tiempo.
+
+80
+00:09:40,820 --> 00:09:43,380
+Y todo bajo una presión que no para de aumentar.
+
+81
+00:09:43,380 --> 00:09:47,480
+Son tareas que para los humanos son casi instintivas.
+
+82
+00:09:47,660 --> 00:09:51,820
+Pero, ¿por qué son instintivas? ¿No es que nazcamos sabiendo jugar Tetris?
+
+83
+00:09:52,180 --> 00:10:00,380
+No, claro que no. Pero nacemos con el resultado de millones de años de compilación evolutiva sensorio-motora.
+
+84
+00:10:00,720 --> 00:10:01,380
+Ah, caro.
+
+85
+00:10:01,480 --> 00:10:08,580
+Nuestros cerebros y cuerpos están súper optimizados para interactuar con un mundo físico en tres dimensiones.
+
+86
+00:10:08,580 --> 00:10:18,960
+Para predecir trayectorias, para manipular objetos. Esa habilidad es una forma de inteligencia increíblemente profunda que damos por sentada.
+
+87
+00:10:19,400 --> 00:10:23,520
+Y para una máquina, replicar eso desde cero es gustosísimo.
+
+88
+00:10:23,520 --> 00:10:26,200
+Exacto. No le viene de fábrica.
+
+89
+00:10:26,580 --> 00:10:34,980
+Ok. Entonces, el panorama que se dibuja es que el progreso tecnológico no elimina la dificultad, sino que la mueve del lugar.
+
+90
+00:10:35,180 --> 00:10:36,040
+La desplaza.
+
+91
+00:10:36,040 --> 00:10:45,480
+La complejidad es como la materia. No se crea ni se destruye. Solo se transforma. Ese es el término exacto que usan. Desplazamiento computacional.
+
+92
+00:10:46,520 --> 00:10:55,680
+Cada vez que creamos una interfaz simple y elegante, estamos escondiendo una montaña de complejidad en otro lugar. Como pedir comida con una app.
+
+93
+00:10:55,680 --> 00:11:07,200
+Ese ejemplo es perfecto. La facilidad de tu app oculta la brutal complejidad de los centros de datos, la precaria economía de los repartidores, la logística global.
+
+94
+00:11:07,560 --> 00:11:10,180
+El consumo de energía que soporta todo.
+
+95
+00:11:10,660 --> 00:11:15,900
+Toda la red. La complejidad no desapareció. Solo se movió a donde no la vemos.
+
+96
+00:11:15,900 --> 00:11:26,160
+Y esa simplicidad digital crea nuevas cargas en el mundo análogo, ¿no? El artículo menciona la fatiga visual, los problemas de postura.
+
+97
+00:11:26,600 --> 00:11:33,040
+Y la carga cognitiva de tener que gestionar un bombardeo constante de notificaciones.
+
+98
+00:11:33,380 --> 00:11:43,160
+Claro. Eliminamos la dificultad de ir a la biblioteca a buscar un dato, pero la reemplazamos con la dificultad de filtrar una avalancha de información.
+
+99
+00:11:43,160 --> 00:11:55,300
+Es un intercambio. Un trueque de dificultades. Y lo más peligroso es que este desplazamiento alimenta un ciclo que tiende a aumentar la complejidad general del sistema.
+
+100
+00:11:55,680 --> 00:12:05,060
+Parece que cada vez que intentamos simplificar algo, terminamos complicando todo el panorama. ¿Hay alguna ley o algo que explique este efecto?
+
+101
+00:12:05,560 --> 00:12:11,940
+Sí. Y el artículo la conecta con la ley de Goodhart, que es una de mis ideas favoritas.
+
+102
+00:12:11,940 --> 00:12:13,040
+A ver, ¿cómo va?
+
+103
+00:12:13,220 --> 00:12:18,440
+Cuando una medida se convierte en un objetivo, deja de ser una buena medida.
+
+104
+00:12:18,900 --> 00:12:24,380
+Uf, eso suena a algo que vemos todos los días. Por ejemplo, en la educación.
+
+105
+00:12:25,480 --> 00:12:32,300
+Totalmente. El aprendizaje es un proceso fluido, complejo, casi imposible de medir directamente.
+
+106
+00:12:33,080 --> 00:12:37,120
+Entonces, para gestionarlo, creamos una medida, un proxy.
+
+107
+00:12:37,120 --> 00:12:38,600
+Las calificaciones.
+
+108
+00:12:39,260 --> 00:12:52,820
+Exacto. Al principio, la calificación es un indicador útil. Pero inevitablemente, el sistema empieza a optimizar para la medida, no para el proceso real. La calificación se convierte en el objetivo.
+
+109
+00:12:53,360 --> 00:13:00,320
+Y ahí es cuando los maestros empiezan a enseñar para el examen y los alumnos a estudiar solo para pasar, no para aprender.
+
+110
+00:13:00,320 --> 00:13:06,260
+La medida que debía servir al proceso termina por distorsionarlo y corromperlo.
+
+111
+00:13:06,480 --> 00:13:08,660
+Y la respuesta del sistema es...
+
+112
+00:13:08,660 --> 00:13:18,320
+Predecible. Como las calificaciones ya no son fiables, creamos más reglas, más supervisión, más métricas, más auditorías.
+
+113
+00:13:18,520 --> 00:13:21,100
+Más complejidad burocrática al sistema.
+
+114
+00:13:21,100 --> 00:13:31,760
+Es una carrera armamentista de complejidad, donde cada solución a corto plazo siembra las semillas de los problemas del futuro.
+
+115
+00:13:32,180 --> 00:13:42,280
+Entonces, tenemos este desplazamiento de la dificultad, la fragilidad de la experiencia, la ley de Guthard. Todos parecen síntomas del mismo principio, ¿no?
+
+116
+00:13:42,280 --> 00:13:51,820
+Sí. Y el artículo llega a proponer cuál es ese principio unificador. Es la conclusión que ata todos los cabos.
+
+117
+00:13:52,180 --> 00:13:53,080
+Ok. ¿Cuál es?
+
+118
+00:13:53,480 --> 00:14:07,940
+Propone que los sistemas adaptativos, ya sea la evolución biológica, el aprendizaje en nuestro cerebro o el desarrollo tecnológico, no estal optimizados para encontrar la solución de menor costo total a largo plazo.
+
+119
+00:14:08,220 --> 00:14:10,060
+Eso sería como poder ver el futuro.
+
+120
+00:14:10,060 --> 00:14:16,560
+Imposible. En cambio, siguen ciegamente la ruta de menor resistencia inmediata.
+
+121
+00:14:16,900 --> 00:14:21,700
+Siempre toman el atajo más fácil que tienen a la mano en este momento.
+
+122
+00:14:21,960 --> 00:14:34,560
+Siempre. Usan un concepto de la teoría del ensamblaje llamado índice de ensamblaje. Es una forma de medir la complejidad de un objeto por los pasos mínimos para construirlo.
+
+123
+00:14:35,160 --> 00:14:35,480
+Ok.
+
+124
+00:14:35,480 --> 00:14:48,240
+Lo que argumentan es que los sistemas adaptativos siempre prefieren reutilizar un componente complejo ya existente, un atajo, en lugar de construir la solución óptima desde cero.
+
+125
+00:14:48,680 --> 00:14:53,640
+¿Aunque esa decisión genere enredos y complejidad a nivel global en el futuro?
+
+126
+00:14:53,640 --> 00:15:00,320
+Justo. Cada atajo se convierte en una restricción y en la fuente de los problemas del mañana.
+
+127
+00:15:00,320 --> 00:15:06,580
+En resumen, este análisis nos obliga a cuestionar algunas de nuestras ideas más arraigadas.
+
+128
+00:15:07,240 --> 00:15:15,200
+Si la dificultad no es una propiedad fija, sino una relación en constante movimiento, entonces, ¿qué demonios es la inteligencia?
+
+129
+00:15:15,460 --> 00:15:20,560
+Ya no puede ser simplemente la capacidad de resolver problemas difíciles.
+
+130
+00:15:20,640 --> 00:15:20,960
+Claro.
+
+131
+00:15:20,960 --> 00:15:25,820
+La capacidad de gestionar estas fronteras cambiantes entre lo fácil y lo difícil.
+
+132
+00:15:26,200 --> 00:15:29,340
+Es saber cuándo tus atajos mentales ya no funcionan.
+
+133
+00:15:29,460 --> 00:15:37,800
+Es la metacognición. Es saber cuándo tus abstracciones, tus compilaciones han dejado de funcionar porque el mundo cambió,
+
+134
+00:15:38,200 --> 00:15:42,140
+y tener la flexibilidad para desecharlas y reconstruirlas.
+
+135
+00:15:42,540 --> 00:15:46,280
+Y de ahí se reviva una definición brutal de lo contrario.
+
+136
+00:15:46,280 --> 00:15:58,120
+La estupidez en este sentido no es una falta de capacidad, sino un compromiso excesivo con abstracciones obsoletas que ya no se ajustan al entorno.
+
+137
+00:15:58,660 --> 00:16:02,640
+¿Es quedarse atascado en un mapa viejo cuando el territorio ya cambió?
+
+138
+00:16:03,020 --> 00:16:10,860
+Exactamente. Por lo tanto, el progreso no es la eliminación de la dificultad, sino su constante redistribución.
+
+139
+00:16:11,000 --> 00:16:15,260
+La verdadera pregunta es ¿a dónde estamos moviendo esa complejidad?
+
+140
+00:16:15,260 --> 00:16:18,900
+¿Y sobre los hombros de quién termina cayendo esa carga?
+
+141
+00:16:19,160 --> 00:16:22,000
+Eso le da una dimensión ética inesperada.
+
+142
+00:16:22,600 --> 00:16:29,880
+Si la dificultad de una tarea depende del andamiaje que uno tiene, herramientas, educación, contexto,
+
+143
+00:16:30,480 --> 00:16:34,580
+entonces la justicia no puede ser simplemente darle a todos la misma tarea.
+
+144
+00:16:34,580 --> 00:16:43,540
+No. La verdadera justicia tendría que considerar el acceso desigual a ese andamiaje que permite que una tarea sea siquiera abordable.
+
+145
+00:16:44,280 --> 00:16:46,140
+Es una implicación muy profunda.
+
+146
+00:16:46,360 --> 00:16:51,760
+Para terminar, y para dejar algo en que pensar, el artículo cierra con una última idea provocadora.
+
+147
+00:16:52,340 --> 00:16:54,020
+Un corolario que me dejó helado.
+
+148
+00:16:54,260 --> 00:16:54,760
+A ver.
+
+149
+00:16:54,760 --> 00:16:59,900
+Sostiene que, por una razón estructural, decir siempre será más fácil que hacer.
+
+150
+00:17:00,100 --> 00:17:08,100
+Siempre. La razón es que una descripción, un plan, una promesa, una etiqueta, son formas de comprensión de información.
+
+151
+00:17:08,320 --> 00:17:08,960
+Son baratas.
+
+152
+00:17:09,700 --> 00:17:11,180
+Computacionalmente baratísimas.
+
+153
+00:17:11,620 --> 00:17:18,820
+En comparación, fune a costo de construir y mantener el circuito causal que hace que esa cosa funcione en el mundo real.
+
+154
+00:17:18,820 --> 00:17:23,640
+Un plan puede ignorar las fricciones, las dependencias ocultas.
+
+155
+00:17:23,740 --> 00:17:27,020
+Todo lo que la ejecución inevitablemente va a encontrar.
+
+156
+00:17:27,380 --> 00:17:31,280
+Y eso nos deja con una pregunta final casi existencial.
+
+157
+00:17:31,620 --> 00:17:32,420
+Así es.
+
+158
+00:17:32,820 --> 00:17:42,000
+Si esto es cierto, si nuestros planes, nuestras leyes, nuestro lenguaje son siempre una versión radicalmente simplificada de la realidad,
+
+159
+00:17:42,000 --> 00:17:49,880
+¿qué nos dice eso sobre nuestra capacidad para controlar de verdad los sistemas cada vez más complejos que diseñamos?
+
+160
+00:17:49,980 --> 00:17:54,000
+¿Estamos quizá destinados a que nuestras ambiciones simbólicas?
+
+161
+00:17:54,120 --> 00:17:55,580
+¿Lo que decimos que haremos?
+
+162
+00:17:55,840 --> 00:18:01,240
+Siempre superen por mucho nuestra capacidad de ejecución en el complicado y enredado mundo real.
+

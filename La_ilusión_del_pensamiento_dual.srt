@@ -1,0 +1,484 @@
+1
+00:00:00,000 --> 00:00:07,900
+A ver, creo que casi todos hemos oído hablar de esta idea de que tenemos como dos formas de pensar, ¿no?
+
+2
+00:00:08,320 --> 00:00:11,340
+El famoso Sistema 1 y Sistema 2.
+
+3
+00:00:11,560 --> 00:00:12,100
+Sí, claro.
+
+4
+00:00:12,560 --> 00:00:16,740
+Uno es el piloto automático, el rápido, el intuitivo.
+
+5
+00:00:17,360 --> 00:00:19,980
+Y el otro es, pues, el piloto manual.
+
+6
+00:00:20,540 --> 00:00:25,320
+Lento, analítico, el que usas para armar un mueble de esos complicados.
+
+7
+00:00:25,320 --> 00:00:30,880
+La verdad es que es un marco súper popular porque parece que lo explica casi todo.
+
+8
+00:00:31,560 --> 00:00:36,320
+Pero bueno, el material que tenemos hoy sobre la mesa lo pone todo patas arriba.
+
+9
+00:00:36,660 --> 00:00:38,600
+Le da una vuelta de tuerca interesante.
+
+10
+00:00:38,980 --> 00:00:39,580
+Totalmente.
+
+11
+00:00:40,200 --> 00:00:45,760
+Es un artículo académico, El mito de la cognición dual, y algunas notas que lo explican.
+
+12
+00:00:46,480 --> 00:00:53,720
+Proponen algo que suena casi a herejía, que esa división en dos sistemas es en realidad un espejismo.
+
+13
+00:00:53,720 --> 00:00:55,020
+Un error conceptual.
+
+14
+00:00:55,320 --> 00:00:55,680
+Sí.
+
+15
+00:00:55,860 --> 00:01:03,180
+Así que nuestra misión hoy es meternos de lleno en esta idea que llaman teoría de la relegación de aspectos
+
+16
+00:01:03,180 --> 00:01:12,020
+y ver si de verdad cambia cómo entendemos la intuición, el aprendizaje y, sobre todo, el debate actual sobre la inteligencia artificial.
+
+17
+00:01:12,560 --> 00:01:15,180
+Y es importante aclarar algo desde el principio, ¿no?
+
+18
+00:01:15,580 --> 00:01:20,620
+La teoría no dice que no sintamos que hay pensamientos rápidos y otros lentos.
+
+19
+00:01:21,140 --> 00:01:22,740
+Eso es real, lo sentimos todos.
+
+20
+00:01:22,920 --> 00:01:23,240
+Claro.
+
+21
+00:01:23,240 --> 00:01:29,340
+Lo que argumenta es que el sistema 1 no es un motor diferente en el cerebro.
+
+22
+00:01:30,100 --> 00:01:40,740
+Es más bien el resultado de procesos que antes eran lentos del sistema 2, pero que con la práctica se han comprimido, se han automatizado.
+
+23
+00:01:40,740 --> 00:01:42,940
+O sea que la intuición no es magia.
+
+24
+00:01:43,340 --> 00:01:50,640
+Exacto. La intuición es el razonamiento de siempre, pero con todo el andamiaje, todo el paso a paso ya oculto.
+
+25
+00:01:50,640 --> 00:01:53,240
+A ver, vamos a desmenuzar esa idea un poco.
+
+26
+00:01:53,240 --> 00:02:00,640
+El artículo habla de una deriva ontológica. La frase suena, bueno, intimidante, la verdad.
+
+27
+00:02:01,040 --> 00:02:03,240
+Sí, suena a clase de filosofía.
+
+28
+00:02:04,340 --> 00:02:10,240
+Estamos diciendo que los científicos básicamente se creyeron demasiado su propia metáfora.
+
+29
+00:02:10,240 --> 00:02:21,700
+Es exactamente eso. No hay mejor forma de ponerlo. La deriva ontológica es ese resbalón, ese paso de una descripción útil a una afirmación sobre cómo es la realidad.
+
+30
+00:02:22,260 --> 00:02:22,620
+Ajá.
+
+31
+00:02:22,620 --> 00:02:30,640
+Es como, no sé, describir el día y la noche y de repente concluir que hay dos soles diferentes, uno para cada momento.
+
+32
+00:02:31,380 --> 00:02:37,880
+Se empezó a hablar del sistema 1 y 2 como si fueran dos máquinas, dos computadoras separadas dentro del cráneo.
+
+33
+00:02:38,220 --> 00:02:42,960
+Y claro, si crees que son dos máquinas distintas, empiezas a tratarlas distinto.
+
+34
+00:02:43,440 --> 00:02:49,460
+Precisamente. Y los textos señalan dos consecuencias de esto que son bastante serias.
+
+35
+00:02:49,460 --> 00:02:53,840
+La primera es una especie de moralización del pensamiento.
+
+36
+00:02:54,540 --> 00:02:56,240
+¿Moralización? ¿Cómo así?
+
+37
+00:02:56,520 --> 00:03:04,260
+Sí. El sistema 1 pasa a ser el villano, el impulsivo, el que nos mete en problemas, el poco fiable, ¿no?
+
+38
+00:03:04,480 --> 00:03:05,780
+El irracional.
+
+39
+00:03:06,020 --> 00:03:13,900
+Eso. Y el sistema 2 es el héroe, el racional, el correcto, al que siempre deberíamos aspirar.
+
+40
+00:03:13,900 --> 00:03:19,600
+Le ponemos una etiqueta de bueno y malo a nuestros propios procesos mentales.
+
+41
+00:03:20,200 --> 00:03:22,500
+Entiendo. ¿Y la segunda consecuencia?
+
+42
+00:03:23,040 --> 00:03:29,120
+La segunda es que nos lleva a hacer juicios muy simplistas sobre la inteligencia. Y aquí es donde entra la ía.
+
+43
+00:03:29,640 --> 00:03:29,940
+Claro.
+
+44
+00:03:29,940 --> 00:03:39,820
+Si el comportamiento de un sistema parece rápido, fluido, automático, pues lo metemos en la caja del sistema 1 y lo descartamos.
+
+45
+00:03:40,360 --> 00:03:45,060
+Decimos, ah, eso es solo reconocimiento de patrones, no es razonamiento de verdad.
+
+46
+00:03:45,560 --> 00:03:49,640
+Se asume que es superficial porque no le costó trabajo.
+
+47
+00:03:49,640 --> 00:03:51,000
+Exactamente.
+
+48
+00:03:51,180 --> 00:03:54,640
+Pero si esa división es un mito, ¿cuál es la alternativa?
+
+49
+00:03:55,520 --> 00:04:02,960
+La teoría propone esta idea de relegación. Y el ejemplo que usan, el del viaje diario al trabajo, me parece genial.
+
+50
+00:04:03,400 --> 00:04:04,380
+Es perfecto, sí.
+
+51
+00:04:04,380 --> 00:04:17,300
+Al principio, cuando empiezas en un trabajo nuevo, piensas en cada detalle. Salgo de casa, camino a la parada, me fijo en qué estación bajar. Es un esfuerzo consciente.
+
+52
+00:04:18,160 --> 00:04:18,760
+Totalmente.
+
+53
+00:04:19,640 --> 00:04:21,520
+Y después de un mes, ¿qué pasa?
+
+54
+00:04:22,020 --> 00:04:28,860
+Que lo haces sin pensar. Llegas al trabajo y casi no recuerdas el viaje. Tu cuerpo te lleva solo.
+
+55
+00:04:29,320 --> 00:04:45,820
+Ahí está. Esa es la relegación de aspectos. A medida que la ruta se vuelve familiar y exitosa, porque llegas a tiempo, todos esos pequeños detalles que antes ocupaban tu atención se van, relegando, se ocultan, se comprimen.
+
+56
+00:04:46,240 --> 00:04:47,880
+Se ejecutan en segundo plano.
+
+57
+00:04:47,880 --> 00:05:00,700
+Justo. El razonamiento no desapareció, ¿eh? Su estructura interna se hizo invisible para ahorrarte energía. El cerebro es muy eficiente. Dice, esto funciona. No necesito redibujar el mapa cada mañana.
+
+58
+00:05:00,700 --> 00:05:10,220
+O sea que no es un interruptor que cambia de modo lento a modo rápido. Es más como hacer zoom en un mapa.
+
+59
+00:05:10,220 --> 00:05:12,440
+Mmm, me gusta esa analogía.
+
+60
+00:05:12,440 --> 00:05:25,260
+A veces, en una ciudad nueva, necesitas ver el mapa con todo el detalle de las calles. Pero en tu propia ciudad, solo necesitas ver la ruta general. El punto A y el punto B.
+
+61
+00:05:25,260 --> 00:05:34,180
+Esa imagen del mapa es buenísima, sí. Y lo más importante que los textos subrayan es que ese zoom es reversible.
+
+62
+00:05:34,780 --> 00:05:35,660
+¡Ah, claro!
+
+63
+00:05:35,660 --> 00:05:42,000
+Imagina que en tu viaje diario, de repente tu estación de metro habitual está cerrada. ¿Qué pasa?
+
+64
+00:05:42,460 --> 00:05:50,380
+Pues que el piloto automático se apaga de golpe. Tienes que parar, pensar, sacar el móvil, buscar otra ruta.
+
+65
+00:05:50,380 --> 00:06:00,880
+Exacto. El sistema repromueve los aspectos que había relegado. El zoom se acerca de nuevo, los detalles vuelven a tu conciencia y deliberas.
+
+66
+00:06:01,360 --> 00:06:05,780
+¿Y eso qué se siente como un cambio de sistema 1 a sistema 2?
+
+67
+00:06:06,040 --> 00:06:18,820
+En realidad es un ajuste en la resolución con la que estás mirando el problema. No encendiste un motor nuevo. Le dijiste el que ya tenías. Oye, mira esto con más detalle. Porque el plan A falló.
+
+68
+00:06:18,820 --> 00:06:29,140
+Un momento. El texto dice algo aquí que me acaba de hacer clic. La intuición es el razonamiento de ayer, eficientemente olvidado.
+
+69
+00:06:29,480 --> 00:06:30,920
+Es una frase genial, ¿no?
+
+70
+00:06:31,220 --> 00:06:40,080
+¿Me estás diciendo que mi corazonada sobre algo es en realidad el eco de un montón de trabajo mental que ya hice y ni siquiera recuerdo?
+
+71
+00:06:40,340 --> 00:06:46,200
+Eso es. Y es fascinante porque desmitifica la intuición sin quitarle ni un gramo de su poder.
+
+72
+00:06:46,440 --> 00:06:46,820
+A ver.
+
+73
+00:06:46,820 --> 00:06:56,520
+La intuición de una médica experta que ve a un paciente y sabe que algo anda mal. O la de un ajedrecista que ve la jugada ganadora en un segundo. No sale de la nada.
+
+74
+00:06:56,860 --> 00:06:58,540
+Claro, viene de la experiencia.
+
+75
+00:06:58,920 --> 00:07:08,100
+Es el producto de miles de horas de razonamiento, de prueba y error, de análisis, que se ha comprimido tanto que su ejecución se siente instantánea.
+
+76
+00:07:08,100 --> 00:07:16,460
+La sensación de que la respuesta simplemente te llega es porque los pasos intermedios ya no son visibles, no porque nunca existieron.
+
+77
+00:07:16,760 --> 00:07:25,460
+Y eso también cambia la idea del esfuerzo. Sentir que algo te cuesta mucho trabajo no significa necesariamente que estés pensando mejor.
+
+78
+00:07:25,460 --> 00:07:37,980
+Para nada. El esfuerzo cognitivo es solo una señal. Es el termómetro que te indica que estás manteniendo muchos detalles, muchas distinciones activas en tu conciencia al mismo tiempo.
+
+79
+00:07:37,980 --> 00:07:50,380
+Cuando te vuelves experta en algo, el esfuerzo disminuye. Pero no porque la tarea se haya vuelto más simple, sino porque has reorganizado su complejidad de una forma mucho más eficiente.
+
+80
+00:07:50,380 --> 00:07:55,780
+Ok. La teoría es elegante, pero se me ocurre una objeción obvia.
+
+81
+00:07:56,140 --> 00:07:56,500
+A ver.
+
+82
+00:07:56,840 --> 00:08:08,840
+¿Qué pasa con las cosas que son automáticas desde que nacemos? Un reflejo, el miedo a las alturas, esos procesos nunca fueron deliberados para que pudiéramos relegarlos.
+
+83
+00:08:09,100 --> 00:08:15,220
+Es una pregunta clave y la teoría la aborda de frente. Distingue entre dos tipos de automatismo.
+
+84
+00:08:15,620 --> 00:08:16,400
+Ah, ok.
+
+85
+00:08:16,400 --> 00:08:23,740
+Por un lado, está el que llamas cableado o innato. Es el producto de millones de años de evolución.
+
+86
+00:08:24,000 --> 00:08:25,520
+El que ya viene de fábrica.
+
+87
+00:08:25,840 --> 00:08:34,420
+Eso. Y por otro lado, está el automatismo relegado. El que se adquiere con la práctica, como hablar tu idioma o andar en bicicleta.
+
+88
+00:08:34,420 --> 00:08:48,160
+Y el argumento central aquí es que los procesos que de verdad nos interesan para los debates sobre racionalidad, entender un sarcasmo, planificar un viaje, interpretar a otros, todos pertenecen a esa segunda categoría.
+
+89
+00:08:48,700 --> 00:08:50,140
+Son habilidades aprendidas.
+
+90
+00:08:50,660 --> 00:08:51,260
+Entendido.
+
+91
+00:08:51,500 --> 00:08:57,680
+Por lo tanto, el modelo de relegación se aplica perfectamente a las formas de cognición más complejas.
+
+92
+00:08:57,680 --> 00:09:03,760
+Bien, y con esto aterrizamos en el campo de batalla de hoy. La inteligencia artificial.
+
+93
+00:09:04,860 --> 00:09:15,920
+Entiendo la teoría, pero seamos honestos. Cuando ves un LLM cometer un error tonto y obvio, se siente como un fallo de Sistema 1.
+
+94
+00:09:16,540 --> 00:09:17,140
+Totalmente.
+
+95
+00:09:17,140 --> 00:09:29,460
+La crítica de gente como Gary Marcus, que dice que solo son loros estadísticos, resuene mucho con esa experiencia. ¿Cómo responde esta teoría a esa sensación?
+
+96
+00:09:29,820 --> 00:09:34,960
+Esa es la reacción intuitiva. Y es justo el tipo de pensamiento que esta teoría busca explicar.
+
+97
+00:09:36,000 --> 00:09:37,360
+Me atrapaste.
+
+98
+00:09:37,360 --> 00:09:51,160
+El punto no es que los LLMs no cometan errores. Cometen muchísimos. El problema es que etiquetar ese error como un fallo de Sistema 1 es un error de categoría. Nos impide ver el verdadero problema.
+
+99
+00:09:51,400 --> 00:09:54,720
+¿Y cuál sería la enfermedad entonces y no el síntoma?
+
+100
+00:09:55,040 --> 00:10:05,440
+Si vemos el Sistema 1 como un Sistema 2 comprimido, entonces la velocidad y fluidez de un LLM no son prueba de que le falte razonamiento. Al contrario.
+
+101
+00:10:05,440 --> 00:10:07,700
+Podrían ser prueba de lo contrario.
+
+102
+00:10:08,060 --> 00:10:29,800
+Podrían ser indicadores de una comprensión muy exitosa. El artículo usa una analogía brutal. Decir que un LLM no razona porque es rápido es como mirar el código ya compilado de un programa, ese montón de ceros y unos, y argumentar que eso no es computación de verdad, ignorando el lenguaje de programación que lo generó.
+
+103
+00:10:29,800 --> 00:10:43,840
+Entendido. Es una perspectiva muy diferente. Entonces, si la limitación no es que le falte un motor de Sistema 2, ¿cuál es el verdadero punto débil de la IA actual según esta visión?
+
+104
+00:10:43,840 --> 00:10:56,260
+Su punto débil es algo que los investigadores llaman con un nombre bastante técnico. La falta de mecanismos endógenos robustos para regular la resolución representacional.
+
+105
+00:10:56,960 --> 00:10:59,940
+Vale. Esa frase sí que necesita una traducción.
+
+106
+00:10:59,940 --> 00:11:06,360
+Totalmente. En español simple significa que a la IA le falta esa vocecita interna que todos tenemos.
+
+107
+00:11:06,820 --> 00:11:07,200
+Ajá.
+
+108
+00:11:07,540 --> 00:11:17,800
+La que de repente nos dice, espera un momento, mi respuesta automática, mi intuición, no encaja aquí. Algo no cuadra. Necesito analizar esto con más cuidado.
+
+109
+00:11:18,360 --> 00:11:21,000
+Le falta la capacidad de dudar de sí misma.
+
+110
+00:11:21,000 --> 00:11:41,060
+Exacto. Carecen de la capacidad de detectar por sí mismos cuando su conocimiento comprimido es insuficiente o inapropiado. No saben cuándo necesitan hacer zoom. Por eso, el gran reto para construir una IA más avanzada no sería atornillarle un módulo de razonamiento lento al lado.
+
+111
+00:11:41,060 --> 00:11:43,120
+No es añadir una pieza nueva.
+
+112
+00:11:43,440 --> 00:11:59,740
+No. Sería darle un mejor control sobre su propio zoom. Enriquecer su capacidad para decidir cuándo y cómo su conocimiento debe volverse explícito para ser inspeccionado y corregido. Es un problema de control adaptativo, no de tener dos motores.
+
+113
+00:11:59,740 --> 00:12:13,520
+O sea que, resumiendo, hemos pasado de ver la mente como una casa con dos motores a verla como un único motor de inferencia muy sofisticado que puede funcionar a diferentes niveles de detalle.
+
+114
+00:12:14,700 --> 00:12:25,220
+La teoría es, como dice el texto, deflacionaria. Le quita el misterio a la intuición y la superioridad a la deliberación.
+
+115
+00:12:25,220 --> 00:12:37,960
+Exacto. Disuelve una falsa dicotomía que ha generado muchísima confusión. Y al hacerlo, no es que resuelva el misterio de la mente, sino que nos obliga a hacer preguntas mucho mejores.
+
+116
+00:12:38,460 --> 00:12:40,380
+Nos enfoca en el problema real.
+
+117
+00:12:40,380 --> 00:12:56,340
+Nos saca de la discusión inútil de si algo es Sistema 1 o Sistema 2 y nos empuja a investigar el mecanismo real que hay debajo. Y eso nos deja con una pregunta final, que es quizá el verdadero Everest para la ciencia cognitiva y para la IA.
+
+118
+00:12:56,660 --> 00:12:57,880
+¿Y cuál es esa pregunta?
+
+119
+00:12:57,880 --> 00:13:13,660
+La pregunta que reemplaza a, ¿tiene Sistema 2? Es mucho más profunda. Es, ¿cómo decide un sistema cognitivo, sea un cerebro o un chip, que su forma habitual de ver el mundo ya no es suficiente para el problema que tiene delante?
+
+120
+00:13:13,840 --> 00:13:15,660
+¿Cómo sabe que tiene que hacer zoom?
+
+121
+00:13:15,660 --> 00:13:31,560
+Exacto. Y una vez que toma esa decisión, ¿qué recursos usa para descomprimir y reevaluar? Entender ese mecanismo de control adaptativo. Ese es el verdadero problema que nos queda por resolver.
+

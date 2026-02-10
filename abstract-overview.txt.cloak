@@ -1,0 +1,196 @@
+### Abstraction_Is_Just_Energy_Minimization
+
+The text presents an ambitious exploration of abstraction, a concept traditionally understood as a mental shortcut that simplifies complex systems by hiding details. The author argues this conventional view is incomplete and proposes a new perspective: abstraction is fundamentally a reduction process.
+
+At the heart of this argument is the idea that abstraction involves eliminating degrees of freedom, essentially "killing" or resolving conflicts within a system to create stable, usable forms. This principle applies across various domains, from computer science and mathematics to physics and neuroscience, and even ethics.
+
+The monograph, titled "Abstraction is Reduction," introduces an equation that encapsulates this unified theory: Abstraction equals Reduction equals Computation equals Energy Minimization. This equation suggests that abstraction, reduction, computation, and energy minimization are different facets of the same underlying process.
+
+The text traces this principle from its roots in lambda calculus, a minimalist system of computation introduced by Alonzo Church in the 1930s. In lambda calculus, computation occurs through beta reduction, a process where complex expressions (redexes) are simplified into normal form—a static value that cannot be reduced further.
+
+The author then applies this concept to algebra, programming languages like Haskell, hardware (specifically null convention logic), and even the brain's predictive coding model. In each case, abstraction is seen as a temporal process of reducing complexity, minimizing energy, or eliminating surprise.
+
+The geometric language SpherePop calculus is introduced as a visual representation of this reduction process in 3D space. Spheres represent regions of validity or information, merging and collapsing to simplify complex relationships into manageable concepts.
+
+The text concludes by delving into the realm of physics, proposing a five-dimensional Ising model (5D RSVP Ising) as a grand unification theory. This model suggests that computation, thought, and even the formation of the self are physical processes driven by energy minimization—the universe's tendency to seek lower-energy states.
+
+Finally, the text raises profound ethical questions about abstraction. If abstraction is reduction, it implies the loss or deletion of details. The author distinguishes between computational abstraction (useful for simplifying complex systems) and phenomenological reduction (stripping away assumptions to see the world as it truly is).
+
+The danger lies in using computational abstraction on people, reducing them to numbers or statistics, which can lead to dehumanization and exploitation. The solution proposed is an ethics of reduction—responsible interfaces that remember what they've deleted and allow the underlying reality to veto the abstraction when harm occurs.
+
+Ultimately, the text suggests that humans are reduction engines, constantly simplifying the universe's chaos into habitable order through abstraction. However, it emphasizes that these abstractions are artificial constructs and encourages listeners to remember the underlying complexity and interdependencies, lest we lose sight of the whole in our quest for simplicity.
+
+
+### La_ilusión_del_pensamiento_dual
+
+The text discusses a shift in understanding cognitive processes, moving away from the dual-system theory (System 1 and System 2) proposed by psychologist Daniel Kahneman to a new perspective called the "Aspect Relegation Theory."
+
+1. **Dual-System Theory Limitations**: The dual-system model suggests that we have two distinct ways of thinking: fast, intuitive System 1 and slow, analytical System 2. However, this theory has been criticized for moralizing cognition (labeling System 1 as irrational and System 2 as rational) and oversimplifying intelligence.
+
+2. **Aspect Relegation Theory**: This alternative theory posits that what we perceive as "intuitive" or automatic is actually the result of mental processes that have been automated through practice. The intuition we experience is not magic but rather highly practiced cognitive skills compressed into efficient, unconscious routines.
+
+   - **Illustration with Daily Commute**: The theory uses the example of commuting to work. Initially, every step is consciously considered (System 2). Over time, these steps become automated (System 1), but this doesn't mean a different 'system' has taken over; instead, previously conscious processes are now unconscious. When unexpected changes occur (like a closed subway station), these automated routines can be overridden, and conscious effort (System 2) is needed again.
+
+3. **Implications for AI**: This shift in understanding has significant implications for Artificial Intelligence (AI). Instead of viewing AI's quick, sometimes-erroneous decisions as evidence of a lack of 'slow' reasoning (System 2), this theory suggests they might be signs of highly efficient, compressed cognitive processes.
+
+   - **AI's "System 1" is not a separate, inferior system**: Rather, it's a sophisticated inference engine operating at varying levels of detail. The main challenge for AI isn't adding a 'slow' thinking module but rather improving its ability to adjust the level of detail in its processing—in other words, enhancing self-regulation and meta-cognition.
+
+4. **Key Questions**: This new perspective prompts different questions about cognition and AI:
+   - How does a cognitive system (human brain or AI) determine when its usual way of perceiving the world is insufficient for a given problem?
+   - What mechanisms does it use to 'zoom in' and reevaluate its compressed knowledge?
+
+In essence, while the dual-system theory painted a picture of two separate cognitive systems, the aspect relegation theory describes a single, adaptable inference engine capable of operating at different levels of detail. This shift encourages a deeper exploration of how such systems adapt and self-regulate their processing, pointing to new research directions in both cognitive science and AI development.
+
+
+### La_ingeniería_de_la_violencia_mexica
+
+The text discusses a unique collection of documents by an author named Flyxion, exploring the concept of managing violence within a society. The central theme revolves around the idea of "Tlacaelel's System," inspired by the historical figure Tlacaelel, who was a real-life Aztec leader and advisor to the emperor Moctezuma II.
+
+In this narrative, Tlacaelel proposes a novel approach to warfare, referred to as "guerras floridas" or flower wars. This system is characterized by several key elements:
+
+1. **Restrained Violence**: Instead of the goal being annihilation, the focus shifts to capturing opponents alive. This change transforms war into a more controlled and ritualistic act.
+
+2. **Designed Conflict**: War is conducted within specific, agreed-upon spaces (like stadiums) with strict calendars, limiting when and where battles occur.
+
+3. **Regulated Combat Rules**: The rules of engagement prioritize capturing over killing, emphasizing precision and control rather than brute force.
+
+4. **Viability Local Principle**: This principle suggests that while the system may work perfectly within its designed parameters, it relies heavily on all parties adhering to the agreed-upon rules for long-term viability.
+
+The narrative introduces two primary antagonists to Tlacaelel's vision:
+
+1. **Tizoc**: The High Priest, who represents traditional warfare. He believes in the power of fear and spectacle, arguing that visible bloodshed is essential for maintaining authority.
+
+2. **Moctezuma II**: The military leader who questions Tlacaelel's system based on a different form of logic. Moctezuma asserts that unpredictability is key to deterring enemies effectively. For him, stability weakens the element of fear and surprise crucial for imperial survival.
+
+The story also highlights Xochitl, a runner serving as part of the communication infrastructure, embodying the idea that certain societal structures can outlast ideological shifts. Additionally, the narrative emphasizes the role of record-keeping (via codices) in documenting these wars, transforming violence into an additive process rather than a destructive one.
+
+The ultimate failure of this system isn't due to internal flaws but an external mismatch with the Spanish conquistadors. The Spaniards, with their own objectives (gold, land, religious conversion), don't fit within Tlacaelel's framework of controlled violence. They don't recognize or respect the ritualized boundaries and rules of engagement established by the Aztecs, leading to an irreconcilable clash that ultimately brings down the system.
+
+The author concludes by suggesting that evaluating civilizations based on their capacity to manage harm, rather than solely on ideological purity or historical victories, provides a more nuanced understanding of societal evolution. The narrative underscores how even failed systems can offer valuable lessons about humanity's ongoing struggle to control and contain violence.
+
+
+### Nuestra_vara_de_la_dificultad_está_chueca
+
+The text discusses a recent academic article titled "Cognition Without Nouns," which challenges our understanding of difficulty. The central argument is that difficulty isn't a fixed property of a task but rather a dynamic relationship involving four elements: the task itself, the system attempting to solve it (human brain or computer chip), the prompt (how the problem is presented), and the environment with its restrictions and resources.
+
+The authors propose that when one modifies any of these elements, the difficulty equation changes entirely. They use chess as an example: after Deep Blue's victory over Kasparov, chess lost relevance as a measure of AI intelligence, not because it became easier to play, but because the problem perfectly aligned with computing power's strengths - faster hardware, refined search algorithms, and vast databases of historical games.
+
+The article introduces the concept of 'prompt' beyond text boxes like ChatGPT; it refers to anything structuring a problem, dividing reality into given and needing-to-be-solved aspects. For instance, an architectural blueprint serves as a prompt for construction workers, pre-solving complex geometry and structural load problems so they can focus on execution.
+
+This leads to the redefinition of abstraction: not simplification but compilation - packaging complex knowledge into manageable formats. A musical score is another example; it abstracts notes, rhythm, harmony, allowing musicians to concentrate on interpretation rather than composition.
+
+However, the authors highlight a crucial difference between digital and real-world abstractions. In software, compilation occurs within predictable environments, whereas human mental compilations (habits, experience) are dynamic targets subject to constant change. This explains why expertise can become fragile when the environment shifts - consider taxi drivers in Mexico City whose intimate knowledge of street layouts becomes obsolete with new public transport or navigation apps.
+
+The paper introduces 'persistent asymmetries' between humans and machines, suggesting certain tasks will always be effortless for us yet daunting for AI, and vice versa. It's not a temporary gap technology will bridge, but an inherent structural difference arising from millions of years of evolutionary sensorimotor optimization vs technological development.
+
+Chess vs Tetris illustrate this point. Despite similar combinatorial complexity, they present vastly different challenges. Chess is a symbolic, discrete universe governed by fixed rules, perfect for brute-force computation once sufficient power was available. Tetris, however, demands real-time perception and fine motor coordination, skills inherently honed over eons of human evolution but alien to machines.
+
+The article concludes that technological advancement doesn't eliminate complexity; it merely shifts it. Each simplified interface hides layers of underlying intricacy - think delivery apps concealing vast logistical networks and energy consumption. This complexity displacement fuels a cycle where attempts at simplification often increase overall system complexity, trading one set of difficulties for another.
+
+This ties into Goodhart's Law: when a measure becomes a target, it ceases to be a good measure. In education, grades replace hard-to-quantify learning processes, leading to curriculum optimization for tests rather than genuine understanding, creating a self-perpetuating cycle of ever-escalating bureaucratic complexities.
+
+Ultimately, the paper suggests that adaptive systems (evolutionary, neural, technological) aren't optimized for finding the overall least-cost solution but rather follow the path of least immediate resistance. Each shortcut taken today becomes a constraint tomorrow, generating future problems.
+
+This dynamic view of difficulty raises profound questions about intelligence. It can no longer be merely problem-solving ability; it must include navigating these shifting boundaries between easy and hard. True intelligence lies in recognizing when mental shortcuts are no longer effective due to changing circumstances and having the flexibility to discard and rebuild them.
+
+The authors warn of 'stupidity' not as lack of capability, but clinging excessively to outdated abstractions no longer fitting reality. They argue that progress isn't eliminating difficulty but redistributing it, prompting us to ask: where are we directing this growing complexity, and who bears its weight?
+
+Finally, the article posits a disturbing corollary: describing or planning will always be easier than doing. Descriptions, plans, promises - forms of information understanding - are computationally cheap compared to actual execution dealing with real-world frictions and dependencies. This leaves us questioning our ability to truly govern increasingly complex systems we design, suggesting perhaps our symbolic ambitions (what we say we'll do) will always surpass our doing capacity in the messy, interconnected world.
+
+
+### The_Aztec_Architecture_of_Sustainable_Violence
+
+The "Flower Wars" documents present a unique perspective on the Aztec civilization's warfare, challenging the traditional narrative of barbaric, religiously-driven violence. Instead, they propose that the Mexica people engineered a controlled, cyclical system of warfare known as Flower Wars to manage their internal entropy and prevent self-destruction.
+
+1. **Why build this system?** The empire faced a problem of infinite war versus finite resources. With each conquest, they lost more men than the maize fields could replace, leading to an unsustainable cycle of violence. Tlacalel, the logistical accountant and systems engineer, realized that total victory was actually a failure state because it consumed resources without providing a reliable stream of conflict or tribute.
+
+2. **How do you design a Flower War?** To transition from uncontrolled chaos to controlled oscillation, three main pillars of constraint were established:
+
+   - **Scheduling**: Warfare was moved to a calendar, removing emotional volatility and impulse-driven conflicts.
+   - **Field**: Battlefields were marked out with precise boundaries, compartmentalizing violence in time and space.
+   - **Objective**: The goal shifted from killing to capturing opponents, preserving resources for future conflicts.
+
+3. **The paradox of technology**: To ensure sustainability, weapons were intentionally made less lethal. This required warriors to develop greater skill and discipline, turning war into a high-stakes sport rather than a slaughter.
+
+4. **Human infrastructure**: The system's success relied on people who understood and followed the new rules of engagement. However, not everyone agreed with Tlacalel's vision:
+
+   - **Moctezuma**, a powerful war captain, argued that deterrence required fear; predictable conflicts might be seen as weakness by enemies.
+   - **Tizoc**, the high priest, warned that ritual without danger would become theater, losing its metaphysical weight and respect from both gods and people.
+
+5. **The out-of-context problem**: The system collapsed when it encountered an "outside context" – the Spanish conquistadors. Unlike traditional enemies who agreed on the format of conflict, the Spanish did not recognize or play by the Flower Wars' rules. This mismatch led to a catastrophic failure, as the Mexica warriors were unprepared for raw, chaotic violence with no ritual attached.
+
+6. **Irreversibility in memory**: Despite the system's collapse, its legacy endured through meticulous record-keeping and the lessons passed down to future generations. Tlacalel, in his old age, realized he couldn't save the government but could preserve its memory by teaching children about their attempted control of violence – a concept known as "graceful degradation."
+
+The Flower Wars narrative challenges our assumptions about historical civilizations and warfare, suggesting that human societies can choose to limit their own destructive impulses even if imperfectly. It raises profound questions for modern society: Are we building systems capable of degrading gracefully when faced with unforeseen challenges, or are they destined to collapse efficiently? The documents encourage us to consider the boundary stones we're placing today and whether they can withstand unexpected shocks.
+
+
+### The_Myth_of_Dual_Cognition
+
+The podcast episode delves into a radical reinterpretation of Daniel Kahneman's dual-system model of cognition, proposing that our understanding of thinking is fundamentally flawed. The central argument revolves around "aspect relegation theory," which posits that there is only one system, and it simply operates at different levels of resolution rather than having two distinct systems.
+
+The traditional dual-system model suggests that System 1 (fast, automatic, effortless) and System 2 (slow, logical, deliberate) are separate entities in our brain. However, this new theory argues that System 1 isn't a separate system but rather automated processes from System 2 that have been condensed through repetition and practice.
+
+Key points include:
+
+1. **Aspects and Relegation**: Cognitive tasks are composed of "aspects" or intermediate steps. When learning a new task, the brain operates at high resolution, focusing on each aspect. As one becomes more proficient, these aspects are relegated (pushed into the background), allowing for automatic execution, similar to lower-resolution streaming video.
+
+2. **Resolution as Intensity**: The concept of "resolution" replaces the dual-system notion of separate engines. System 1 is low resolution, high speed, and effortless; it's the condensed version of higher-resolution thinking. System 2, on the other hand, is high resolution, slow, and deliberate—like watching a movie in 4K.
+
+3. **Moralization of Cognition**: The dual-system model has led to a moralization of cognition where System 1 (fast thinking) is seen as irrational or bad, while System 2 (slow thinking) is considered rational and good. This oversimplification misrepresents the complexity of our thought processes.
+
+4. **Intuition**: Intuition isn't magic; it's simply highly automated reasoning that has been compressed beyond conscious perception. It's "yesterday's reasoning, efficiently forgotten."
+
+5. **AI Implications**: This theory challenges the common critique of large language models (LLMs) as "stochastic parrots" lacking true understanding. The author argues that accusing LLMs of only having System 1 is a category error because this fast, pattern-matching ability in AI mirrors human expertise gained through learning and compression.
+
+6. **Practical Implications**:
+
+   - Embrace the "blur" or low resolution: Recognize that being on autopilot for routine tasks conserves cognitive energy for more critical thinking.
+   - Avoid binary thinking about fast vs. slow or logical vs. emotional; instead, consider what level of resolution a task requires.
+
+7. **Philosophical Implications**: The theory suggests that consciousness might be a training mode rather than the pinnacle of evolution. A perfect mind would operate entirely unconsciously and effortlessly, questioning our assumptions about the value of conscious thought.
+
+The episode ultimately encourages listeners to reframe their understanding of thinking as a dynamic process of resolution adjustment rather than distinct systems, emphasizing the value of both high and low cognitive resolution based on task demands.
+
+
+### Why_Chess_Is_Easier_Than_Laundry
+
+The text discusses a philosophical paper titled "Noun-Free Cognition, Difficulty, Abstraction, and the Mobility of Computation" by Flyxion (2026). The central argument is that difficulty isn't an inherent property of tasks or objects but rather a relation—a moving target influenced by four variables: task, system, prompt, and environment.
+
+1. **Task**: This refers to the abstract goal or objective, like driving to a destination or folding a fitted sheet. The task itself doesn't change when difficulty increases; it's the other factors that influence perceived difficulty.
+
+2. **System**: This encompasses the entity doing the work—a human driver, a computer program, or even a forklift. Each system has unique capabilities and limitations. For instance, a human can adapt to new situations, while a forklift might struggle with unfamiliar tasks.
+
+3. **Prompt**: Unlike common usage, prompts aren't just text input into AI chatbots. In this context, a prompt is any specification that partitions the world into given and unresolved aspects. Prompts can be physical objects like blueprints or jigs (tools used in woodworking) or visual representations like sheet music. They dictate where an individual's focus should lie by resolving certain aspects of a task, allowing the system to concentrate on the remaining parts.
+
+4. **Environment**: This includes all contextual factors such as weather conditions, available resources, or time constraints. These elements can dramatically alter perceived difficulty, even if the core task remains unchanged. For example, driving in a blizzard is much harder than driving on a sunny day due to altered environmental conditions.
+
+The paper introduces the concept of "compilations," which are essentially shortcuts or habits our brains develop over time. These allow us to handle complex tasks more efficiently by offloading certain computations onto pre-existing knowledge structures. However, this can lead to fragility—when context shifts and previously compiled abstractions no longer apply, the task suddenly becomes difficult again.
+
+The authors also critique our tendency to view technology as a solution to eliminating difficulty. Instead, they propose that such "solutions" merely displace complexity onto other entities (e.g., warehouse workers bearing increased physical strain for improved efficiency) or into invisible layers of infrastructure (e.g., vast global logistics networks supporting one-click purchases).
+
+The paper concludes by redefining intelligence as the capacity to navigate shifting boundaries—the ability to adapt and recompile when environments change, rather than solely focusing on rapid problem-solving using fixed tools. It also highlights ethical implications, arguing that fairness should consider an individual's compilation history—their accumulated set of compiled abstractions—rather than equal treatment regardless of circumstance.
+
+In essence, the text encourages readers to view difficulty not as an intrinsic quality but as a dynamic interaction between task, system, prompt, and environment. It advocates for understanding and consciously managing this complexity rather than blindly pursuing frictionless experiences that could ultimately result in unsustainable fragility.
+
+
+### التكنولوجيا_لا_تلغي_الصعوبة_بل_تعيد_توزيعها
+
+The document, titled "A Promotional Paper on the Concept of Difficulty," delves into a unique perspective on the nature of difficulty, particularly as it pertains to technological advancements. The author argues that our traditional understanding of difficulty—as an inherent, unchanging characteristic—is flawed and proposes a new framework for comprehending it.
+
+1. **Difficulty as a Dynamic Relationship**: Instead of viewing difficulty as a static entity, the paper suggests treating it as a dynamic relationship between three components: task specifications, available capabilities (both human or machine), and environmental context. This triad interacts such that when any part changes, the overall difficulty shifts.
+
+2. **Simplification and Abstraction**: The author introduces the concept of 'abstraction' or 'simplification' as a method to manage complexity. It involves taking a complex problem and reducing it to simpler, more manageable parts while maintaining its essence. This is illustrated through examples like solving differential equations using computational tools that hide the underlying mathematical intricacies from users.
+
+3. **The Problem of Relocating Complexity**: The paper highlights how this relocation of complexity can lead to unforeseen issues. For instance, making a smartphone app seem simple might result in hidden complexities in maintenance or energy consumption, creating new problems that weren't apparent at first glance.
+
+4. **The Quality-Harpert Principle**: This principle states that when something becomes a goal, it ceases to be a good standard. In other words, striving for simplicity can inadvertently create layers of complexity. The paper uses educational grading systems as an example, where simplifying the measurement of student knowledge (like converting exams into standardized tests) generates new levels of complexity in testing and evaluation industries.
+
+5. **Evolutionary Adaptation and Complexity**: Drawing from biological evolution, the paper notes that adaptive systems tend to simplify immediate challenges at the expense of long-term complexity. This means we often choose easier solutions now that may compound into larger problems down the line.
+
+6. **Ethical Implications**: The discussion extends to ethics, questioning individual blame in a system-driven context. If our environments, tools, and societal structures subtly encourage or impede success, who is truly responsible for failure? This raises questions about accountability and fairness in an increasingly automated world.
+
+7. **Final Thought**: The paper concludes by suggesting that the 'ease of expression' often overshadows the 'difficulty of implementation'. A seemingly brilliant idea might be easy to describe but challenging to execute, with its complexities hidden until put into practice. Thus, the real test lies not just in the proposal's elegance but also in understanding the practical challenges it poses.
+
+In essence, this thought-provoking document challenges our conventional views on difficulty and encourages a more nuanced understanding of complexity within technological advancements, their implementation, and broader societal implications.
+
+
