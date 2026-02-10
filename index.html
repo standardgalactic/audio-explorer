@@ -199,9 +199,13 @@
   <div id="playback-controls">
     <button id="play-pause">Play</button>
     <select id="speed-select" aria-label="Playback speed">
+      <option value="0.5">0.5x</option>
+      <option value="0.6">0.6x</option>
+      <option value="0.7">0.7x</option>
       <option value="0.8">0.8x</option>
       <option value="0.9">0.9x</option>
       <option value="1.0" selected>1.0x</option>
+      <option value="1.1">1.1x</option>
       <option value="1.25">1.25x</option>
       <option value="1.5">1.5x</option>
       <option value="1.75">1.75x</option>
@@ -355,25 +359,31 @@ function hash01(str) {
   return (h >>> 0) / 4294967296;
 }
 
-/* Pan state */
+/* Pan/Zoom state */
 let panX = 0;
 let panY = 0;
+let zoom = 1;
 
-function applyPan() {
-  galaxy.style.transform = `translate3d(${panX}px, ${panY}px, 0)`;
+function applyView() {
+  galaxy.style.transform = `translate3d(${panX}px, ${panY}px, 0) scale(${zoom})`;
 }
 
-/* Pointer-based dragging with a movement threshold to distinguish tap from drag. */
+/* Pointer-based dragging with a movement threshold to distinguish tap from drag.
+   Updated: drag works even when pointer starts on a star, but tap still plays the star. */
 let activePointerId = null;
 let dragStartX = 0;
 let dragStartY = 0;
 let panStartX = 0;
 let panStartY = 0;
 let moved = false;
+let downTargetStar = null;
 const CLICK_DRAG_THRESHOLD_PX = 6;
 
+function hideAllTooltips() {
+  document.querySelectorAll(".tooltip").forEach(t => t.style.display = "none");
+}
+
 galaxy.addEventListener("pointerdown", (e) => {
-  if (e.target.classList.contains("star")) return;
   activePointerId = e.pointerId;
   galaxy.setPointerCapture(activePointerId);
   galaxy.classList.add("dragging");
@@ -382,6 +392,8 @@ galaxy.addEventListener("pointerdown", (e) => {
   panStartX = panX;
   panStartY = panY;
   moved = false;
+  downTargetStar = e.target.closest && e.target.closest(".star") ? e.target.closest(".star") : null;
+  hideAllTooltips();
 });
 
 galaxy.addEventListener("pointermove", (e) => {
@@ -389,9 +401,10 @@ galaxy.addEventListener("pointermove", (e) => {
   const dx = e.clientX - dragStartX;
   const dy = e.clientY - dragStartY;
   if (!moved && (Math.abs(dx) > CLICK_DRAG_THRESHOLD_PX || Math.abs(dy) > CLICK_DRAG_THRESHOLD_PX)) moved = true;
+
   panX = panStartX + dx;
   panY = panStartY + dy;
-  applyPan();
+  applyView();
 });
 
 function endDrag(e) {
@@ -401,8 +414,158 @@ function endDrag(e) {
   activePointerId = null;
 }
 
-galaxy.addEventListener("pointerup", endDrag);
-galaxy.addEventListener("pointercancel", endDrag);
+galaxy.addEventListener("pointerup", (e) => {
+  if (activePointerId === null || e.pointerId !== activePointerId) return;
+
+  const wasMoved = moved;
+  const star = downTargetStar;
+
+  endDrag(e);
+
+  if (!wasMoved && star) {
+    const idx = parseInt(star.dataset.index, 10);
+    if (Number.isFinite(idx)) playTrack(idx, star);
+  }
+
+  downTargetStar = null;
+});
+
+galaxy.addEventListener("pointercancel", (e) => {
+  downTargetStar = null;
+  endDrag(e);
+});
+
+/* Wheel zoom (desktop) */
+window.addEventListener("wheel", (e) => {
+  if (!tracks.length) return;
+  e.preventDefault();
+  const delta = -Math.sign(e.deltaY);
+  const factor = delta > 0 ? 1.08 : 1/1.08;
+  const next = Math.max(0.35, Math.min(3.0, zoom * factor));
+  zoom = next;
+  applyView();
+}, { passive: false });
+
+/* Pinch zoom (touch) */
+let pinchA = null;
+let pinchB = null;
+let pinchStartDist = 0;
+let pinchStartZoom = 1;
+
+function dist(a, b) {
+  const dx = a.clientX - b.clientX;
+  const dy = a.clientY - b.clientY;
+  return Math.hypot(dx, dy);
+}
+
+galaxy.addEventListener("pointerdown", (e) => {
+  if (pinchA === null) {
+    pinchA = { id: e.pointerId, clientX: e.clientX, clientY: e.clientY };
+  } else if (pinchB === null) {
+    pinchB = { id: e.pointerId, clientX: e.clientX, clientY: e.clientY };
+    pinchStartDist = dist(pinchA, pinchB);
+    pinchStartZoom = zoom;
+  }
+});
+
+galaxy.addEventListener("pointermove", (e) => {
+  if (pinchA && pinchA.id === e.pointerId) {
+    pinchA.clientX = e.clientX;
+    pinchA.clientY = e.clientY;
+  } else if (pinchB && pinchB.id === e.pointerId) {
+    pinchB.clientX = e.clientX;
+    pinchB.clientY = e.clientY;
+  }
+
+  if (pinchA && pinchB) {
+    const d = dist(pinchA, pinchB);
+    if (pinchStartDist > 0) {
+      zoom = Math.max(0.35, Math.min(3.0, pinchStartZoom * (d / pinchStartDist)));
+      applyView();
+    }
+  }
+});
+
+function clearPinch(id) {
+  if (pinchA && pinchA.id === id) pinchA = null;
+  if (pinchB && pinchB.id === id) pinchB = null;
+  if (pinchA && !pinchB) { /* ok */ }
+  if (!pinchA && pinchB) { pinchA = pinchB; pinchB = null; }
+}
+
+galaxy.addEventListener("pointerup", (e) => clearPinch(e.pointerId));
+galaxy.addEventListener("pointercancel", (e) => clearPinch(e.pointerId));
+
+/* Momentum (inertial panning) */
+let vx = 0;
+let vy = 0;
+let lastMoveT = 0;
+let lastMoveX = 0;
+let lastMoveY = 0;
+let inertiaRAF = null;
+
+function stopInertia() {
+  if (inertiaRAF) cancelAnimationFrame(inertiaRAF);
+  inertiaRAF = null;
+}
+
+function startInertia() {
+  stopInertia();
+  const friction = 0.92;
+  const minSpeed = 0.05;
+
+  function step() {
+    vx *= friction;
+    vy *= friction;
+
+    panX += vx;
+    panY += vy;
+    applyView();
+
+    if (Math.abs(vx) < minSpeed && Math.abs(vy) < minSpeed) {
+      inertiaRAF = null;
+      return;
+    }
+    inertiaRAF = requestAnimationFrame(step);
+  }
+
+  inertiaRAF = requestAnimationFrame(step);
+}
+
+/* Track momentum during pointermove for the active drag pointer only */
+galaxy.addEventListener("pointermove", (e) => {
+  if (activePointerId === null || e.pointerId !== activePointerId) return;
+
+  const now = performance.now();
+  if (lastMoveT === 0) {
+    lastMoveT = now;
+    lastMoveX = e.clientX;
+    lastMoveY = e.clientY;
+    vx = 0;
+    vy = 0;
+    return;
+  }
+
+  const dt = Math.max(1, now - lastMoveT);
+  const dx = e.clientX - lastMoveX;
+  const dy = e.clientY - lastMoveY;
+
+  vx = (dx / dt) * 16;
+  vy = (dy / dt) * 16;
+
+  lastMoveT = now;
+  lastMoveX = e.clientX;
+  lastMoveY = e.clientY;
+});
+
+galaxy.addEventListener("pointerdown", () => {
+  stopInertia();
+  lastMoveT = 0;
+});
+
+galaxy.addEventListener("pointerup", () => {
+  if (moved) startInertia();
+});
 
 /* Star click */
 async function playTrack(i, star) {
@@ -412,12 +575,12 @@ async function playTrack(i, star) {
   const x = parseFloat(star.dataset.x);
   const y = parseFloat(star.dataset.y);
 
-  const targetPanX = (cx - x);
-  const targetPanY = (cy - y);
+  const targetPanX = (cx - x * zoom);
+  const targetPanY = (cy - y * zoom);
 
   panX = targetPanX;
   panY = targetPanY;
-  applyPan();
+  applyView();
 
   currentStar = star;
   currentIndex = i;
@@ -441,7 +604,8 @@ function destroyGalaxy() {
   galaxy.innerHTML = "";
   panX = 0;
   panY = 0;
-  applyPan();
+  zoom = 1;
+  applyView();
 }
 
 function buildGalaxy() {
@@ -451,6 +615,7 @@ function buildGalaxy() {
   tracks.forEach((track, i) => {
     const star = document.createElement("div");
     star.className = "star";
+    star.dataset.index = i;
     stars.push(star);
 
     const a = hash01(track.file + "::a");
@@ -478,6 +643,7 @@ function buildGalaxy() {
     document.body.appendChild(tooltip);
 
     star.addEventListener("pointerenter", (e) => {
+      if (activePointerId !== null) return;
       tooltip.style.display = "block";
       clampTooltip(tooltip, e.clientX + 12, e.clientY + 12);
     });
@@ -490,14 +656,10 @@ function buildGalaxy() {
       tooltip.style.display = "none";
     });
 
-    star.addEventListener("pointerup", (e) => {
-      if (moved) return;
-      e.stopPropagation();
-      playTrack(i, star);
-    });
-
     galaxy.appendChild(star);
   });
+
+  applyView();
 }
 
 window.addEventListener("resize", () => {
